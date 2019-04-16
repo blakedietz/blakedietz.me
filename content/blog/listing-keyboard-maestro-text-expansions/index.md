@@ -1,7 +1,7 @@
 ---
 title: Listing test expansions in Keyboard Maestro
 date: "2016-11-24T12:00:00.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: Learn how to show your current Keyboard Maestro text expansions with Keyboard Maestro.
 ---
 
 One of the main gripes I had about Keyboard Maestro was the lack of built in functionality to list text expansions. I like the idea of text expansions, but I often forget them while trying to build my muscle memory. I've recently discovered a bit of a hack to implement this using built in functionality for Keyboard Maestro. I hope that you find this helpful.

@@ -1,7 +1,7 @@
 ---
-title: How to hijack a webpage
+title: Elixir tasks
 date: "2017-12-22T12:00:00.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: Learn about elixir tasks
 ---
 
 ---
