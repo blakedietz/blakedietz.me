@@ -38,11 +38,18 @@ function Bio() {
               }}
             />
             <p>
+<<<<<<< HEAD
               Written by <strong>{author}</strong> who lives and works in San
               Francisco building useful things.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow him on Twitter
+=======
+              Written by <strong>{author}</strong> who lives and works in Boise, ID and loves tinkering in his spare time.
+              {` `}
+              <a href={`https://twitter.com/${social.twitter}`}>
+              Follow him on twitter
+>>>>>>> simple
               </a>
             </p>
           </div>
@@ -54,7 +61,11 @@ function Bio() {
 
 const bioQuery = graphql`
   query BioQuery {
+<<<<<<< HEAD
     avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+=======
+    avatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
+>>>>>>> simple
       childImageSharp {
         fixed(width: 50, height: 50) {
           ...GatsbyImageSharpFixed
