@@ -46,6 +46,7 @@ to both iOS and Android.
 - [Goodreads](https://www.goodreads.com/user/show/34266166-blake-dietz)
 - [Meetup](http://www.meetup.com/frontend-devs/)
 - [YouTube](https://www.youtube.com/user/BlakeDietz/videos?shelf_id=0&view=0&sort=dd)
+- [keybase](https://keybase.io/blakedietz)
+- [last.fm](https://www.last.fm/user/ph3arl3ss)
 - [strava](https://www.strava.com/athletes/105299)
 - [twitter](https://twitter.com/DietzTweetz)
-- [keybase](https://keybase.io/blakedietz)
