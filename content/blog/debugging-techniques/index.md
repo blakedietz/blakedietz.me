@@ -16,7 +16,8 @@ space.
 
 To do this, I often create brand new projects or utilize basic sandboxes like [jsfiddle](https://jsfiddle.net), 
 [repl.it](https://repl.it) or [codesandbox](https://codesandbox.io). Doing so helps you to remove parts of your system
-that may introduce implicit assumptions. 
+that may introduce implicit assumptions. It also helps you to check assumptions that are made as you move the example
+into the newer environment.
 
 For example, if you have problems with css styling for a feature, removing the application styling by reconstructing the 
 feature in a more isolated environment could give you valuable information about your problem. For example, perhaps you 
@@ -36,6 +37,9 @@ problem:
 - Library code
 - Library css
 - Library markup
+
+Of course, you can't always do this with every project. Sometimes there are a lot of parts in the system you're working
+in that can't be moved.
 
 ## Step away
 
