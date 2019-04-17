@@ -27,10 +27,10 @@ A selection of generative algorithms re-implemented in React and browser technol
 
 I worked on the Treefort music festival mobile application and backing api for a few years as a volunteer.
 
-### Built and deployed servless apis
+### Built and deployed serverless apis
 
 I wrote the backing api in AWS Lambda, Dynamodb and APIGateway. During the last two years the api handled over 1m 
-requests within a the festival timeframe each year. The api had an etl process that gathered backing data. There was 
+requests within the festival timeframe each year. The api had an etl process that gathered backing data. There was 
 also a ci/cd pipeline for each environment to enable iterative feature development.
 
 ### Hybrid application development
@@ -39,7 +39,7 @@ I helped write the first iteration of the application in the Ionic framework. We
 rewriting the application and decided to go with a hybrid solution. This allowed us to write code that was deployed
 to both iOS and Android.
 
-[treefort music fest apps](https://www.treefortmusicfest.com/app/)
+[Treefort music fest apps](https://www.treefortmusicfest.com/app/)
 
 ## Social
 
