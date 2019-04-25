@@ -61,6 +61,10 @@ to both iOS and Android.
 
 [Treefort music fest apps](https://www.treefortmusicfest.com/app/)
 
+## Who am I
+
+I'm a software developer that lives in Boise, ID. I have a [partner](https://instagram.com/allyan_na) and a [pupper](https://instagram.com/velo.dog) that I spend my spare time with. I'm a life long learner, that spends way too much time tinkering. My hobbies include vintage pen restoration, keyboard building, mountain biking, kombucha brewing and lifting.
+
 ## Social
 
 - [Goodreads](https://www.goodreads.com/user/show/34266166-blake-dietz)
