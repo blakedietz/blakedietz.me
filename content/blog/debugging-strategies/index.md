@@ -53,7 +53,7 @@ when I was asking him for some insight on a problem I was having. It was al
 
 ## Step away
 
-Sometimes it's just best to step away. No seriously, give it a break. Go on a walk, work on another task. As long as you aren't under extreme pressure from a deadline (and hell even if you are) give your mind a chance to distance itslef from the problem. It's a great way to gather new perspective and more importantly regain energy for more willpower and patience.
+Sometimes it's just best to step away. No seriously, give it a break. Go on a walk, work on another task. As long as you aren't under extreme pressure from a deadline (and hell even if you are) give your mind a chance to distance itself from the problem. It's a great way to gather new perspective and more importantly regain energy for more willpower and patience to solve the problem.
 
 ## Read the fucking error (RTFE)
 
@@ -67,10 +67,10 @@ As a simple exercise, here's a rough breakdown of systems for a web application 
 
 - Client computer
   - Operating system
-- Browser
-  - Browser javascript engine
-  - Browser rendering engine
-  - Browser caching
+    - Browser
+    - Browser javascript engine
+    - Browser rendering engine
+    - Browser caching
 - Your application frontend code
   - Application markup
   - Application css
@@ -87,7 +87,11 @@ As a simple exercise, here's a rough breakdown of systems for a web application 
   - Database
   - Micro services your app code depends upon
   - Application cache
-- Application server
+- Application server software
+  - Language runtime
+  - Runtime dependencies
+  - Operating system
+- Application server hardware
   - Storage
   - Compute resources
 
