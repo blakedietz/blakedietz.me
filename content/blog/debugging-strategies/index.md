@@ -1,6 +1,6 @@
 ---
 title: Debugging strategies
-date: "2019-04-17T12:00:00.169Z"
+date: "2019-04-29T12:00:00.169Z"
 description: Techniques for dealing with those tricky bugs 🐛🐛🐛.
 ---
 
