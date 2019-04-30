@@ -49,7 +49,7 @@ question and see if they start solving the problem in the same way you would hav
 a completely different solution path offered.
 
 Kudos to Josh Unger for showing me this one. I'll never forget all of the times he interrupted me with, "Don't bias me!"
-when I was asking him for some insight on a problem I was having. It was al
+when I was asking him for some insight on a problem I was having.
 
 ## Step away
 
