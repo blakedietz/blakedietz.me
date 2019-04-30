@@ -4,18 +4,18 @@ date: "2019-04-17T12:00:00.169Z"
 description: Techniques for dealing with those tricky bugs 🐛🐛🐛.
 ---
 
-Throughout the last few years I've learned debugging techniques that have helped me to get through some pretty insidious
-bugs. Through trial and error as well as by osmosis I've come up with a handful of tips that helps me to squash those
-bugs.
-
 ![](./bugcatcher.png)
+
+Throughout the last few years I've learned debugging techniques that have helped me to get through some pretty insidious
+bugs. Through trial and error as well as by osmosis I've come up with a handful of tips that help me to squash those
+bugs.
 
 ## Isolate your problem
 
 One of the best ways to help cut through the complexities of a tricky bug is to isolate your problem. That is,
 whenever you find yourself up against a tricky problem, attempt to reduce the number of moving parts within the surrounding system.
 
-To do this, I often create the simplest possible example to reproduce the problem. Often times I'll usebasic sandboxes like [jsfiddle](https://jsfiddle.net),
+To do this, I often create the simplest possible example to reproduce the problem. Often times I'll use sandboxes like [jsfiddle](https://jsfiddle.net),
 [repl.it](https://repl.it) or [codesandbox](https://codesandbox.io). Doing so helps you to remove parts of your system
 that may introduce implicit assumptions. It also helps you to check assumptions that are made as you move the example
 into the newer environment because doing so forces you to find each assumption that was used to make the current environment work.
