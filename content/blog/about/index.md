@@ -6,7 +6,7 @@ description: About Blake Dietz
 
 ## Experience
 
-- [Resume](https://stackoverflow.com/cv/blake-dietz-315922)
+- [Resume](https://www.blakedietz.me/resume)
 - [linkedin](https://www.linkedin.com/in/blake-dietz-08229a61)
 
 ## Code
