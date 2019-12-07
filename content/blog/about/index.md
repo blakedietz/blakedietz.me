@@ -74,3 +74,11 @@ I'm a software developer that lives in Boise, ID. I have a [partner](https://ins
 - [last.fm](https://www.last.fm/user/ph3arl3ss)
 - [strava](https://www.strava.com/athletes/105299)
 - [twitter](https://twitter.com/DietzTweetz)
+
+## Gifts
+
+If you really want to buy me a gift here are some wish lists that you can use for reference. I'm into books, fine writing, mountain biking and of course any cool gadgetry:
+
+- [Books](https://www.amazon.com/hz/wishlist/ls/180V2F5YCU16L/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist)
+- [Fine writing](https://www.amazon.com/hz/wishlist/ls/1PQOBBXTSH3Z6/ref=nav_wishlist_lists_3?_encoding=UTF8&type=wishlist)
+- [Other](https://www.amazon.com/hz/wishlist/ls/13LTSPYBQYPMK/ref=nav_wishlist_lists_2?_encoding=UTF8&type=wishlist)
