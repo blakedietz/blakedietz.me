@@ -1,4 +1,3 @@
-
 ---
 title: Elixir learnings: 2020 Week 1 
 date: "2019-01-05T12:00:00.169Z"
@@ -56,7 +55,7 @@ iex is an interactive repl that allows you to work with your application without
 
 ### Prototyping
 
-Prototyping in elixir is a breath of fresh air. You don't need to worry about setting break points in your code in order to interact with the current program state. Instead you can use iex to load in all of your elixir applications to work with functions and application state.
+Prototyping in elixir is a breath of fresh air. You don't need to worry about setting break points in your code in order to interact with the current program state. Instead you can use iex to load in all of your elixir applications to work with functions and application state all from within a repl.
 
 Running `iex -S mix` allows you to load all of your application into memory. From there you can run any functions defined in modules of your applications that are loaded by your `mix.exs`.
 
