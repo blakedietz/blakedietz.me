@@ -12,8 +12,14 @@ description: What I learned about elixir during week 3 of 2020
 
 Interestingly you can't use doc for private functions. I understand the argument that documentation shouldn't be generated for private functions, but it is a little surprising that you have to use multiline comments instead of doc strings to document them.
 
+### Metaprogramming
+
+#### Metaprogramming Elixir
+
+I learned about the ability to directly modify your application behavior with metaprogramming in Elixir.
+
 ## Sources
 
-[defp]: https://elixirforum.com/t/proposal-docp-for-private-function-documentation-and-doctests/3732/14
+[metaprogramming]: https://pragprog.com/book/cmelixir/metaprogramming-elixir
 
-1. [Documenting private functions][defp]
+1. [Metaprogramming Elixir][metaprogramming]
