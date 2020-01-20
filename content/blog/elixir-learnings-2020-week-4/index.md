@@ -18,7 +18,7 @@ Self proclaimed as
 
 I've recently played with [Elixir school][elixir-school] for learning how to better work with [Ecto associtions][ecto-associations].
 
-Discuss the learning about `join_through` for default fields.
+<!-- Discuss the learning about `join_through` for default fields. -->
 
 #### Elixir forum
 
@@ -41,6 +41,10 @@ One nugget that I ended up taking away from the caching section was that most El
 
 Learned more about good patterns how to write [fast elixir][fast].
 
+### Absinthe
+
+I learned about the dangers of requesting lists of entities in Absinthe without taking the [N + 1][absinthe-n+1] problem into account.
+
 ## Platforms
 
 ### Gigalixir
@@ -57,7 +61,7 @@ I've been wondering about how to deploy my personal Elixir projects and have sta
 [ecto-associations]: https://elixirschool.com/en/lessons/ecto/associations/
 [elixir-forum-many-to-many]: https://elixirforum.com/t/ecto-many-to-many-timestamps/13791
 [gigalixir]: https://gigalixir.com/
-
+[absinthe-n+1]: https://hexdocs.pm/absinthe/ecto.html
 
 1. [fast elixir][fast]
 1. [Awesome Elixir][awesome-elixir]
@@ -67,3 +71,4 @@ I've been wondering about how to deploy my personal Elixir projects and have sta
 1. [Elixir school][elixir-school]
 1. [Elixir school: Ecto associations][ecto-associations]
 1. [Gigalixir][gigalixir]
+1. [Absinthe N + 1 problem][absinthe-n+1]
