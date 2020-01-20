@@ -16,7 +16,7 @@ Self proclaimed as
 
 > The premier destination for learning and mastering Elixir
 
-I've recently played with [Elixir school][elixir-school] for learning how to better work with [Ecto associtions][ecto-associations].
+I've recently played with [Elixir school][elixir-school] for learning how to better work with [Ecto associations][ecto-associations].
 
 <!-- Discuss the learning about `join_through` for default fields. -->
 
@@ -49,7 +49,7 @@ I learned about the dangers of requesting lists of entities in Absinthe without 
 
 ### Gigalixir
 
-I've been wondering about how to deploy my personal Elixir projects and have started to investigate using [Gigialixir][gigalixir]. I haven't used it yet, but it seems like a good candidate to reduce yak shaving in regards to setting up infrastructure. I'm sure I'll post more about this in the future.
+I've been wondering about how to deploy my personal Elixir projects and have started to investigate using [Gigalixir][gigalixir]. I haven't used it yet, but it seems like a good candidate to reduce yak shaving in regards to setting up infrastructure. I'm sure I'll post more about this in the future.
 
 ## Sources
 
