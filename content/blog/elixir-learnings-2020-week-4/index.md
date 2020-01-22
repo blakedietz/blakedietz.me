@@ -1,5 +1,5 @@
 ---
-title: Elixir learnings - 2020 Week 4
+title: Elixir learnings - 2020 week 4
 date: "2020-01-26T12:00:00.000Z"
 description: What I learned about elixir during week 4 of 2020
 ---
