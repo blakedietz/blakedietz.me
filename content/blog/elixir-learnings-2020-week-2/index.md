@@ -16,7 +16,6 @@ I learned that iex isn't technically a _true_ REPL [<sub>5</sub>](iexrepl).
 
 I also got to take a deeper foray into application logging. I've been working on a more complex feature for work and would like to be able to track down any causes of bugs so `IO.inspect` and the like aren't going to be enough.
 
-
 It turns out that logging in elixir is actually quite simple. As expected it follows industry practices of having different level support. Check out more at [[6]][logging],[[7]][logging-guide].
 
 ### Latest release of elixir
@@ -109,8 +108,8 @@ https://www.theerlangelist.com/article/spawn_or_not
 
 ## Blogs
 
-- [My bad ideas](my-bad-ideas): A blog about erlang and functional programming
-- [Keathley](keathley)
+- [My bad ideas][my-bad-ideas]: A blog about erlang and functional programming
+- [Keathley][keathley]
 
 ## Sources
 
@@ -122,10 +121,10 @@ https://www.theerlangelist.com/article/spawn_or_not
 [logging]: https://hexdocs.pm/logger/Logger.html
 [logging-guide]: https://timber.io/blog/the-ultimate-guide-to-logging-in-elixir/#starting-out-with-a-template-project
 
-1. [Stackoverflow](exunit-one-test)
-2. [Exmachina](exmachina)
-3. [My bad ideas](my-bad-ideas)
-4. [keathley.io](keathley)
-5. [REPL? A bit more (and less) than that](iexrepl)
-6. [Logger](logging)
-7. [THE ULTIMATE GUIDE TO LOGGING IN ELIXIR](logging-guide)
+1. [Stackoverflow][exunit-one-test]
+2. [Exmachina][exmachina]
+3. [My bad ideas][my-bad-ideas]
+4. [keathley.io][keathley]
+5. [REPL? A bit more [and less] than that][iexrepl]
+6. [Logger][logging]
+7. [THE ULTIMATE GUIDE TO LOGGING IN ELIXIR][logging-guide]
