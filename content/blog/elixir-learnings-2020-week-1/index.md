@@ -1,7 +1,7 @@
 ---
-title: Elixir learnings - 2020 Week 1
+title: Elixir learnings - 2020 week 1
 date: "2020-01-05T12:00:00.169Z"
-description: What I learned about elixir during week 1 of 2020
+description: What I learned about Elixir during week 1 of 2020
 ---
 
 I'd like to reflect on what I've learned this week. There aren't any specific concepts that are of focus, this is essentially the net of what I googled throughout the week.
