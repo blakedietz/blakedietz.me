@@ -11,7 +11,7 @@ path: "/blog/elixir-learnings-week-3"
 
 #### You can't use @doc on private functions
 
-Interestingly you can't use doc for private functions. I understand the argument that documentation shouldn't be generated for private functions, but it is a little surprising that you have to use multiline comments instead of doc strings to document them.
+Interestingly you can't use `@doc` macro for private functions. I understand the argument that documentation shouldn't be generated for private functions, but it is a little surprising that you have to use multiline comments instead of doc strings to document them.
 
 ### Metaprogramming
 

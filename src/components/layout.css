@@ -76,3 +76,9 @@ body {
     font-family: "IBM Plex Mono";
 }
 
+blockquote {
+    @apply bg-roman-silver;
+    @apply px-6;
+    @apply text-powder-blue;
+    @apply border-l-4;
+}

@@ -36,6 +36,7 @@ const ResumePage = () => (
       <li>Email: blakedietz@gmail.com</li>
       <li>Phone: +12085771368</li>
       <li>Website: https://blakedietz.me</li>
+      <li>Linkedin: https://www.linkedin.com/in/blake-dietz-08229a61/</li>
     </ul>
 
     <h2>Experience</h2>

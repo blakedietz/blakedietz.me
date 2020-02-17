@@ -83,4 +83,4 @@ If you need to work with persistent and in memory databases, Memento makes that 
 
 ### Quantum
 
-If you need simple cron behaviors for jobs in your app, thi is the way to go.
+If you need simple cron behaviors for jobs in your app, This is the way to go.
