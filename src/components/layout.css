@@ -1,0 +1,78 @@
+@tailwind base; /* Preflight will be injected here */
+
+h1 {
+    @apply text-2xl;
+    @apply text-hot-pink;
+    @apply my-8;
+}
+
+h2 {
+    @apply text-xl;
+    @apply text-old-lavendar;
+    @apply my-6;
+}
+
+h3 {
+    @apply text-lg;
+    @apply text-roman-silver;
+    @apply my-4;
+}
+
+h4 {
+    @apply text-base;
+    @apply text-roman-silver;
+    @apply my-2;
+}
+
+h5 {
+    @apply text-sm;
+    @apply text-roman-silver;
+    @apply my-2;
+}
+
+h6 {
+    @apply text-xs;
+    @apply text-roman-silver;
+    @apply my-2;
+}
+
+body {
+    @apply bg-raisin-black;
+    color: white;
+}
+
+a {
+    @apply text-maximum-blue;
+    text-decoration: none;
+}
+
+ol {
+    @apply list-decimal;
+    @apply text-old-lavendar;
+    list-style-position: inside;
+}
+
+ul {
+    @apply list-disc;
+    @apply text-old-lavendar;
+    list-style-position: inside;
+}
+
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+.home-link {
+    @apply text-mustard;
+}
+
+.blog-post-content p {
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: "IBM Plex Mono";
+}
+
