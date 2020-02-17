@@ -12,7 +12,6 @@ import Header from "./header"
 import "./layout.css"
 import "./prism.css"
 import "../utils/ascii"
-import { Link } from "gatsby"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`

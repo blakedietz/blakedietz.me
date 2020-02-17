@@ -6,8 +6,8 @@ import "./resume.css"
 
 const Pills = (({ pills }) => {
   return (
-    <div className={`flex flex-row`}>
-      {pills.map((text) => <span key={text} className={`pill mr-2`}>{text}</span>)}
+    <div className={`flex flex-row flex-wrap`}>
+      {pills.map((text) => <div key={text} className={`pill mr-2 mt-2`}>{text}</div>)}
     </div>
   )
 })
@@ -51,13 +51,12 @@ const ResumePage = () => (
         care from AI assistance in the exam room to managing client communications and clinical analytics.
       </p>
       <h5>
-        Petco client representative
+        Petco
       </h5>
       <p>
         From day to day I communicate with project managers and engineers at Petco to gather requirements, understand
         customer problems and plan bodies of work. Features that are built based upon Petco's request are implemented
-        with
-        all Vetspire customers in mind.
+        with all Vetspire customers in mind.
       </p>
     </div>
 
@@ -70,12 +69,9 @@ const ResumePage = () => (
       <h5>Team: Developer experience </h5>
       <p>
         I was responsible for creating a seamless development experience for a team of 90+ engineers with a primary
-        focus
-        on
-        the backend. Challenges included transitioning the full team of developers from SVN to git, creating
+        focus on the backend. Challenges included transitioning the full team of developers from SVN to git, creating
         continuous delivery, integration and deployment pipelines in Kubernetes while also streamlining all aspects of
-        the
-        development process.
+        the development process.
       </p>
       <h4> 2018/01/11 - 2019/03/01 </h4>
       <h5>Team: Core</h5>
@@ -111,7 +107,9 @@ const ResumePage = () => (
       <h4>2016/10/31 - 2017/10/30</h4>
       <h5>Team: Scheduling</h5>
       <p>
-        While on the scheduling team I identified the need to develop more quickly with fewer. I wrote
+        While on the scheduling team I identified the need to develop more quickly with fewer mistakes. Our frontend
+        codebase was extremely susceptible to the CACE principle and I felt React's emphasis on declarative ui and
+        simple state flow helped to address some of the problems that caused the CACE issue. I wrote
         the first feature in React and helped grow the learnings that I took from integrating React into the product
         into
         a
@@ -132,9 +130,7 @@ const ResumePage = () => (
       ]}/>
       <p>
         I volunteered for a local music festival for a few years. This helped to scratch my itch to learn about
-        deploying
-        to
-        AWS while also deploying a cross platform application and getting a sneek peak at the artist lineups.
+        deploying to AWS while also deploying a cross platform mobile application and getting a sneak peak at the artist lineups.
       </p>
       <h4>2017/08 - 2017/10</h4>
       <p>
@@ -145,9 +141,8 @@ const ResumePage = () => (
         2016/10 - 2017/03
       </h4>
       <p>
-        Built, maintained and deployed a backend api to AWS Lambda, DynamoDB and API Gateway. Helped to maintain the
-        mobile
-        application from the previous year.
+        Built, maintained and deployed a backend api to AWS Lambda, DynamoDB and API Gateway.
+        Helped to maintain the mobile application from the previous year.
       </p>
       <h4> 2015/08 - 2016/05 </h4>
       <p>

@@ -2,7 +2,7 @@
     @apply bg-hot-pink;
     @apply text-raisin-black;
     @apply rounded-lg;
-    @apply text-sm;
+    @apply text-xs;
     @apply p-1;
 }
 
