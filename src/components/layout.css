@@ -68,8 +68,8 @@ ul {
     @apply text-mustard;
 }
 
-.blog-post-content p {
-    margin-bottom: 20px;
+p {
+    @apply my-6;
 }
 
 body {

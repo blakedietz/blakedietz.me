@@ -12,6 +12,7 @@ import Header from "./header"
 import "./layout.css"
 import "./prism.css"
 import "../utils/ascii"
+import { Link } from "gatsby"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -32,7 +33,11 @@ const Layout = ({ children }) => {
             {children}
         </main>
         <footer className={`my-8 w-full text-roman-silver`}>
-          © Blake Dietz {new Date().getFullYear()}
+          <div className={`flex flex-col text-xs`}>
+            <div>
+              <a href="https://github.com/blakedietz/blakedietz.me">Made with ❤️ by @blakedietz. </a>
+            </div>
+          </div>
         </footer>
       </div>
     </>

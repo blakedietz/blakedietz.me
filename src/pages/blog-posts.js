@@ -16,6 +16,7 @@ const BlogPostsPage = ({
   return <>
     <SEO title={"All blog posts"}/>
     <Layout>
+      <h1>All posts</h1>
       <div>{Posts}</div>
     </Layout>
   </>
