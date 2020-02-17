@@ -3,7 +3,7 @@ title: Elixir learnings - 2020 week 5
 date: "2020-01-31T12:00:00.000Z"
 description: What I learned about Elixir during week 5 of 2020
 path: "/blog/elixir-learnings-week-5"
---****-
+---
 
 ## Elixir
 
