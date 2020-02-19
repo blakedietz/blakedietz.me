@@ -140,7 +140,7 @@ Percentage | Module
 Generated HTML coverage results in 'cover' directory
 ```
 
-Also if you notice at the bottom it even generates html docs. I just used [http-server](https://www.npmjs.com/package/http-server) to launch a local http server for `cover` directory.
+Also if you notice at the bottom it even generates html docs. I just used [http-server](https://www.npmjs.com/package/http-server) to launch a local http server for the `cover` directory.
 
 ```bash
 npx http-server ./cover
