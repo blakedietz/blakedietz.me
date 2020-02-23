@@ -13,7 +13,7 @@ path: "/blog/elixir-learnings-week-8"
 
 I've worked in systems where you can specify different groups of test. For example the last place I worked allowed you to mark a test around the specific domain, whether or not it was an integration test or a unit test as well as whether or not it was a historically slow test. It turns out that ExUnit has tagging support built right into it.
 
-I was curious to see if I could target specific groups of tests. Particularly I wanted to exclude some tests that have been flaky. Turns out it's natively supported in by ExUnit.
+I was curious to see if I could target specific groups of tests. Particularly I wanted to exclude some tests that have been flaky. This is natively suppored in ExUnit.
 
 To do so first find your test that you want to exclude.
 
@@ -46,7 +46,7 @@ Running `mix test` at this point wouldn't cause the test to be excluded. You nee
 ExUnit.start(exclude: [:skip])
 ```
 
-As it turns out [`ExUnit.start/1`][exunit-start] accepts the same arguments that [`ExUnit.configure/1][exunit-configure].
+[`ExUnit.start/1`][exunit-start] accepts the same arguments that [`ExUnit.configure/1][exunit-configure]. Read more about those flags to see what else you can do.
 
 
 #### Creating custom case templates
