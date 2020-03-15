@@ -194,11 +194,11 @@ release :app do
 end
 ```
 
-We've updated the pre-start hooks and added a Distillery command named `migrate`. Updating the pre-start hooks lets Distillery know that we want to run all scripts (we only have one in this guide`migrate.sh`). This is going to run migrations ahead of starting the application.
+We've updated the pre-start hooks and added a Distillery command named `migrate`. Updating the pre-start hooks lets Distillery know that we want to run all scripts (we only have one in this guide`migrate.sh`). This is going to run migrations ahead of starting the application. Adding the `migrate` command will allow us to run migrations against our elixir application live if we want to. This can be helpful in certain development scenarios. To do so you would run `bin/myapp migrate`.
 
-Adding the `migrate` command will allow us to run migrations against our elixir application live if we want to. This can be helpful in certain development scenarios. To do so you would run `bin/myapp migrate`.
+And that's it. If you've followed along, now pushes to the master branch will trigger deployments along with database migrations.
 
-And that's it. If you've followed along. Now pushes to the master branch will trigger deployments along with database migrations.
+Happy hacking!
 
 ## Sources
 
