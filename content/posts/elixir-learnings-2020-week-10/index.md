@@ -15,13 +15,21 @@ This guide assumes that you're already running a Gigalixir application and have 
 
 #### Setting up CD with Github Actions
 
-I learned that Github actions are awesome and that deploying to Gigalixir is actually pretty straight forward. I found a few resources on how to run github actions to deploy to Gigalixir, but I didn't see anything that shows you how to do everything from start to finish. Here's how to run a release to Gigalixir from Github actions that includes code deploy along with database migrations.
+I learned that Github actions are awesome and that deploying to Gigalixir is actually pretty straight forward. I found a few resources on how to run Github actions to deploy to Gigalixir, but I didn't see anything that shows you how to setup everything from start to finish. Here's how to run a release to Gigalixir from Github actions that includes code deploy along with database migrations.
 
 First let's take a look at the `deploy.yml` file. I started off by creating a new file in my `.github/workflows` directory. If you don't have a workflow folder, go ahead and do some reading to learn more about `.github` and `.github/workflows` before continuing.
 
-This file was recommended in the Gigalixir documents and is originally from [here][ga-gigalixir]. There's not much to it. We set up an `on` block that only gets triggered when a pull request is closed for the master branch. This is leveraged with a job level if block that checks to see if the request has been merged vs if it was only closed. You can see that here `if: github.event.pull_request.merged`.
+This file was recommended in the Gigalixir documents and is originally from [here][ga-gigalixir]. There's not much to it. We set up an `on` block that only gets triggered when a pull request is closed for the master branch. This is leveraged with a job level `if` block that checks to see if the request has been merged vs if it was only closed. You can see that here `if: github.event.pull_request.merged`.
 
 From there in the `docker` job the container is set up with the Gigalixir cli. This leverages a few secrets that you'll need to set in the Github menu under the "Settings" tab.
+
+Those secrets and their descriptions are here:
+
+| Secret             | Description                                           |
+| ------------------ | ----------------------------------------------------- |
+| GIGALIXIR_EMAIL    | The email you use to log in to Gigalixir.             |
+| GIGALIXIR_PASSWORD | The passowrd you use to log in to Gigalixir.          |
+| GIGALIXIR_APP_NAME | The application name for which you want to deploy to. |
 
 Here's an example of where that is in Github:
 
@@ -52,15 +60,13 @@ jobs:
       - run: git push -f gigalixir HEAD:refs/heads/master
 ```
 
-Now you're almost done. This will deploy new code out to Gigalixir whenever a pull request is _closed and merged_ into master. Now what about database migrations?
+Now you're almost done. This will deploy new code out to Gigalixir whenever a pull request is _closed and merged_ into `master`. Now what about database migrations?
 
 #### Setting up database migrations to run on release with Distillery
 
 Distillery has a concept called "hooks". These hooks are run at various parts of the application lifecycle. There's a wonderful resource on hooks that you can read [here][boot-hooks].
 
-We're going to utilize a "pre-start" hook to run the database migrations whenever the application is deployed.
-
-To do so, first we'll add a `ReleaseTasks` module to the application. Here `MyApp` would be whatever your application name is.
+We're going to utilize a "pre-start" hook to run the database migrations whenever the application is deployed. To do so, first we'll add a `ReleaseTasks` module under `./lib/app/release_tasks.ex` to the application. Here `MyApp` would be whatever your application name is.
 
 This file was taken directly from [here][distillery-migrations]. As mentioned in the aforementioned reference, make sure to put this file under your `lib` folder to ensure it's compiled upon build.
 
@@ -154,11 +160,9 @@ defmodule MyApp.ReleaseTasks do
 end
 ```
 
-At this point we'll also need to create a new directory that houses our `pre-start` release hooks. I added the script under the following directory: `rel/commands/hooks/pre_start/migrate.sh`.
+At this point we'll also need to create a new directory that houses our `pre-start` release hooks. I added the script under the following directory: `rel/commands/hooks/pre_start/migrate.sh`. Distillery will run all commands within the given directory. Also, you don't need to make the directory as nested, I just like using the folder structure for namespacing as it helps if there are going to be multiple lifecycle hooks.
 
-By default Distillery will run all commands within the given directory. I just like using the folder structure for namespacing as it helps if there are going to be multiple lifecycle hooks.
-
-Here's what that script looks like.
+Here's what `migrate.sh` looks like.
 
 ```bash
 #!/bin/sh
@@ -167,7 +171,7 @@ echo "Running migrations"
 release_ctl eval --mfa "App.ReleaseTasks.migrate/1" --argv -- "$@"
 ```
 
-Next we'll update one more piece to tie everything together; `./rel/config.exs`. This is an autogenerated file that you should already have in your directory since we're assuming you've set up Distillery before following along.
+Next we'll update one more piece to tie everything together; `./rel/config.exs`. This is an autogenerated file that you should already have in your directory since we're assuming you've set up Distillery before following along. In this file, we'll tie the pre-start hook to the `migrate.sh` script, by passing the `pre_start_hooks` parameter the `./rel/commands/hooks/pre_start` directory. From there we'll also add a `migrate` command to make debugging and development nice.
 
 ```elixir
 #... other code here just redacted
@@ -190,11 +194,11 @@ release :app do
 end
 ```
 
-So here we've done two things. We've updated the pre-start hooks and added a distillery command. Updating the pre-start hooks lets Distillery know that we want to run all scripts (we only have one `migrate.sh`). This is going to run migrations ahead of starting the application.
+We've updated the pre-start hooks and added a Distillery command named `migrate`. Updating the pre-start hooks lets Distillery know that we want to run all scripts (we only have one in this guide`migrate.sh`). This is going to run migrations ahead of starting the application.
 
-The second item we added was somewhat unrelated but still useful. We've added a migrate command to distillery. This will allow us to run the migrate command against our elixir application live if we want to. This can be helpful in certain development scenarios. To do so you would run `bin/myapp migrate`.
+Adding the `migrate` command will allow us to run migrations against our elixir application live if we want to. This can be helpful in certain development scenarios. To do so you would run `bin/myapp migrate`.
 
-And that's it. If you've followed along. Now pushes to the master branch will trigger full deployments along with migrations.
+And that's it. If you've followed along. Now pushes to the master branch will trigger deployments along with database migrations.
 
 ## Sources
 
