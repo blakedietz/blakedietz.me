@@ -7,7 +7,7 @@ path: "/blog/dactyl-manuform-4x5"
 
 ## Dactyl manuform 4 x 5 build guide
 
-The dactyl manuform is an open source ergonomic split keyboard.
+The dactyl manuform is an open source ergonomic split keyboard. This board is a mixture of two other open source split ergonomic keyboards: namely the [dactyl][gh-dactyl] and the [manuform][gh-manuform]. Thus you can see where it gets its name from.
 
 ⚠️⚠️WORK IN PROGRESS⚠️⚠️
 
@@ -78,6 +78,10 @@ Before we begin I want to make sure that we're on the same page. I'm going to gi
 
 [gh-dactyl-manuform]: https://github.com/abstracthat/dactyl-manuform
 [gh-tshort-dactyl-manuform]: https://github.com/tshort/dactyl-keyboard
+[gh-dactyl]: https://github.com/adereth/dactyl-keyboard
+[gh-manuform]: https://github.com/jeffgran/ManuForm
 
 1. [abstractthat dactyl manuform repo][gh-dactyl-manuform]
 1. [tshort dactyl manuform repo][gh-tshort-dactyl-manuform]
+1. [adereth dactyl repo][gh-dactyl]
+1. [jeffgran manuform repo][gh-manuform]
