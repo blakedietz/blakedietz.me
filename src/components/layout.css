@@ -1,84 +1,96 @@
 @tailwind base; /* Preflight will be injected here */
 
 h1 {
-    @apply text-2xl;
-    @apply text-hot-pink;
-    @apply my-8;
+  @apply text-2xl;
+  @apply text-hot-pink;
+  @apply my-8;
 }
 
 h2 {
-    @apply text-xl;
-    @apply text-old-lavendar;
-    @apply my-6;
+  @apply text-xl;
+  @apply text-old-lavendar;
+  @apply my-6;
 }
 
 h3 {
-    @apply text-lg;
-    @apply text-roman-silver;
-    @apply my-4;
+  @apply text-lg;
+  @apply text-roman-silver;
+  @apply my-4;
 }
 
 h4 {
-    @apply text-base;
-    @apply text-roman-silver;
-    @apply my-2;
+  @apply text-base;
+  @apply text-roman-silver;
+  @apply my-2;
 }
 
 h5 {
-    @apply text-sm;
-    @apply text-roman-silver;
-    @apply my-2;
+  @apply text-sm;
+  @apply text-roman-silver;
+  @apply my-2;
 }
 
 h6 {
-    @apply text-xs;
-    @apply text-roman-silver;
-    @apply my-2;
+  @apply text-xs;
+  @apply text-roman-silver;
+  @apply my-2;
 }
 
 body {
-    @apply bg-raisin-black;
-    color: white;
+  @apply bg-raisin-black;
+  color: white;
 }
 
 a {
-    @apply text-maximum-blue;
-    text-decoration: none;
+  @apply text-maximum-blue;
+  text-decoration: none;
 }
 
 ol {
-    @apply list-decimal;
-    @apply text-old-lavendar;
-    list-style-position: inside;
+  @apply list-decimal;
+  @apply text-old-lavendar;
+  list-style-position: inside;
 }
 
 ul {
-    @apply list-disc;
-    @apply text-old-lavendar;
-    list-style-position: inside;
+  @apply list-disc;
+  @apply text-old-lavendar;
+  list-style-position: inside;
 }
 
+table {
+  @apply table-auto;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  @apply border-roman-silver;
+  @apply px-2;
+  text-align: left;
+}
 
 @tailwind components;
 
 @tailwind utilities;
 
-
 .home-link {
-    @apply text-mustard;
+  @apply text-mustard;
 }
 
 p {
-    @apply my-6;
+  @apply my-6;
 }
 
 body {
-    font-family: "IBM Plex Mono";
+  font-family: "IBM Plex Mono";
 }
 
 blockquote {
-    @apply bg-roman-silver;
-    @apply px-6;
-    @apply text-powder-blue;
-    @apply border-l-4;
+  @apply bg-roman-silver;
+  @apply px-6;
+  @apply text-powder-blue;
+  @apply border-l-4;
 }
