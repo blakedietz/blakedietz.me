@@ -26,7 +26,7 @@ So for example:
 
 > Me: L24: I fixed a bug with js variables not being encoded correctly. N24: I commit to shipping the bug fix and then completing the logging refactor task. **Rutabaga**.
 
-It's more fun when you make the word your own. So that way when you hire on someone new, they can give you that weird look that says, "Rutabaga?". Make it something that your team likes, maybe something like "pylons" or "fliff". In my experience bookends helps to shorten the message being delivered at standup as most people are waiting with baited breath for their next turn.
+It's more fun when you make the word your own. So that way when you hire on someone new, they can give you that weird look that says, "Rutabaga?". Make it something that your team likes, maybe something like "pylons" or "fliff". In my experience bookends help to shorten the message being delivered at standup as most people are waiting with baited breath for their next turn.
 
 #### Commit
 
@@ -84,14 +84,14 @@ Here's my planning template in markdown:
 ### Themes
 
 - Logging
-- Frontend performance performance issues
+- Frontend performance issues
 
 ### Leftover work from previous sprint
 ```
 
 This way your team knows exactly what they are going to expect. Common questions that are forgotten, often until the middle of sprint planning can be taken care of before you get into the planning itself. This helps to reduce the number of context switches you'll take.
 
-I also like the themes section of the template. It's easy to forget the body of work you're delivering when you're working on bits and pieces here. Explicitly calling out the theme helps to keep your team connected to the overall goal that you're working towards.:w
+I also like the themes section of the template. It's easy to forget the body of work you're delivering when you're working on bits and pieces here. Explicitly calling out the theme helps to keep your team connected to the overall goal that you're working towards.
 
 #### Plan, don't groom
 
@@ -133,10 +133,10 @@ Sometimes things just don't fit into the scrum framework very well. Often times 
 
 For very large bodies of work that require multiple parties it can be difficult to put the backlog in the right order. For example, during one of my previous positions we were tasked with migrating from managed hosting into AWS. The body of work alone was difficult to grasp. On top of that we were working with an external consultant to ensure compliance with HIPPA. This lead to dependencies that were difficult to see as we were both investigating and attempting to scope work at the same time.
 
-We found that our backlog was consistently out of alignment with our priorities. In order to better grasp the body of work over time we created a more intensive backlog grooming session. We scheduled the session for a one hour period. The goal of the session was to align our bakclog to our priorities as much as possible given the new information we discovered during sprint. To do this we wanted to cover as many stories in the backlog as possible so we set a timer to five minutes per story. Developers would help to delineate constraints on the story, discuss new learnings about our consultant's deliverables and mention priority as quickly as possible. This allowed us to refine new tasks as much as possible, while also getting a better understanding of what was about to come into our future sprints. Keeping things limited to five minutes helped with focus and created a sense of excitement from the intensity of that focus. Also the timebox helped to build more context for the whole project as you were more likely to get further into future work than you would in a normal backlog grooming session.
+We found that our backlog was consistently out of alignment with our priorities. In order to better grasp the body of work over time we created a more intensive backlog grooming session. We scheduled the session for a one hour period. The goal of the session was to align our bakclog to our priorities as much as possible given the new information we discovered during sprint. To do this we wanted to cover as many stories in the backlog as possible so we set a timer to five minutes per story. Developers would help to delineate constraints on the story, discuss new learnings about our consultant's deliverables and mention priority as quickly as possible. This allowed us to refine new tasks as much as possible, while also getting a better understanding of what was about to come into our future sprints. Keeping things limited to five minutes helped with focus and created a sense of excitement from the intensity of that focus. Also the time-box helped to build more context for the whole project as you were more likely to get further into future work than you would in a normal backlog grooming session.
 
 These sessions are not sustainable for months at a time. I best recommend them when taking on a new initiative. It helps to get everyone on the same page and you'd be surprised how quickly you start understanding the dependencies in your project.
 
 ### Investigation stories
 
-Sometimes you just don't know how hard something is going to be until you do it. In those scenarios I use investigation stories. I'll create a timeboxed task that's at most x points of work. This helps you to stop from blowing out your sprint points on one task. The output of these stories isn't normally anything directly usable. Instead you'll either create a design document from your learnings, or you can create more well defined stories for the actual implementation.
+Sometimes you just don't know how hard something is going to be until you do it. In those scenarios I use investigation stories. I'll create a time-boxed task that's at most x points of work. This helps you to stop from blowing out your sprint points on one task. The output of these stories isn't normally anything directly usable. Instead you'll either create a design document from your learnings, or you can create more well defined stories for the actual implementation.

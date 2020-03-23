@@ -46,7 +46,7 @@ Running `mix test` at this point wouldn't cause the test to be excluded. You nee
 ExUnit.start(exclude: [:skip])
 ```
 
-As it turns out [`ExUnit.start/1`][exunit-start] accepts the same arguments that [`ExUnit.configure/1][exunit-configure].
+As it turns out [`ExUnit.start/1`][exunit-start] accepts the same arguments that [`ExUnit.configure/1`][exunit-configure] takes.
 
 
 ## Sources

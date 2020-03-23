@@ -1,5 +1,5 @@
 ---
-title: Listing test expansions in Keyboard Maestro
+title: Listing text expansions in Keyboard Maestro
 date: "2016-11-24T12:00:00.169Z"
 description: Learn how to show your current Keyboard Maestro text expansions with Keyboard Maestro.
 path: "/blog/listing-keyboard-maestro-text-expansions"
@@ -9,7 +9,7 @@ One of the main gripes I had about Keyboard Maestro was the lack of built in fun
 
 Before we begin, here's the final outcome:
 
-<!-- ![](/content/images/2016/11/text-expansion-simple-example.gif) -->
+![](/content/images/2016/11/text-expansion-simple-example.gif)
 
 ### Create a new macro group
 
@@ -24,7 +24,7 @@ For this example we'll name it `Text Expansion List Tutorial Example`. You can s
 4. Create a new action that is of type `Insert text by typing`.
 5. Insert the following text `Check out this rad example`.
 
-<!-- ![](/content/images/2016/11/text-expansion-1.png) -->
+![](/content/images/2016/11/text-expansion-1.png)
 
 ### Create a macro that lists text expansions
 
@@ -33,7 +33,7 @@ For this example we'll name it `Text Expansion List Tutorial Example`. You can s
 3. Create a trigger of type `Hotkey Pressed`. I use `hyper + p` to show my list of text expansions. Make this whatever combo that works for you.
 4. Create a new action that is of type `Show/Hide macro group` and select the `Text Expansion List Tutorial Example`.
 
-<!-- ![](/content/images/2016/11/text-expansion-2.png) -->
+![](/content/images/2016/11/text-expansion-2.png)
 
 ### How it Works
 
