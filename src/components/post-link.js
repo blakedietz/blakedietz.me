@@ -5,7 +5,7 @@ import { getFormattedDate } from "../utils/utils"
 const PostLink = ({ post }) => (
   <div>
     <Link to={post.frontmatter.path}>
-      {post.frontmatter.title} ({getFormattedDate((new Date(post.frontmatter.date)))})
+      {getFormattedDate((new Date(post.frontmatter.date)))} - {post.frontmatter.title} 
     </Link>
   </div>
 )

@@ -1,7 +1,7 @@
 ---
-title: Keyboard build guide - Dactyl manuform 4x6
+title: Dactyl manuform 4x6
 date: "2020-03-15T00:00:00.000Z"
-description: How to build a Dactyl Manuform 4x6
+description: How to build a Dactyl Manuform keyboard
 path: "/blog/dactyl-manuform-4x6"
 ---
 

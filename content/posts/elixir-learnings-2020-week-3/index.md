@@ -1,6 +1,6 @@
 ---
 title: Elixir learnings - 2020 week 3
-date: "2020-01-19T12:00:00.000Z"
+date: "2020-01-13T12:00:00.000Z"
 description: What I learned about Elixir during week 3 of 2020
 path: "/blog/elixir-learnings-week-3"
 ---
