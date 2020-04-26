@@ -93,6 +93,8 @@ Once you do that push down on the row that is off of the straight edge until it 
 
 #### Soldering resistors
 
+Note the orientation of resistor
+
 ![](./resistor-placement.jpeg)
 
 #### Soldering holtites
