@@ -1,11 +1,11 @@
 ---
-title: Dactyl manuform 4x6
+title: Dactyl manuform 5x6
 date: "2020-03-15T00:00:00.000Z"
 description: How to build a Dactyl Manuform keyboard
-path: "/blog/dactyl-manuform-4x6"
+path: "/blog/dactyl-manuform-5x6"
 ---
 
-## Dactyl manuform 4 x 6 build guide
+## Dactyl manuform 5 x 6 build guide
 
 The dactyl manuform is an open source ergonomic split keyboard. This board is a mixture of two other open source split ergonomic keyboards: namely the [dactyl][gh-dactyl] and the [manuform][gh-manuform]. Thus you can see where it gets its name from.
 
@@ -77,14 +77,63 @@ Breaking the boards can be difficult. Sometimes it can feel like you're going to
 Once you do that push down on the row that is off of the straight edge until it breaks off.
 
 ![](./breaking-board-after.jpeg)
+![](./break-rows-after.jpeg)
+![](./break-individual.jpeg)
+![](./break-individual-after.jpeg)
 
 #### Guide
 
 #### Printing
 
-#### Flashing
+##### Choosing your model
+
+##### Remove plastic supports
+
+##### Make sure the case is level
+
+#### Soldering resistors
+
+![](./resistor-placement.jpeg)
+
+#### Soldering holtites
+
+![](./holtite-placement.jpeg)
+![](./holtite-placement-bottom.jpeg)
+
+#### Placing amoebas on the board
+
+##### Insert switches
+
+##### Insert amoebas
+
+![](./place-amoeba-before.jpeg)
+![](./place-amoeba-after.jpeg)
+
+###### Sand down amoebas
+
+One internal
+
+![](./tight-fit.jpeg)
+
+One on thumb cluster
+
+![](./pcb-protuding.jpeg)
+
+#### Soldering rows
+
+#### Soldering columns
+
+#### Soldering micro controller headers
+
+#### Attaching columns to micro controller
+
+#### Attaching rows to micro controller
 
 #### Assembling cables
+
+#### Attaching connections to case
+
+#### Flashing
 
 ## Sources
 
