@@ -37,7 +37,7 @@ Here's the top comment from that hacker news thread:
 
 ### Async tasks
 
-I was hoping that something similar to javasscript's `async/await` primitives were available in the language. Looks like 
+I was hoping that something similar to javascript's `async/await` primitives were available in the language. Looks like 
 `Task.async` and `Task.await` are the equivalent. Here's [an example][async-tasks].
 
 ## Sources
