@@ -7,9 +7,9 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-import Header from "./header"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import "./layout.css"
+import "./header.css"
 import "./prism.css"
 import "../utils/ascii"
 
@@ -26,12 +26,56 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div className={`container flex flex-col min-h-screen`}>
-        <Header siteTitle={data.site.siteMetadata.title}/>
-        <main className={`flex-grow`}>
+      <div className='layout'>
+        <div className="header">
+          <Link
+            to="/"
+            className={`home-link text-mustard text-xl`}
+          >
+            {data.site.siteMetadata.title}<span id="cursor">|</span>
+          </Link>
+          <div className={`nav-bar`}>
+            <div className={`mr-2`}>
+              <Link
+                to="/blog-posts"
+              >
+                blog
+              </Link>
+            </div>
+            <div className={`mr-2`}>
+              <Link
+                to="/about"
+              >
+                about
+              </Link>
+            </div>
+            <div className={`mr-2`}>
+              <Link
+                to="/projects"
+              >
+                projects
+              </Link>
+            </div>
+            <div className={`mr-2`}>
+              <Link
+                to="/resume"
+              >
+                resume
+              </Link>
+            </div>
+            <div className={`mr-2`}>
+              <Link
+                to="/social"
+              >
+                social
+              </Link>
+            </div>
+        </div>
+        </div>
+        <main className={`content`}>
             {children}
         </main>
-        <footer className={`my-8 w-full text-roman-silver`}>
+        <footer className={`footer my-8 w-full text-roman-silver`}>
           <div className={`flex flex-col text-xs`}>
             <div>
               <a href="https://github.com/blakedietz/blakedietz.me">Made with ❤️ by @blakedietz. </a>

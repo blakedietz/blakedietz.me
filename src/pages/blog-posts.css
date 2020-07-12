@@ -1,0 +1,27 @@
+.post-title {
+    grid-area: title;
+}
+
+.post-description {
+    grid-area: description;
+}
+
+.post-date {
+    grid-area: date;
+    text-align: right;
+    @apply text-old-lavendar
+}
+
+.post-tags {
+    grid-area: tags;
+}
+
+.post-and-description-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 75%  25%;
+    grid-template-areas:
+            "title title"
+            "description description"
+            "tags date";
+}
