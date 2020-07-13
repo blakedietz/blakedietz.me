@@ -2,7 +2,7 @@
 title: How to hijack a webpage
 date: "2016-09-24T12:00:00.169Z"
 description: Learn about the target=_blank security vulnerability
-path: "/blog/target-blank-vulnerability"
+path: "/blog/2016-09-24/target-blank-vulnerability"
 ---
 
 In this post I'm going to teach you how to hijack a webpage using the `target="_blank"` browser vulnerability. I'll also teach you how to defend yourself against hijacking by using a couple of simple fixes.

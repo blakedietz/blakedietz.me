@@ -2,7 +2,7 @@
 title: Elixir tasks
 date: "2017-12-22T12:00:00.169Z"
 description: Learn about elixir tasks
-path: "/blog/listing-phoenix-tasks"
+path: "/blog/2017-12-22/listing-phoenix-tasks"
 ---
 
 ---

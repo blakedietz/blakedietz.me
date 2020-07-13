@@ -2,7 +2,8 @@
 title: Elixir learnings - 2020 week 8
 date: "2020-02-17T00:00:00.000Z"
 description: What I learned about Elixir during week 8 of 2020
-path: "/blog/elixir-learnings-week-8"
+path: "/blog/2020-02-17/elixir-learnings-week-8"
+tags: ["elixir", "programming", "learnings"]
 ---
 
 ## Elixir

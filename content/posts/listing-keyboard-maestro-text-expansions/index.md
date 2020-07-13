@@ -2,7 +2,7 @@
 title: Listing text expansions in Keyboard Maestro
 date: "2016-11-24T12:00:00.169Z"
 description: Learn how to show your current Keyboard Maestro text expansions with Keyboard Maestro.
-path: "/blog/listing-keyboard-maestro-text-expansions"
+path: "/blog/2016-11-24/listing-keyboard-maestro-text-expansions"
 ---
 
 One of the main gripes I had about Keyboard Maestro was the lack of built in functionality to list text expansions. I like the idea of text expansions, but I often forget them while trying to build my muscle memory. I've recently discovered a bit of a hack to implement this using built in functionality for Keyboard Maestro. I hope that you find this helpful.

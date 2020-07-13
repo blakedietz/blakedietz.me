@@ -1,8 +1,8 @@
 ---
 title: Debugging strategies
 date: "2019-04-29T12:00:00.169Z"
-description: Techniques for dealing with those tricky bugs 🐛🐛🐛.
-path: "/blog/debugging-strategies"
+description: Techniques that I've learned over the years for dealing with those tricky bugs 🐛🐛🐛.
+path: "/blog/2019-04-29/debugging-strategies"
 ---
 
 ![](bugcatcher.png)

@@ -1,8 +1,8 @@
 ---
 title: Letters to a young software engineer in Boise
-date: "2019-11-10T12:00:00.169Z"
+date: "2019-11-10T12:00:00.000Z"
 description: What I wish I knew when I was just starting in the tech industry.
-path: "/blog/letters-to-a-young-software-engineer"
+path: "/blog/2019-11-10/letters-to-a-young-software-engineer"
 ---
 
 I just grabbed coffee with a young man that's looking to get into the tech industry in Boise. He's been going through a [bootcamp](https://www.codingdojo.com/boise) and wanted to learn more about what it would take to break into the industry. After some thinking, I've put together some pointers.

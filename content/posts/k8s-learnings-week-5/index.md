@@ -2,7 +2,8 @@
 title: K8s learnings - 2020 week 5
 date: "2020-01-31T12:00:00.000Z"
 description: What I learned about k8s during week 5 of 2020
-path: "/blog/k8s-learnings-week-5"
+path: "/blog/2020-01-31/k8s-learnings-2020-week-5"
+tags: ["kubernetes", "programming", "learnings"]
 ---
 
 ## K8s

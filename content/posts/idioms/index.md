@@ -2,7 +2,7 @@
 title: Idioms
 date: "2016-08-07T12:00:00.169Z"
 description: I'm starting again, again.
-path: "/blog/idioms"
+path: "/blog/2016-08-07/idioms"
 ---
 
 Hello there,

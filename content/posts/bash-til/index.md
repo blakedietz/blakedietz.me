@@ -1,8 +1,8 @@
 ---
 title: bash TIL
 date: "2018-09-18T12:00:00.169Z"
-description: bash
-path: "/blog/bash-til"
+description: Exclude files when searching with find and learn about the ! operator.
+path: "/blog/2018-09-18/bash-til"
 ---
 
 Here are some notes about BASH utilities and functionalities that I learned about today. This is more for me than you, but if you find it useful, great! :)

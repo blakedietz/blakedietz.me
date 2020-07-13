@@ -2,7 +2,7 @@
 title: What's better than writing code?
 date: "2018-01-07T12:00:00.000Z"
 description: Deleting code is more fun than writing it.
-path: "/blog/things-i-like-more-than-writing-code"
+path: "/blog/2018-01-07/things-i-like-more-than-writing-code"
 ---
 
 On a day-to-day basis, as a software engineer, I spend a lot of time doing non-technical tasks. This is the nature of the career; you're not only going to be interfacing with computers.

@@ -1,8 +1,9 @@
 ---
 title: Dactyl manuform 5x6
 date: "2020-03-15T00:00:00.000Z"
-description: How to build a Dactyl Manuform keyboard
-path: "/blog/dactyl-manuform-5x6"
+description: A guide to building an ergonomic split keyboard.
+path: "/blog/2020-03-15/dactyl-manuform-5x6"
+tags: ["keyboards", "guide"]
 ---
 
 ## Dactyl manuform 5 x 6 build guide

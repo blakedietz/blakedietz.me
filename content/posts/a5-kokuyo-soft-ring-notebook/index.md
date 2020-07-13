@@ -1,8 +1,9 @@
 ---
 title: A5 Kokuyo soft ring business notebook review
 date: "2018-09-24T12:00:00.169Z"
-description: Kokuyo soft ring business notebook review
-path: "/blog/a5-kokuyo-soft-ring-notebook"
+description: Kokuyo soft ring business notebook review.
+path: "/blog/2018-09-24/a5-kokuyo-soft-ring-notebook"
+tags: ["writing", "review"]
 ---
 
 ## Product

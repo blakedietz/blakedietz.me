@@ -2,7 +2,7 @@
 title: Spotify daily pro tips
 date: "2016-09-05T12:00:00.169Z"
 description: Use a little hack to save your favorite music curated for you by Spotify.
-path: "/blog/spotify-daily-pro-tips"
+path: "/blog/2016-09-05/spotify-daily-pro-tips"
 ---
 
 Spotify created a new feature called [daily mix](https://support.spotify.com/us/using_spotify/search_play/daily-mix/). It's like discover weekly, but it's created **every single day**. The feature has been rolled out to mobile, but it hasn't made it to desktop quite yet. Here are some pro tips to make sure you maximize your listening pleasure:

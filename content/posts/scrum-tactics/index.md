@@ -1,8 +1,8 @@
 ---
 title: Scrum tactics
 date: "2019-07-12T12:00:00.169Z"
-description: Scrum tactics
-path: "/blog/scrum-tactics"
+description: My favorite parts of agile software development.
+path: "/blog/2019-07-12/scrum-tactics"
 ---
 
 For the most part scrum-but is inevitable. Scrum doesn't fit every team's dynamic, and that's okay. Here's my version of scrum-but that I've found useful both leading teams and working on them.

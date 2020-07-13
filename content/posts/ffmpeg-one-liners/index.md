@@ -2,7 +2,7 @@
 title: ffmpeg downscale all videos in a directory
 date: "2018-02-11T12:00:00.169Z"
 description: Learn how to downscale all videos in a directory
-path: "/blog/ffmpeg-one-liners"
+path: "/blog/2018-02-11/ffmpeg-one-liners"
 ---
 
 ### Prerequisites
