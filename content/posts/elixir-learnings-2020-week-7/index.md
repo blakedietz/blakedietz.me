@@ -146,7 +146,7 @@ Also if you notice at the bottom it even generates html docs. I just used [http-
 npx http-server ./cover
 ```
 
-Here you can see that  the coverage report creates an html file per each file in your app.
+Here you can see that the coverage report creates an html file per each file in your app.
 
 ![](./files.png)
 

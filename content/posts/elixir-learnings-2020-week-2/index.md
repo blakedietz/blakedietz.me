@@ -7,7 +7,7 @@ path: "/blog/elixir-learnings-week-2"
 
 ## Erlang
 
-### iex 
+### iex
 
 I learned that iex isn't technically a _true_ REPL [<sub>5</sub>](iexrepl).
 
@@ -33,7 +33,7 @@ https://hexdocs.pm/elixir/writing-documentation.html
 
 #### Calling into functions that can throw
 
-Ran into this 
+Ran into this
 
 ```
 == Compilation error in file lib/vs_integrations/petco/pgr/pet.ex ==
@@ -41,7 +41,7 @@ Ran into this
     (stdlib) lists.erl:1354: :lists.mapfoldl/3
 ```
 
-Associated code 
+Associated code
 
 ```
   def map_patient_to_pet(patient) when
@@ -105,7 +105,6 @@ https://medium.com/@qertoip/making-sense-of-ecto-2-sql-sandbox-and-connection-ow
 ### To spawn or not to spawn
 
 https://www.theerlangelist.com/article/spawn_or_not
-
 
 ## Blogs
 

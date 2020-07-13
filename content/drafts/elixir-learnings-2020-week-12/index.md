@@ -9,7 +9,6 @@ path: "/blog/elixir-learnings-week-12"
 
 ### Schemaless changesets
 
-
 ## Sources
 
 [ecto-schemaless]: https://hexdocs.pm/ecto/Ecto.Changeset.html

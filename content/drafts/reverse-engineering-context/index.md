@@ -15,5 +15,4 @@ Reverse engineering context is a very important skill for software development. 
 
 Even then when you think you've successfully reverse engineered some solution there's still no way to know that you've reached perfect truth. At best you'll have a rough guess at worst, you may have learned more about the people, systems and processes that contribute to your code base.
 
-
 ## Some thought tools

@@ -15,11 +15,11 @@ Suppose you have a map that contains the following properties
 foo = %{:bar: "baz"}
 ```
 
-Suppose that you want to apply a function to the map `foo`. If you want to check whether or not the map `foo` is empty, naively you would want to write a  function declaration of the following
+Suppose that you want to apply a function to the map `foo`. If you want to check whether or not the map `foo` is empty, naively you would want to write a function declaration of the following
 
 ```elixir
 def some_fun(%{}) do
-  # ... do some stuff 
+  # ... do some stuff
 end
 
 def some_fun(%{bar: bar} = some_args) do

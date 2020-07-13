@@ -13,15 +13,15 @@ Something small, but I realized that you can pass in a default to `Map.get` in c
 
 ### Enum.reduce_while
 
-I also discovered that you can use `reduce_while` which allows you to `reduce` on an enumerable collection until a 
+I also discovered that you can use `reduce_while` which allows you to `reduce` on an enumerable collection until a
 criteria is met.
 
 ### Modules
 
 #### Automatic node discovery
 
-My current place of work is using [peerage][peerage] for automatic *erlang* node discovery in k8s. This library makes it possible
-to have multiple k8s nodes that are sharing a network to automatically discover each other and connect. See also 
+My current place of work is using [peerage][peerage] for automatic _erlang_ node discovery in k8s. This library makes it possible
+to have multiple k8s nodes that are sharing a network to automatically discover each other and connect. See also
 [libcluster][libcluster] and [horde][horde] for similar automatic node discovery libraries.
 
 ## Sources

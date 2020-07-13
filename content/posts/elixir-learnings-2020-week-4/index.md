@@ -13,7 +13,7 @@ path: "/blog/elixir-learnings-week-4"
 
 #### Elixir school
 
-Self proclaimed as 
+Self proclaimed as
 
 > The premier destination for learning and mastering Elixir
 
@@ -27,7 +27,7 @@ I've stumbled upon solutions multiple times in [Elixir forum][elixir-forum] and 
 
 The most insightful [response][elixir-forum-many-to-many] I've seen thus far was in regards to defining a `many_to_many` relationship in Ecto that also used the `timestamps` macro.
 
-<!-- This lead me to better understand that ecto is setting defaults with the macros these aren't database triggers that are setting that. 
+<!-- This lead me to better understand that ecto is setting defaults with the macros these aren't database triggers that are setting that.
 -->
 
 ### Lists
@@ -67,7 +67,7 @@ I've been wondering about how to deploy my personal Elixir projects and have sta
 1. [fast elixir][fast]
 1. [Awesome Elixir][awesome-elixir]
 1. [Elixir forum][elixir-forum]
-1. [Elixir forum: many\_to\_many][elixir-forum-many-to-many]
+1. [Elixir forum: many_to_many][elixir-forum-many-to-many]
 1. [Awesome lists][awesome-lists]
 1. [Elixir school][elixir-school]
 1. [Elixir school: Ecto associations][ecto-associations]

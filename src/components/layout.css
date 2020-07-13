@@ -1,78 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
 
 @tailwind base; /* Preflight will be injected here */
 
 h1 {
-    @apply text-2xl;
-    @apply text-hot-pink;
-    @apply my-8;
+  @apply text-2xl;
+  @apply text-hot-pink;
+  @apply my-8;
 }
 
 h2 {
-    @apply text-xl;
-    @apply text-old-lavendar;
-    @apply my-6;
+  @apply text-xl;
+  @apply text-old-lavendar;
+  @apply my-6;
 }
 
 h3 {
-    @apply text-lg;
-    @apply text-roman-silver;
-    @apply my-4;
+  @apply text-lg;
+  @apply text-roman-silver;
+  @apply my-4;
 }
 
 h4 {
-    @apply text-base;
-    @apply text-roman-silver;
-    @apply my-2;
+  @apply text-base;
+  @apply text-roman-silver;
+  @apply my-2;
 }
 
 h5 {
-    @apply text-sm;
-    @apply text-roman-silver;
-    @apply my-2;
+  @apply text-sm;
+  @apply text-roman-silver;
+  @apply my-2;
 }
 
 h6 {
-    @apply text-xs;
-    @apply text-roman-silver;
-    @apply my-2;
+  @apply text-xs;
+  @apply text-roman-silver;
+  @apply my-2;
 }
 
 body {
-    @apply bg-raisin-black;
-    color: white;
+  @apply bg-raisin-black;
+  color: white;
 }
 
 a {
-    @apply text-maximum-blue;
-    text-decoration: none;
+  @apply text-maximum-blue;
+  text-decoration: none;
 }
 
 ol {
-    @apply list-decimal;
-    @apply text-old-lavendar;
-    list-style-position: inside;
+  @apply list-decimal;
+  @apply text-old-lavendar;
+  list-style-position: inside;
 }
 
 ul {
-    @apply list-disc;
-    @apply text-old-lavendar;
-    list-style-position: inside;
+  @apply list-disc;
+  @apply text-old-lavendar;
+  list-style-position: inside;
 }
 
 table {
-    @apply table-auto;
-    border-collapse: collapse;
-    width: 100%;
+  @apply table-auto;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 table,
 th,
 td {
-    border: 1px solid;
-    @apply border-roman-silver;
-    @apply px-2;
-    text-align: left;
+  border: 1px solid;
+  @apply border-roman-silver;
+  @apply px-2;
+  text-align: left;
 }
 
 @tailwind components;
@@ -80,94 +80,93 @@ td {
 @tailwind utilities;
 
 .home-link {
-    @apply text-mustard;
-    grid-area: home-link;
+  @apply text-mustard;
+  grid-area: home-link;
 }
 
 .header {
-    grid-area: site-header;
-    @apply flex;
-    @apply flex-row;
-    @apply items-center;
-    justify-content: space-between;
+  grid-area: site-header;
+  @apply flex;
+  @apply flex-row;
+  @apply items-center;
+  justify-content: space-between;
 }
 
 .nav-bar {
-    grid-area: nav-bar;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+  grid-area: nav-bar;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .content {
-    grid-area: site-content
+  grid-area: site-content;
 }
 
 .footer {
-    grid-area: site-footer;
-    @apply text-xs;
-    text-align: center;
+  grid-area: site-footer;
+  @apply text-xs;
+  text-align: center;
 }
 
 .layout {
-    width: 100%;
-    align-content: stretch;
-    display: grid;
-    grid-template-columns: 25% auto 25%;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas: ". site-header ." ". site-content ." ". site-footer .";
+  width: 100%;
+  align-content: stretch;
+  display: grid;
+  grid-template-columns: 25% auto 25%;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: ". site-header ." ". site-content ." ". site-footer .";
 }
 
 .link-blog-posts {
-    grid-area: link-blog-posts
+  grid-area: link-blog-posts;
 }
 
 .link-about {
-    grid-area: link-about;
+  grid-area: link-about;
 }
 
 .link-projects {
-    grid-area: link-projects;
+  grid-area: link-projects;
 }
 
 .link-resume {
-    grid-area: link-resume;
+  grid-area: link-resume;
 }
 
 .link-social {
-    grid-area: link-social;
+  grid-area: link-social;
 }
 
 @media (max-width: 1280px) {
-    .layout {
-        grid-template-columns: 5% auto 5%;
-    }
+  .layout {
+    grid-template-columns: 5% auto 5%;
+  }
 
-    .header {
-        @apply flex-col;
-    }
+  .header {
+    @apply flex-col;
+  }
 
-    .nav-bar {
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-        grid-template-rows: auto auto auto;
-        grid-template-areas: "link-blog  link-projects ." "link-about  . ." "link-resume  . .";
-    }
+  .nav-bar {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "link-blog  link-projects ." "link-about  . ." "link-resume  . .";
+  }
 }
 
-
 p {
-    @apply my-6;
+  @apply my-6;
 }
 
 body {
-    font-family: "IBM Plex Mono";
+  font-family: "IBM Plex Mono";
 }
 
 blockquote {
-    @apply bg-roman-silver;
-    @apply px-6;
-    @apply text-powder-blue;
-    @apply border-l-4;
+  @apply bg-roman-silver;
+  @apply px-6;
+  @apply text-powder-blue;
+  @apply border-l-4;
 }

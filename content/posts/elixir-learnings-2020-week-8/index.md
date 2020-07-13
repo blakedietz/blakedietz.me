@@ -48,7 +48,6 @@ ExUnit.start(exclude: [:skip])
 
 As it turns out [`ExUnit.start/1`][exunit-start] accepts the same arguments that [`ExUnit.configure/1`][exunit-configure] takes.
 
-
 ## Sources
 
 [case-template]: https://hexdocs.pm/ex_unit/ExUnit.CaseTemplate.html
@@ -56,8 +55,7 @@ As it turns out [`ExUnit.start/1`][exunit-start] accepts the same arguments that
 [exunit-start]: https://hexdocs.pm/ex_unit/ExUnit.html#start/1
 [exunit-configure]: https://hexdocs.pm/ex_unit/ExUnit.html#configure/1
 
-
 1. [Case templates][case-template]
 2. [Disabling tests with tags][disabling-tests]
 3. [ExUnit.start/1 docs][exunit-start]
-3. [ExUnit.configure/1 docs][exunit-configure]
+4. [ExUnit.configure/1 docs][exunit-configure]

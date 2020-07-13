@@ -60,6 +60,7 @@ defmodule H do
   end
 end
 ```
+
 Here's what it looks like while using it.
 
 ```bash
