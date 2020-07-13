@@ -2,15 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import "./resume.css"
-
-const Pills = (({ pills }) => {
-  return (
-    <div className={`flex flex-row flex-wrap`}>
-      {pills.map((text) => <div key={text} className={`pill mr-2 mt-2`}>{text}</div>)}
-    </div>
-  )
-})
+import { Pills } from "../components/pill"
 
 const Technologies = ({ tech }) => {
   return (
