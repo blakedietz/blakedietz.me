@@ -89,7 +89,9 @@ td {
   @apply flex;
   @apply flex-row;
   @apply items-center;
+  align-content: center;
   justify-content: space-between;
+  @apply mt-8;
 }
 
 .nav-bar {
@@ -149,10 +151,12 @@ td {
   }
 
   .nav-bar {
+    grid-area: nav-bar;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto auto auto;
-    grid-template-areas: "link-blog  link-projects ." "link-about  . ." "link-resume  . .";
+    justify-items: center;
+    grid-template-areas: "link-blog  link-projects link-resume" "link-about link-social .";
   }
 }
 

@@ -33,19 +33,19 @@ const Layout = ({ children }) => {
             <span id="cursor">|</span>
           </Link>
           <div className={`nav-bar`}>
-            <div className={`mr-2`}>
-              <Link to="/blog-posts">blog</Link>
+            <div className={`link-blog mr-2`}>
+              <Link to="/">blog</Link>
             </div>
-            <div className={`mr-2`}>
+            <div className={`link-about mr-2`}>
               <Link to="/about">about</Link>
             </div>
-            <div className={`mr-2`}>
+            <div className={`link-projects mr-2`}>
               <Link to="/projects">projects</Link>
             </div>
-            <div className={`mr-2`}>
+            <div className={`link-resume mr-2`}>
               <Link to="/resume">resume</Link>
             </div>
-            <div className={`mr-2`}>
+            <div className={`link-social mr-2`}>
               <Link to="/social">social</Link>
             </div>
           </div>
