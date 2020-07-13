@@ -1,8 +1,9 @@
 ---
 title: Hot sauce
 date: "2020-07-11T00:00:00.000Z"
-description: Just my favorite hot sauces
+description: Just my favorite hot sauces.
 path: "/blog/2020-07-11/favorite-hot-sauces"
+tags: ["food", "favorites"]
 ---
 
 Favorite hot sauces:
