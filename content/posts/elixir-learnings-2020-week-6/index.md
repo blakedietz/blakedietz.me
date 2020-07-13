@@ -1,9 +1,9 @@
 ---
 title: Elixir learnings - 2020 week 6
 date: "2020-02-03T12:00:00.000Z"
-description: What I learned about Elixir during week 6 of 2020
+description: This week I learned about GraphQL project structures, iex configurations and some awesome books and modules.
 path: "/blog/2020-02-03/elixir-learnings-week-6"
-tags: ["elixir", "programming", "learnings"]
+tags: ["elixir", "graphql", "hex modules"]
 ---
 
 ## Elixir

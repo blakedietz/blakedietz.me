@@ -1,9 +1,9 @@
 ---
 title: Elixir learnings - 2020 week 17
 date: "2020-04-27T00:00:00.000Z"
-description: What I learned about Elixir during week 17 of 2020
+description: Is LiveView going to be the feature that causes a tipping point for mainstream adoption of Phoenix/Elixir?
 path: "/blog/2020-04-27/elixir-learnings-2020-week-17"
-tags: ["elixir", "programming", "learnings"]
+tags: ["elixir", "phoenix", "opinion"]
 ---
 
 ## Elixir

@@ -1,7 +1,7 @@
 ---
 title: Elixir learnings - 2020 week 16
 date: "2020-04-13T00:00:00.000Z"
-description: What I learned about Elixir during week 16 of 2020
+description: This week I discovered confusing environment behavior when building. I also have a helper function to copy output to your clipboard in iex sessions.
 path: "/blog/2020-04-13/elixir-learnings-week-16"
 tags: ["elixir", "programming", "learnings"]
 ---

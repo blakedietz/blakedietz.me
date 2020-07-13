@@ -1,7 +1,7 @@
 ---
 title: Elixir learnings - 2020 week 5
 date: "2020-01-27T12:00:00.000Z"
-description: What I learned about Elixir during week 5 of 2020
+description: This week I learned about some standard library function behaviors such as Map.get and Enum.reduce_while. I also learned about connecting multiple erlang nodes together with peerage and libcluster.
 path: "/blog/2020-01-27/elixir-learnings-week-5"
 tags: ["elixir", "programming", "learnings"]
 ---

@@ -1,9 +1,9 @@
 ---
 title: Elixir learnings - 2020 week 4
 date: "2020-01-20T12:00:00.000Z"
-description: What I learned about Elixir during week 4 of 2020
+description: This week I learned about some awesome (🕶️) Elixir learning resources and PaaS.
 path: "/blog/2020-01-20/elixir-learnings-week-4"
-tags: ["elixir", "programming", "learnings"]
+tags: ["elixir", "gigalixir"]
 ---
 
 ## Elixir
@@ -55,22 +55,22 @@ I've been wondering about how to deploy my personal Elixir projects and have sta
 
 ## Sources
 
-[fast]: https://github.com/devonestes/fast-elixir
+[absinthe-n+1]: https://hexdocs.pm/absinthe/ecto.html
 [awesome-elixir]: https://github.com/h4cc/awesome-elixir
-[elixir-forum]: https://elixirforum.com/
 [awesome-lists]: https://github.com/sindresorhus/awesome/blob/master/awesome.md
-[elixir-school]: https://elixirschool.com/en/
 [ecto-associations]: https://elixirschool.com/en/lessons/ecto/associations/
 [elixir-forum-many-to-many]: https://elixirforum.com/t/ecto-many-to-many-timestamps/13791
+[elixir-forum]: https://elixirforum.com/
+[elixir-school]: https://elixirschool.com/en/
+[fast]: https://github.com/devonestes/fast-elixir
 [gigalixir]: https://gigalixir.com/
-[absinthe-n+1]: https://hexdocs.pm/absinthe/ecto.html
 
-1. [fast elixir][fast]
-1. [Awesome Elixir][awesome-elixir]
-1. [Elixir forum][elixir-forum]
-1. [Elixir forum: many_to_many][elixir-forum-many-to-many]
-1. [Awesome lists][awesome-lists]
-1. [Elixir school][elixir-school]
-1. [Elixir school: Ecto associations][ecto-associations]
-1. [Gigalixir][gigalixir]
 1. [Absinthe N + 1 problem][absinthe-n+1]
+1. [Awesome Elixir][awesome-elixir]
+1. [Awesome lists][awesome-lists]
+1. [Elixir forum: many_to_many][elixir-forum-many-to-many]
+1. [Elixir forum][elixir-forum]
+1. [Elixir school: Ecto associations][ecto-associations]
+1. [Elixir school][elixir-school]
+1. [Gigalixir][gigalixir]
+1. [fast elixir][fast]

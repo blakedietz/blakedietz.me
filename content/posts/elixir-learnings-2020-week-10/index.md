@@ -1,9 +1,9 @@
 ---
 title: Elixir learnings - 2020 week 10
 date: "2020-03-02T00:00:00.000Z"
-description: What I learned about Elixir during week 10 of 2020
+description: Setting up continuous deployment to Gigalixir with Github Actions and distillery.
 path: "/blog/2020-03-02/elixir-learnings-week-10"
-tags: ["elixir", "programming", "learnings"]
+tags: ["elixir", "learnings", "gigalixir", "continuous delivery", "distillery"]
 ---
 
 ## Github actions

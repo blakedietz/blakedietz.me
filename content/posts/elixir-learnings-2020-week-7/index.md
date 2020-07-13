@@ -1,7 +1,7 @@
 ---
 title: Elixir learnings - 2020 week 7
 date: "2020-02-10T16:00:00.000Z"
-description: What I learned about Elixir during week 7 of 2020
+description: This week I learned about setting up ExUnit's built in test coverage to generate reports.
 path: "/blog/2020-02-10/elixir-learnings-week-7"
 tags: ["elixir", "programming", "learnings"]
 ---
@@ -141,7 +141,7 @@ Percentage | Module
 Generated HTML coverage results in 'cover' directory
 ```
 
-Also if you notice at the bottom it even generates html docs. I just used [http-server](https://www.npmjs.com/package/http-server) to launch a local http server for the `cover` directory.
+Also, if you notice at the bottom it even generates html docs. I just used [http-server](https://www.npmjs.com/package/http-server) to launch a local http server for the `cover` directory.
 
 ```bash
 npx http-server ./cover

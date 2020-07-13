@@ -1,9 +1,9 @@
 ---
 title: Elixir learnings - 2020 week 2
 date: "2020-01-06T12:00:00.000Z"
-description: What I learned about Elixir during week 2 of 2020
+description: This week I learned about a smattering of topics.
 path: "/blog/2020-01-06/elixir-learnings-week-2"
-tags: ["elixir", "programming", "learnings"]
+tags: ["elixir", "learnings"]
 ---
 
 ## Erlang
@@ -20,7 +20,7 @@ I also got to take a deeper foray into application logging. I've been working on
 
 It turns out that logging in elixir is actually quite simple. As expected it follows industry practices of having different level support. Check out more at [[6]][logging],[[7]][logging-guide].
 
-### Latest release of elixir
+### The latest release of Elixir
 
 A new release of elixir is in release candidate.
 
@@ -114,13 +114,13 @@ https://www.theerlangelist.com/article/spawn_or_not
 
 ## Sources
 
-[exunit-one-test]: https://stackoverflow.com/questions/21878409/in-elixirs-exunit-is-it-possible-to-just-run-one-test
 [exmachina]: https://github.com/thoughtbot/ex_machina
-[my-bad-ideas]: https://ferd.ca
-[keathley]: https://keathley.io
+[exunit-one-test]: https://stackoverflow.com/questions/21878409/in-elixirs-exunit-is-it-possible-to-just-run-one-test
 [iexrepl]: https://ferd.ca/repl-a-bit-more-and-less-than-that.html
-[logging]: https://hexdocs.pm/logger/Logger.html
+[keathley]: https://keathley.io
 [logging-guide]: https://timber.io/blog/the-ultimate-guide-to-logging-in-elixir/#starting-out-with-a-template-project
+[logging]: https://hexdocs.pm/logger/Logger.html
+[my-bad-ideas]: https://ferd.ca
 
 1. [Stackoverflow][exunit-one-test]
 2. [Exmachina][exmachina]

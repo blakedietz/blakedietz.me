@@ -1,9 +1,9 @@
 ---
 title: Elixir learnings - 2020 week 12
 date: "2020-03-16T00:00:00.000Z"
-description: What I learned about Elixir during week 12 of 2020
+description: Mucking with the database from Gigalixir.
 path: "/blog/2020-03-16/elixir-learnings-week-12"
-tags: ["elixir", "programming", "learnings"]
+tags: ["elixir", "programming", "learnings", "gigalixir"]
 ---
 
 ## Gigalixir
@@ -12,8 +12,7 @@ tags: ["elixir", "programming", "learnings"]
 
 Drop into a remote console
 
-```
-bash
+```bash
 gigalixir ps:remote_console
 ```
 

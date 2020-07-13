@@ -1,12 +1,12 @@
 ---
-title: Dactyl manuform 5x6
+title: Dactyl Manuform 5x6
 date: "2020-03-15T00:00:00.000Z"
 description: A guide to building an ergonomic split keyboard.
 path: "/blog/2020-03-15/dactyl-manuform-5x6"
-tags: ["keyboards", "guide"]
+tags: ["keyboards", "build guide"]
 ---
 
-## Dactyl manuform 5 x 6 build guide
+## A build guide for Dactyl Manuform 5 x 6
 
 The dactyl manuform is an open source ergonomic split keyboard. This board is a mixture of two other open source split ergonomic keyboards: namely the [dactyl][gh-dactyl] and the [manuform][gh-manuform]. Thus you can see where it gets its name from.
 
