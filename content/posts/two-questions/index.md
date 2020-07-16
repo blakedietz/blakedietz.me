@@ -12,12 +12,10 @@ your own traditions as long as there's good reason.
 I found one good reason to ask everyone two questions on their birthday, and it's completely selfish. I figured I would
 try to distill or extract the most valuable things that a person has learned within the last year, for
 my own benefit of course. I mean, imagine if you could distill the knowledge of all of your close friends and family
-into a guide for yourself. Imagine all the concepts and learnings that you could apply to your own life. Wouldn't you do
-the same? Well I've found myself asking friends, family and strangers two questions on their birthday.
+into a guide for yourself. Imagine all the concepts and learnings that you could apply to your own life. Well,
+I've found myself asking friends, family and strangers two questions on their birthday.
 
-So here they are, the two questions I ask at every birthday:
-
-> What's your favorite memory from the last year?
+> What's your favorite memory from last year?
 
 > What's the most important thing that you learned in the last year?
 
