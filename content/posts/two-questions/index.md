@@ -3,6 +3,7 @@ title: Two questions
 date: "2020-07-15T00:00:00.000Z"
 description: Questions I ask everyone during their birthday.
 path: "/blog/2020-07-15/two-questions"
+tags: ["philosophy", "tradition"]
 ---
 
 I've come to develop a tradition for myself over the last few years. Normally I wouldn't consider myself a traditional
