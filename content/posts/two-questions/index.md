@@ -9,12 +9,11 @@ I've come to develop a tradition for myself over the last few years. Normally I 
 person. I hate doing things for the sake of doing them. Yet, I've found that there's nothing wrong with establishing
 your own traditions as long as there's good reason.
 
-Well I've found myself asking friends, family and strangers two questions on their birthday. I find birthdays arbitrary
-in nature, but they are a great way to review milestones and celebrate life. So, out of somewhat selfish reasons, I
-figured I would try to distill or extract the most valuable things that a person has learned within the last year, for
+I found one good reason to ask everyone two questions on their birthday, and it's completely selfish. I figured I would
+try to distill or extract the most valuable things that a person has learned within the last year, for
 my own benefit of course. I mean, imagine if you could distill the knowledge of all of your close friends and family
 into a guide for yourself. Imagine all the concepts and learnings that you could apply to your own life. Wouldn't you do
-the same?
+the same? Well I've found myself asking friends, family and strangers two questions on their birthday.
 
 So here they are, the two questions I ask at every birthday:
 
