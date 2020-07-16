@@ -33,11 +33,11 @@ Here are my responses for last year:
 ## My response from last year
 
 > Allyanna: What's your favorite memory from the last year?
->
+
 > Me: When we were on our mountain bike ride with Velo and seeing him look up at me.
 
 > Allyanna: What's the most important thing that you learned in the last year?
->
+
 > Me: That when someone acts in a way that's surprising to you in the moment, but it aligns with the way they've behaved
 > in the past
 
@@ -46,10 +46,10 @@ Here are the responses from Albert Wintermote (my parner (Allyanna Wintermote's 
 ## Albert's response from this year
 
 > Me: What's your favorite memory from the last year?
->
+
 > Albert: The birth of our new grandson Zahir and the relationship with his mother.
 
 > Me: What's the most important thing that you learned in the last year?
->
+
 > Albert: This one is more work related. I've grown to understand with my new supervisor that I need to grow and push
 > in my role in my own ways.
