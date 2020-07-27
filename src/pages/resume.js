@@ -24,19 +24,28 @@ const ResumePage = () => (
 
     <h2>Contact</h2>
     <ul>
-      <li>Email: blakedietz@gmail.com</li>
+      <li>
+        Email: <a href="mailto:blakedietz@gmail.com">blakedietz@gmail.com</a>
+      </li>
       <li>Phone: +12085771368</li>
-      <li>Website: https://blakedietz.me</li>
-      <li>Linkedin: https://www.linkedin.com/in/blake-dietz-08229a61/</li>
+      <li>
+        Website: <a href="https://blakedietz.me">https://blakedietz.me</a>
+      </li>
+      <li>
+        Linkedin:{" "}
+        <a href="https://www.linkedin.com/in/blake-dietz-08229a61/">
+          https://www.linkedin.com/in/blake-dietz-08229a61/
+        </a>
+      </li>
     </ul>
 
     <h2>Experience</h2>
-    <h3>Full stack software engineer: Vetspire</h3>
+    <h3>
+      Full stack software engineer:{" "}
+      <a href="https://www.vetspire.com">Vetspire</a>
+    </h3>
     <div className={`mx-2`}>
-      <Technologies
-        tech={[`Elixir`, `Phoenix`, `Postgres`, `GraphQL`, `React`, `GCP`]}
-      />
-      <h4>2019/12/09 - Present</h4>
+      <h4> 2019/12/09 - Present </h4>
       <p>
         Vetspire is an artificial intelligence driven veterinary medical records
         and practice management platform. The company is a startup re-imagining
@@ -51,21 +60,25 @@ const ResumePage = () => (
         bodies of work. Features that are built based upon Petco's request are
         implemented with all Vetspire customers in mind.
       </p>
-    </div>
-
-    <h3>Senior software engineer: Intuit</h3>
-    <div className={`mx-2`}>
       <Technologies
         tech={[
-          `node.js`,
-          `AWS`,
-          `DynamoDB`,
-          `AWS Lambda`,
-          `Jenkins`,
-          `Docker`,
+          `Elixir`,
+          `Phoenix`,
+          `Postgres`,
+          `GraphQL`,
+          `React`,
+          `GCP`,
           `Kubernetes`,
+          `Erlang`,
+          `Github Actions`,
         ]}
       />
+    </div>
+    <h3>
+      Senior software engineer:
+      <a href="https://www.intuit.com"> Intuit</a>
+    </h3>
+    <div className={`mx-2`}>
       <h4>2019/03/01 - 2019/12/09</h4>
       <h5>Team: Developer experience </h5>
       <p>
@@ -81,7 +94,7 @@ const ResumePage = () => (
       <p>
         Adopted and advocated for React as the frontend technology of choice for
         all frontend feature development at TSheets. Projects and
-        responsibilites included the following:
+        responsibilities included the following:
       </p>
       <ul>
         <li>
@@ -111,12 +124,23 @@ const ResumePage = () => (
           practices.
         </li>
       </ul>
-    </div>
-    <h3>Senior software engineer: TSheets</h3>
-    <div className={`mx-2`}>
       <Technologies
-        tech={[`php`, `mysql`, `react`, `redux`, `esNext`, `jQuery`]}
+        tech={[
+          `node.js`,
+          `AWS`,
+          `DynamoDB`,
+          `AWS Lambda`,
+          `Jenkins`,
+          `Docker`,
+          `Kubernetes`,
+          `CircleCI`,
+        ]}
       />
+    </div>
+    <h3>
+      Senior software engineer: <a href="https://www.tsheets.com">TSheets</a>
+    </h3>
+    <div className={`mx-2`}>
       <h4>2017/10/30 - 2018/01/10</h4>
       <h5>Team: Core</h5>
       <p>Acquired by Intuit while in this position. See above.</p>
@@ -142,20 +166,23 @@ const ResumePage = () => (
           Fixed complex performance and printing bugs with legacy browsers.
         </li>
       </ul>
-    </div>
-    <h3>Volunteer software engineer: Treefort music festival</h3>
-    <div className={`mx-2`}>
       <Technologies
         tech={[
-          `node.js`,
-          `DynamoDB`,
-          `AWS`,
-          `AWS Lambda`,
-          `Ionic`,
-          `Angular v1.7`,
-          `Cordova`,
+          `PHP`,
+          `Mysql`,
+          `React`,
+          `Redux`,
+          `esNext`,
+          `jQuery`,
+          `CircleCI`,
         ]}
       />
+    </div>
+    <h3>
+      Volunteer software engineer:{" "}
+      <a href="https://www.treefortmusicfest.com">Treefort music festival</a>
+    </h3>
+    <div className={`mx-2`}>
       <p>
         I volunteered for a local music festival for a few years. This helped to
         scratch my itch to learn about deploying to AWS while also deploying a
@@ -175,21 +202,23 @@ const ResumePage = () => (
       </p>
       <h4> 2015/08 - 2016/05 </h4>
       <p>Lead frontend development for the application rewrite.</p>
-    </div>
-    <h3> Software engineer: WhiteCloud Analytics </h3>
-    <div className={`mx-2`}>
       <Technologies
         tech={[
-          `Java`,
-          `Spring`,
-          `MySQL`,
-          `javascript`,
-          `d3.js`,
-          `Angular`,
-          `webpack`,
-          `backbone.js`,
+          `node.js`,
+          `DynamoDB`,
+          `AWS`,
+          `AWS Lambda`,
+          `Ionic`,
+          `Angular v1.7`,
+          `Cordova`,
         ]}
       />
+    </div>
+    <h3>
+      Software engineer:{" "}
+      <a href="https://www.whitecloud.com">WhiteCloud Analytics </a>
+    </h3>
+    <div className={`mx-2`}>
       <p>
         At WhiteCloud I grew from intern to a competent engineer with a penchant
         for frontend development.
@@ -212,6 +241,18 @@ const ResumePage = () => (
         specialized data visualizations for physicians to better understand
         healthcare data.
       </p>
+      <Technologies
+        tech={[
+          `Java`,
+          `Spring`,
+          `MySQL`,
+          `javascript`,
+          `d3.js`,
+          `Angular`,
+          `webpack`,
+          `backbone.js`,
+        ]}
+      />
     </div>
   </Layout>
 )
