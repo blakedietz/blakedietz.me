@@ -33,7 +33,7 @@ npm i -g serve
 serve -s build
 ```
 
-![](./terminal-start.png)
+![](terminal-start.png)
 
 Above, we first run the build command to create the assets. We then install [serve](https://www.npmjs.com/package/serve)
 which is a local static file server. From there the static file server is run locally to serve the built assets. This is 
@@ -50,7 +50,7 @@ and do the following:
 1. Open Chrome dev tools
 1. Look for the Lighthouse tab
 
-![](./lighthouse.png)
+![](lighthouse.png)
 
 Lighthouse is ridiculously powerful. Learn more about what it does and how to use it [here](lighthouse).
 
@@ -58,7 +58,7 @@ The simplest way to get started is to click "Generate report".
 
 Once the report is generated, you'll see a high level breakdown of how your app performance at the top of the window.
 
-![](./report-before.png)
+![](report-before.png)
 
 Judging from the report, there are some big offenders here. 30.9s could be shaved off by removing a big gif. Another 
 image based critique is given. These are relatively simple fixes that we'll ignore for the sake of focusing on React
@@ -67,7 +67,7 @@ specific performance improvements.
 First we'll focus on unused javascript as this will impact almost every React based app. Clicking on that tab yields the 
 following:
 
-![](./report-unused-js-before.png)
+![](report-unused-js-before.png)
 
 The first thing that jumps out to is that React dev tools are being included in the bundle. For development builds this
  makes sense, however, for production I'm a bit surprised that this is CRA's default behavior. That's a whole 444.4KB 
@@ -106,12 +106,12 @@ This fix is using the ejs templating language to programmatically exlucde the Re
 
 Alright, let's generate a new report and see what that new score is!
 
-![](./report-after-dev-tools.png)
+![](report-after-dev-tools.png)
 
 Wow! The performance score went from 36 to 43. That's great, but, we can do better. Looking at the next big ticket item 
 that's javascript related, we have the "Remove unused javascript" section.
 
-![](./report-unused-js.png)
+![](report-unused-js.png)
 
 Lighthouse is so powerful that it even picks up on project frameworks and gives you smart recommendations.
 
@@ -122,18 +122,18 @@ implement code splitting.
 
 Here's what the code looks like before and after:
 
-![](./lazy-route-refactor.png)
+![](lazy-route-refactor.png)
 
 Anything that was a top level route component was converted from the ESmodule `import` to use `lazy` and dynamic `import`
 instead.
 
 You'll also need to wrap all of your router routes in the `Suspense` component as well.
 
-![](./suspense-component.png)
+![](suspense-component.png)
 
 Running `npm run build` now shows a different output from before.
 
-![](./terminal-after-lazy.png)
+![](terminal-after-lazy.png)
 
 Previously there were 3 different chunks. As you can see there's quite a few more after this change, and this is exactly 
 what we want. Leveraging code splitting, the application is able to separate parts of our application into separate 
@@ -142,7 +142,7 @@ asset sizes which helps to improve load times for network constrained clients.
 
 So, what's our new score?
 
-![](./report-after-split.png)
+![](report-after-split.png)
 
 89! It's not perfect, but we're getting there! Leveraging code splitting, our score jumped 46 points in total, which
  is pretty impressive considering the amount of effort that was required to do so. This change puts the application on 
