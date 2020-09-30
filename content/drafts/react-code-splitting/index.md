@@ -2,7 +2,7 @@
 title: Improving your React application performance with Lighthouse, dead code removal and code splitting
 date: "2020-08-23T00:00:00.000Z"
 description: Follow along as I tweak https://pencyclopedia.ink's page load performance.
-path: "/blog/2020-08-23/improve-your-cra-performance"
+path: "/blog/2020-08-23/react-code-splitting"
 tags: ["React", "Lighthouse", "bundle size", "code splitting"]
 ---
 
@@ -52,68 +52,30 @@ and do the following:
 
 ![](lighthouse.png)
 
-Lighthouse is ridiculously powerful. Learn more about what it does and how to use it [here](lighthouse).
-
-The simplest way to get started is to click "Generate report".
-
-Once the report is generated, you'll see a high level breakdown of how your app performance at the top of the window.
-
-![](report-before.png)
-
-Judging from the report, there are some big offenders here. 30.9s could be shaved off by removing a big gif. Another 
-image based critique is given. These are relatively simple fixes that we'll ignore for the sake of focusing on React
-specific performance improvements.
-
-First we'll focus on unused javascript as this will impact almost every React based app. Clicking on that tab yields the 
-following:
-
-![](report-unused-js-before.png)
-
-The first thing that jumps out to is that React dev tools are being included in the bundle. For development builds this
- makes sense, however, for production I'm a bit surprised that this is CRA's default behavior. That's a whole 444.4KB 
- that can be shaved off of the app bundle.
-
-After doing some searching, I found that there's a Github link for removing React dev tools from production assets.
-
-You can add the following to your `index.html` to disable it.
-
-```html
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-  <% if (process.env.NODE_ENV === 'production') { %>
-  <script>
-    // before React is loaded
-    if (typeof window.__REACT_DEVTOOLS_GLOBAL_HOOK__ === "object") {
-      __REACT_DEVTOOLS_GLOBAL_HOOK__.inject = function() {}
-    }
-  </script>
-  <% } %>
-  <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-</body>
-```
-
-This fix is using the ejs templating language to programmatically exlucde the React dev tools hooks for production.
-
-Alright, let's generate a new report and see what that new score is!
+Lighthouse is ridiculously powerful. Learn more about what it does and how to use it [here](lighthouse). The simplest 
+way to get started is to click "Generate report". Once the report is generated, you'll see a high level 
+breakdown of your app performance at the top of the window.
 
 ![](report-after-dev-tools.png)
 
-Wow! The performance score went from 36 to 43. That's great, but, we can do better. Looking at the next big ticket item 
-that's javascript related, we have the "Remove unused javascript" section.
+Lighthouse is so powerful that it even picks up on project frameworks and gives you smart recommendations. Here's a 
+section from the report detailing unused code as a performance bottleneck for the home page and how you can address
+the problem in React.
 
 ![](report-unused-js.png)
 
-Lighthouse is so powerful that it even picks up on project frameworks and gives you smart recommendations.
+So, why is unused code considered a performance bottleneck and why is there unused code being reported for this page? 
+Well, when building an application, you can logically divide source code into views. Whenever a view is using code
+Well, any code that's not being used in the current view should be considered "dead weight" for your bundle. That's because web app 
+source is text, and that text translates to bytes sent to the client over the wire. Anything sent over the wire to your 
+client takes time. Add up enough bytes being sent to a network constrained client and you have a poor user experience.
+ Thus, bundle sizes should be reduced to the bare minimum to improve time until . This is especially important in scenarios where the client is network 
+constrained. In this context, while although Lighthouse is reporting that there is dead code for the current page, it 
+may very well be that the code is used somewhere else later on at application run time.
+
+This is where code splitting comes in. Code splitting allows your application bundle to be split into multiple 
+independent bundles called chunks. You can think of chunks as asynchronous modules that are only requested by the 
+client when they are required. So, how does this help solve the unused code bottleneck?
 
 After doing some reading I found that the React docs recommend starting at the [route level](route-level) to leverage 
 code splitting. This turned out to work well with my project because I'm utilizing `react-router-dom` for the routing 
