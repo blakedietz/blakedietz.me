@@ -32,15 +32,16 @@ Here are my responses for last year:
 
 > Allyanna: What's your favorite memory from the last year?
 >
-> Me: When we were on our mountain bike ride with Velo and seeing him look up at me.
+> Me: When we were on our mountain bike ride with Velo and seeing him look up at me. When I was thinking about getting
+>a dog, one of the things I was most excited about was the idea of taking them on a mountain bike ride with me.
+>
 >
 > Allyanna: What's the most important thing that you learned in the last year?
 >
 > Me: That when someone acts in a way that's surprising to you in the moment, but it aligns with the way they've behaved
->
-> in the past
+> in the past, you shouldn't be surprised by their actions. You know.
 
-Here are the responses from Albert Wintermote (my parner (Allyanna Wintermote's father)) for this year:
+Here are the responses from Albert Wintermote (my partner (Allyanna Wintermote's father)) for this year:
 
 ## Albert's response from this year
 

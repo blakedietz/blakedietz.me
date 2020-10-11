@@ -13,11 +13,13 @@ so I'm just going to post each approach in here for a placeholder.
 
 Assume you have a schema such as the following:
 
+```
 - Person
 - Friends
     - Many to many relationship with Person
 - Comments
     - Belongs to Person
+```
 
 ### Keyword list
 
