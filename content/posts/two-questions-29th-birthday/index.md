@@ -21,6 +21,8 @@ During Halloween of 2019, Allyanna and I were celebrating at her sister's house 
 
 Well, this year Allyanna and I both dressed up as Guy Fawkes. I wouldn't rank this as a scary costume, but Allyanna and I both found that the younger crowd were thoroughly creeped out by the getup as we were both handing out candy.
 
+![](./halloween-2.jpg)
+
 During a break from handing out candy, Allyanna and I thought it would be fun to go up to the attic to stand at a window directly above the area where candy handouts took place. We would stand like statues in the window, sometimes only moving once detected by the crowd as they lined up to take their turn to get some treats. We had done this in previous years to great success, but we felt like we weren't quite riling up the crowd as well as we had.
 
 So, to change things up, we decided to make our way outside. Allyanna and I took an exit through the side yard to the front where everyone was walking by. We slowly walked up to the area where the line was formed and stood amongst some of the zombie statues that were placed in the landscape.
