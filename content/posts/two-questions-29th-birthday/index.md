@@ -28,7 +28,7 @@ So, to change things up, we decided to make our way outside. Allyanna and I took
 
 Allyanna and I then continued with our statuesque stances. To our surprise, we began scaring people to the point where we started getting a crowd. We even had a few people that were so thoroughly tickled that they even wanted to come take photos with us, the masked marauders.
 
-It's one of my favorite memories, because it was so pure. There was no-premeditation or planning and it was playful to the point of almost being childish. It was a moment that my partner and I still cherish. I wouldn't have wanted to share a time like that with anyone else.
+It's one of my favorite memories because it was so pure. There was no-premeditation or planning and it was playful to the point of almost being childish. It was a moment that my partner and I still cherish. I wouldn't have wanted to share a time like that with anyone else.
 
 ### What's the most important thing that you learned in the last year?
 
@@ -38,7 +38,7 @@ There's a difference between knowledge and wisdom.
 
 #### Long answer
 
-Yeah, one seems obvious. Last year taught me a lot about knowledge and wisdom. At one of my previous places of work, my boss told me that his favorite book was [Siddhartha](https://en.wikipedia.org/wiki/Siddhartha_(novel)). He ended up giving out copies of the book with plans to have a book club meeting. Well, nine months later, that book club event never happened, although I did finish the book by myself.
+Last year taught me a lot about knowledge and wisdom. At one of my previous places of work, my boss told me that his favorite book was [Siddhartha](https://en.wikipedia.org/wiki/Siddhartha_(novel)). He ended up giving out copies of the book with plans to have a book club meeting. Well, nine months later, that book club event never happened, although I did finish the book by myself.
 
 Siddhartha follows the young Buddah in his journies throughout life. As Siddhartha progresses you start learning that the book learned Buddah begins to grasp the importance of experience instead of purely depending upon knowledge and learnings acquired from books and teachings. For example, Siddhartha is taught at a young age about being worldly and of the flesh. Even though he knows the importance of not letting riches rule his life, as he becomes a successful merchant, he slowly forgets these learnings. It's not until many years later after letting avarice take over, that he comes to realize the true importance of not letting worldy possessions rule the way he lives; reason being, that this time he actually experienced it, he lived his life and witnessed the impacts instead of just reading it out of a book.
 
