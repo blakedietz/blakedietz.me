@@ -1,6 +1,6 @@
 ---
 title: IO.inspect supports a label option.
-date: "2020-10-11T00:00:00.000Z"
+date: "2020-10-16T00:00:00.000Z"
 description: Make your console output easier to read with labels.
 path: "/blog/2020-10-16/io-inspect-labels"
 tags: ["elixir", "tip"]
