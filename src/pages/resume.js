@@ -41,7 +41,7 @@ const ResumePage = () => (
 
     <h2>Experience</h2>
     <h3>
-      Integrations engineer
+      Integrations engineer:{" "}
       <a href="https://www.instinct.vet">Instinct</a>
     </h3>
     <div className={`mx-2`}>
