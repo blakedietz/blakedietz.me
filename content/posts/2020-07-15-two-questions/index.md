@@ -33,7 +33,7 @@ Here are my responses for last year:
 > Allyanna: What's your favorite memory from the last year?
 >
 > Me: When we were on our mountain bike ride with Velo and seeing him look up at me. When I was thinking about getting
->a dog, one of the things I was most excited about was the idea of taking them on a mountain bike ride with me.
+> a dog, one of the things I was most excited about was the idea of taking them on a mountain bike ride with me.
 >
 > Allyanna: What's the most important thing that you learned in the last year?
 >

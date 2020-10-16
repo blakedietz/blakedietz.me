@@ -14,4 +14,3 @@ vpype read idaho-a4-2.svg write --page-format a4 --landscape idaho-a4-2.svg
 vpype read idaho-a2.svg crop 297mm 210mm 297mm 210mm write idaho-a4-3.svg
 vpype read idaho-a4-3.svg write --page-format a4 --landscape idaho-a4-3.svg
 ```
-

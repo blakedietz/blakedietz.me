@@ -38,7 +38,7 @@ There's a difference between knowledge and wisdom.
 
 #### Long answer
 
-Last year taught me a lot about knowledge and wisdom. At one of my previous places of work, my boss told me that his favorite book was [Siddhartha](https://en.wikipedia.org/wiki/Siddhartha_(novel)). He ended up giving out copies of the book with plans to have a book club meeting. Well, nine months later, that book club event never happened, although I did finish the book by myself.
+Last year taught me a lot about knowledge and wisdom. At one of my previous places of work, my boss told me that his favorite book was [Siddhartha](<https://en.wikipedia.org/wiki/Siddhartha_(novel)>). He ended up giving out copies of the book with plans to have a book club meeting. Well, nine months later, that book club event never happened, although I did finish the book by myself.
 
 Siddhartha follows the young Buddha in his journey throughout life. As Siddhartha progresses you start learning that the book learned Buddah begins to grasp the importance of experience instead of purely depending upon knowledge and learnings acquired from books and teachings. For example, Siddhartha is taught at a young age about being worldly and of the flesh. Even though he knows the importance of not letting riches rule his life, as he becomes a successful merchant, he slowly forgets these learnings. It's not until many years later after letting avarice take over, that he comes to realize the true importance of not letting worldy possessions rule the way he lives; reason being, that this time he actually experienced it, he lived his life and witnessed the impacts instead of just reading it out of a book.
 
@@ -48,7 +48,6 @@ I'm not here to belittle my boss, nor am I here to minimize the importance of di
 
 At WhiteCloud we had a joke that came up after we hired one of our penetration testing services. In the preamble to the results from the penetration testing analysis was a line that just cracked us up.
 
-> At ______ we have 40 years commbined experience on this team.
+> At **\_\_** we have 40 years commbined experience on this team.
 
 To us, that meant nothing. Did they have 10 devs with 4 years of experience a piece? 40 devs with one year of experience? You get the idea. Just because you have no experience doesn't mean anything and neither does having a lot of experience. You might find someone who has no experience and thinks in new and novel approaches, while on the other hadn you might have someone who has been doing the same thing for the last decade of their career. All of this to say that it's a balance of both knowledge and wisdom, just like anything else.
-

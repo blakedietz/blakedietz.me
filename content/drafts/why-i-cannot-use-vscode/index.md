@@ -9,7 +9,7 @@
 
 #### File diff view
 
-There's no easy way that I can tell to revert blocks of changes. 
+There's no easy way that I can tell to revert blocks of changes.
 
 #### Interactive rebase
 

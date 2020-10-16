@@ -11,4 +11,3 @@ tags: ["tools", "intellij", "editor"]
 ### Compound tasks
 
 ![](./compound-tasks.gif)
-
