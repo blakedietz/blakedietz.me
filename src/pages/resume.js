@@ -41,11 +41,34 @@ const ResumePage = () => (
 
     <h2>Experience</h2>
     <h3>
+      Integrations engineer
+      <a href="https://www.instinct.vet">Instinct</a>
+    </h3>
+    <div className={`mx-2`}>
+      <h4> 2020/10/05 - Present</h4>
+      <p>
+        Instinct is a new software system focused on emergency/specialty centers. We already power many of the world's
+        most advanced care centers including teaching hospitals, private specialty centers, and leading ER hospitals.
+        Instinct includes digital whiteboards and treatment sheets, patient safety warnings, built in Plumb's, live
+        invoice auditing, and much more!
+      </p>
+      <Technologies
+        tech={[
+          `Elixir`,
+          `OTP`,
+          `Postgres`,
+          `Erlang`,
+          `GraphQL`,
+          `REST`,
+        ]}
+      />
+    </div>
+    <h3>
       Full stack software engineer:{" "}
       <a href="https://www.vetspire.com">Vetspire</a>
     </h3>
     <div className={`mx-2`}>
-      <h4> 2019/12/09 - Present </h4>
+      <h4> 2019/12/09 - 20120/09/03</h4>
       <p>
         Vetspire is an artificial intelligence driven veterinary medical records
         and practice management platform. The company is a startup re-imagining
