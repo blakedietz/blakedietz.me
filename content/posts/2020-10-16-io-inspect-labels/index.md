@@ -1,12 +1,12 @@
 ---
-title: IO.inspect supports a label option?
+title: IO.inspect supports a label option.
 date: "2020-10-11T00:00:00.000Z"
-description: Make your debugging easier to read with labels
+description: Make your console output easier to read with labels.
 path: "/blog/2020-10-16/io-inspect-labels
 tags: ["elixir", "tip"]
 ---
 
-Sometimes when you're using `IO.inspect/2` to debug values your output can be a bit overwhelming. To make things
+Sometimes when you're using `IO.inspect/2` to debug values, your output can be a bit overwhelming. To make things
 easier to read, you can pass `IO.inspect/2` a label option.
 
 ## Before
