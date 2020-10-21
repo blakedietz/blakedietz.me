@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import LinkList from "../components/link-list"
+import { Technologies } from "../components/technologies"
 
 const codeSites = [
   { name: "GitHub", link: "https://github.com/blakedietz" },
@@ -15,14 +16,33 @@ const codeSites = [
 
 const ProjectsPage = () => (
   <Layout>
-    <SEO title="Projects" />
+    <SEO title="Projects"/>
     <h1>Projects</h1>
 
     <h2>Code</h2>
-    <LinkList sites={codeSites} />
+    <LinkList sites={codeSites}/>
+    <h2>pencyclopedia.ink</h2>
+    <p>
+      A user driven fountain pen knowledgebase.
+    </p>
+    <p>
+      <a href="https://pencyclopedia.ink">https://pencyclopedia.ink</a>
+    </p>
+    <Technologies
+      tech={[
+        `Elixir`,
+        `Phoenix`,
+        `Postgres`,
+        `GraphQL`,
+        'React',
+        'Material UI',
+        `AWS SQS`,
+        `Gigalixir`,
+        `Netlify`,
+      ]}
+    />
 
     <h2>plott.id</h2>
-
     <p>
       A selection of generative algorithms re-implemented in React and browser
       technologies well fit for pen plotting.
@@ -30,7 +50,13 @@ const ProjectsPage = () => (
     <p>
       <a href="https://plott.id">https://plott.id</a>
     </p>
-
+    <Technologies
+      tech={[
+        "React",
+        "Material UI",
+        "Redux",
+      ]}
+    />
     <h2>Nested tags</h2>
     <p>
       A vs code plugin designed to organize your markdown notes by using
@@ -42,7 +68,12 @@ const ProjectsPage = () => (
         vs-code-nested-tags
       </a>
     </p>
-
+    <Technologies
+      tech={[
+        "Typescript",
+        "node.js",
+      ]}
+    />
     <h2>kbd-prettier</h2>
     <p>Make your keyboard layouts pretty &#x2328;&#xFE0F;&#x1F485;&#x2728;.</p>
     <p>
@@ -56,9 +87,13 @@ const ProjectsPage = () => (
     <p>
       <a href="https://www.npmjs.com/package/kbd-prettier">kbd-prettier</a>
     </p>
-
+    <Technologies
+      tech={[
+        "Typescript",
+        "node.js",
+      ]}
+    />
     <h2>js-live-templates</h2>
-
     <p>
       An extensive set of Javascript live templates for use in JetBrains IDEs.
       These live templates are based off of{" "}
@@ -72,7 +107,11 @@ const ProjectsPage = () => (
         js-live-templates
       </a>
     </p>
-
+    <Technologies
+      tech={[
+        "node.js",
+      ]}
+    />
     <h2>Treefort music fest</h2>
 
     <p>
@@ -101,6 +140,15 @@ const ProjectsPage = () => (
         Treefort music fest apps
       </a>
     </p>
+    <Technologies
+      tech={[
+        "Express",
+        "node.js",
+        "API Gateway",
+        "AWS Lambda",
+        "Dynamodb",
+      ]}
+    />
   </Layout>
 )
 
