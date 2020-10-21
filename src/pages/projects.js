@@ -41,7 +41,6 @@ const ProjectsPage = () => (
         `Netlify`,
       ]}
     />
-
     <h2>plott.id</h2>
     <p>
       A selection of generative algorithms re-implemented in React and browser
@@ -119,7 +118,6 @@ const ProjectsPage = () => (
       for a few years as a volunteer.
     </p>
     <h3>Built and deployed serverless apis</h3>
-
     <p>
       I wrote the backing api in AWS Lambda, DynamoDB and APIGateway. During the
       last two years the api handled over 1m requests within the festival
@@ -128,7 +126,6 @@ const ProjectsPage = () => (
       iterative feature development.
     </p>
     <h3>Hybrid application development</h3>
-
     <p>
       I helped write the first iteration of the application in the Ionic
       framework. We were tasked with maintaining and rewriting the application
