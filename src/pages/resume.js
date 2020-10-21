@@ -2,16 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Pills } from "../components/pill"
-
-const Technologies = ({ tech }) => {
-  return (
-    <>
-      <h5>Technologies</h5>
-      <Pills pills={tech} />
-    </>
-  )
-}
+import { Technologies } from "../components/technologies"
 
 const ResumePage = () => (
   <Layout>
@@ -59,7 +50,7 @@ const ResumePage = () => (
           `Postgres`,
           `Erlang`,
           `GraphQL`,
-          `REST`,
+          `REST`
         ]}
       />
     </div>
