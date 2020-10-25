@@ -64,38 +64,34 @@ the problem in React.
 
 ![](report-unused-js.png)
 
-So, why is unused code considered a performance bottleneck and why is there unused code being reported for this page?
-When building an application, you can logically divide source code into views. Whenever a user is visiting a page that
-
-Any code that's not being used in the current view should be considered "dead weight" for your bundle for that specific
-page. That's because web app source is text, and that text translates to bytes sent to the client over the wire.
-Anything sent over the wire to your client takes time. Add up enough bytes being delivered to a network constrained
-client anand you have a poor user experience that has the usual symptoms of slow or unresponsive application usage. Thus,
-bundle sizes should be reduced to the bare minimum to improve overall load time and to increase usability.
-
 For this example, we just so happen to be running Lighthouse against a single page. While although Lighthouse is
 reporting that there is dead code for the current page, it may very well be that the code is used somewhere else later
 at a different point in the application, just not now, for the page we're analyzing. So the code may not be completely
-dead in the sense that it's never used, just dead in the current context.
+dead in the sense that it's never used, just dead in the current user context.
 
-This is where code splitting comes in. Code splitting allows your application bundle to be split into multiple
-independent bundles called chunks. You can think of chunks as asynchronous modules that are only requested by the
-client when they are required. So, how does this help solve the unused code error that Lighthouse is reporting?
+This is where code splitting comes in. Traditionally web application bundles are sent as a singular binary. For a
+user experience this can lead to users downloading all the code related to each page in the app, when they're only
+viewing one page of the app.
+
+Code splitting allows your application bundle to be split into multiple independent bundles called chunks. You can
+think of chunks as asynchronous modules that are only requested by the client when they are required. So, how does
+this help solve the unused code error that Lighthouse is reporting?
 
 Code splitting allows you to divide your app into logical divisions. These logical divisions represent chunks which
-are those bundles that are asynchronously loaded into the app when they're required. It just so happens that you can
-code split at any logical division in your app. The most common logical division is
-typically at page level and that fits the current problem at hand as the code that's being reported as dead
-is used, just not on the current page. So we can code split each page into the app. This would allow users to view
-one page in the app, without pulling down the whole web application.
+are those bundles that are asynchronously loaded into the app when they're required. You can
+code split at any logical division in your app. The most common logical division is done at page level
+which just so happens to fit the current problem at hand as the code that's being reported as dead
+is used, just not on the current page. So we can code split each page in the app. This would allow users to view
+one page in the app, without pulling down the whole web application and in turn would help to fix the dead code
+issue that we're currently facing for all pages in the app.
 
 You don't have to stop at pages. For example if you had a tabs view that was relatively complex, you could code split
 the page as well as each tab in that page effectively only loading the associated source code for the tab when the
 user is attempting to interact with it.
 
-After doing some reading I found that the React docs recommend starting at the [route level](route-level) (which is
+React docs recommend starting at the [route level](route-level) (which is
 practically page level) to leverage code splitting. This turned out to work well with my project because I'm utilizing
-`react-router-dom` for the routing mechanism anyway. The documentation recommends leveraging `suspense` along with
+`react-router-dom` for the routing mechanism anyway. The documentation recommends leveraging `Suspense` along with
 `lazy` and dynamic `import` to implement code splitting.
 
 ### Applying code splitting
