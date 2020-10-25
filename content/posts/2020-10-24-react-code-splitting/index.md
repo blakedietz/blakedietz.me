@@ -70,27 +70,35 @@ When building an application, you can logically divide source code into views. W
 Any code that's not being used in the current view should be considered "dead weight" for your bundle for that specific
 page. That's because web app source is text, and that text translates to bytes sent to the client over the wire.
 Anything sent over the wire to your client takes time. Add up enough bytes being delivered to a network constrained
-client and you have a poor user experience that has the usual symptoms of slow or unresponsive application usage. Thus,
+client anand you have a poor user experience that has the usual symptoms of slow or unresponsive application usage. Thus,
 bundle sizes should be reduced to the bare minimum to improve overall load time and to increase usability.
 
 For this example, we just so happen to be running Lighthouse against a single page. While although Lighthouse is
 reporting that there is dead code for the current page, it may very well be that the code is used somewhere else later
-on at a different point in the application.
+at a different point in the application, just not now, for the page we're analyzing. So the code may not be completely
+dead in the sense that it's never used, just dead in the current context.
 
 This is where code splitting comes in. Code splitting allows your application bundle to be split into multiple
 independent bundles called chunks. You can think of chunks as asynchronous modules that are only requested by the
-client when they are required in order for the application to continue working. So, how does this help solve the unused
-code bottleneck?
+client when they are required. So, how does this help solve the unused code error that Lighthouse is reporting?
 
-It just so happens that you can code split at any logical division of your app. The most common logical division is
-typically at page level. You don't have to stop there though. For example if you had a tabs view that was relatively
-complex, you could code split the page as well as each tab in that page effectively only loading the associated
-source code for the tab when the user is attempting to interact with it.
+Code splitting allows you to divide your app into logical divisions. These logical divisions represent chunks which
+are those bundles that are asynchronously loaded into the app when they're required. It just so happens that you can
+code split at any logical division in your app. The most common logical division is
+typically at page level and that fits the current problem at hand as the code that's being reported as dead
+is used, just not on the current page. So we can code split each page into the app. This would allow users to view
+one page in the app, without pulling down the whole web application.
+
+You don't have to stop at pages. For example if you had a tabs view that was relatively complex, you could code split
+the page as well as each tab in that page effectively only loading the associated source code for the tab when the
+user is attempting to interact with it.
 
 After doing some reading I found that the React docs recommend starting at the [route level](route-level) (which is
 practically page level) to leverage code splitting. This turned out to work well with my project because I'm utilizing
 `react-router-dom` for the routing mechanism anyway. The documentation recommends leveraging `suspense` along with
 `lazy` and dynamic `import` to implement code splitting.
+
+### Applying code splitting
 
 Here's what the code looks like before and after:
 
@@ -113,13 +121,14 @@ what we want. Leveraging code splitting, the application is able to separate par
 assets. These assets are only loaded when the application requires them at runtime. This allows for reducing overall
 asset sizes which helps to improve load times for network constrained clients.
 
+### Post splitting report
+
 So, what's our new score?
 
 ![](report-after-split.png)
 
-89! It's not perfect, but we're getting there! Leveraging code splitting, our score jumped 46 points in total, which
-is pretty impressive considering the amount of effort that was required to do so. This change puts the application on
-the edge of a good rating.
+Leveraging code splitting, our score jumped 46 points to a total of 89, which is pretty impressive considering the
+amount of effort that was required to do so. This change puts the application on the edge of a good rating.
 
 And for now, we'll leave it at that. It should be noted, that although the changes made in this walkthrough do impact
 site wide load times, you'll need to run Lighthouse for each page in your application and assess the root cause of
