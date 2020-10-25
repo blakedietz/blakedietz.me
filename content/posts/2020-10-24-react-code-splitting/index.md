@@ -1,8 +1,8 @@
 ---
 title: Improving your React application performance with Lighthouse, dead code removal and code splitting
-date: "2020-08-23T00:00:00.000Z"
+date: "2020-10-24T00:00:00.000Z"
 description: Follow along as I tweak https://pencyclopedia.ink's page load performance.
-path: "/blog/2020-08-23/react-code-splitting"
+path: "/blog/2020-10-24/react-code-splitting"
 tags: ["React", "Lighthouse", "bundle size", "code splitting"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["React", "Lighthouse", "bundle size", "code splitting"]
 
 Application requirements vary tremendously from one application to another. This guide is not meant to be a prescriptive
 set of steps that anyone can apply to any single page application. This is a high level guide that gives you a few
-helpful tips and some starting points to guide you along your own journey to a more performant application.
+helpful tips and some starting points to guide you along your own journey to a more performant frontend web application.
 
 For this guide we'll be analyzing performance for https://pencyclopedia.ink. This is a personal SaaS project that I've
 launched, so it's a little more real world than your usual tutorial. You'll learn about using [Lighthouse][lighthouse]
@@ -65,31 +65,42 @@ the problem in React.
 ![](report-unused-js.png)
 
 So, why is unused code considered a performance bottleneck and why is there unused code being reported for this page?
-Well, when building an application, you can logically divide source code into views. Whenever a view is using code
-Well, any code that's not being used in the current view should be considered "dead weight" for your bundle. That's because web app
-source is text, and that text translates to bytes sent to the client over the wire. Anything sent over the wire to your
-client takes time. Add up enough bytes being sent to a network constrained client and you have a poor user experience.
-Thus, bundle sizes should be reduced to the bare minimum to improve time until . This is especially important in scenarios where the client is network
-constrained. In this context, while although Lighthouse is reporting that there is dead code for the current page, it
-may very well be that the code is used somewhere else later on at application run time.
+When building an application, you can logically divide source code into views. Whenever a user is visiting a page that
+
+Any code that's not being used in the current view should be considered "dead weight" for your bundle for that specific
+page. That's because web app source is text, and that text translates to bytes sent to the client over the wire.
+Anything sent over the wire to your client takes time. Add up enough bytes being delivered to a network constrained
+client and you have a poor user experience that has the usual symptoms of slow or unresponsive application usage. Thus,
+bundle sizes should be reduced to the bare minimum to improve overall load time and to increase usability.
+
+For this example, we just so happen to be running Lighthouse against a single page. While although Lighthouse is
+reporting that there is dead code for the current page, it may very well be that the code is used somewhere else later
+on at a different point in the application.
 
 This is where code splitting comes in. Code splitting allows your application bundle to be split into multiple
 independent bundles called chunks. You can think of chunks as asynchronous modules that are only requested by the
-client when they are required. So, how does this help solve the unused code bottleneck?
+client when they are required in order for the application to continue working. So, how does this help solve the unused
+code bottleneck?
 
-After doing some reading I found that the React docs recommend starting at the [route level](route-level) to leverage
-code splitting. This turned out to work well with my project because I'm utilizing `react-router-dom` for the routing
-mechanism anyway. The documentation recommends leveraging `suspense` along with `lazy` and dynamic `import` to
-implement code splitting.
+It just so happens that you can code split at any logical division of your app. The most common logical division is
+typically at page level. You don't have to stop there though. For example if you had a tabs view that was relatively
+complex, you could code split the page as well as each tab in that page effectively only loading the associated
+source code for the tab when the user is attempting to interact with it.
+
+After doing some reading I found that the React docs recommend starting at the [route level](route-level) (which is
+practically page level) to leverage code splitting. This turned out to work well with my project because I'm utilizing
+`react-router-dom` for the routing mechanism anyway. The documentation recommends leveraging `suspense` along with
+`lazy` and dynamic `import` to implement code splitting.
 
 Here's what the code looks like before and after:
 
 ![](lazy-route-refactor.png)
 
-Anything that was a top level route component was converted from the ESmodule `import` to use `lazy` and dynamic `import`
-instead.
+Anything that was a top-level route component was converted from the ESModule language `import` syntax to use the
+`lazy` and dynamic `import` functions that are provided by the `react` module instead.
 
-You'll also need to wrap all of your router routes in the `Suspense` component as well.
+You'll also need to wrap all of your router routes in the `Suspense` component as well. Below is an example of wrapping
+all router components in a `Suspense` component.
 
 ![](suspense-component.png)
 
