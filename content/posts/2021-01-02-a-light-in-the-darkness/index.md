@@ -2,7 +2,7 @@
 title: A light in the darkness
 date: "2021-01-02T00:00:00.000Z"
 description: Scouting with Allyanna
-path: "/blog/2020-01-02/together"
+path: "/blog/2020-01-02/a-light-in-the-darkness"
 tags: [reflection"]
 ---
 
