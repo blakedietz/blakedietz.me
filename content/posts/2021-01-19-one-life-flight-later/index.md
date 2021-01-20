@@ -6,7 +6,9 @@ path: "/blog/2020-01-19/one-flight-later"
 tags: ["burnout", "reflection"]
 ---
 
-This story isn't for you, but for me.
+This isn't for you, but for me. Don't live the default life. Remember what is most important to you. If you
+do find yourself in the default life, break the loop now, not in a little while, not after this last thing. Halt. Time
+is all you have, everything else is fungible.
 
 On last Friday I was at home. It was around 5:00pm my time when I received a call from my mom. I could hear the unfamiliar
 sound of her car accelerating in the background. She told me, "Don't worry, but your niece called the ambulance for your dad".
@@ -68,8 +70,8 @@ And why? Because I was afraid. Afraid that I wouldn't excel in my job or that I 
 were okay. And at what cost? Not spending time with my family and friends? Not having enough restorative time to live
 a normal life.
 
-All the last week I had been off of work. Recently I had a moment where I just couldn't. I just couldn't do it. I 
-couldn't stare at the computer screen and put another problem into my head. The thought of work was revolting.
+All the last week I had been off of work. Recently I had a breaking point where I just couldn't. I just couldn't do _it_
+. I couldn't stare at the computer screen and put another problem into my head. The thought of work was revolting.
 
 
 
