@@ -17,4 +17,3 @@ for her next session. Her positivity has been a light during these dark times.
 ## References
 
 1. [Photos by Allyanna Wintermote](https://www.instagram.com/aw.click/)
-
