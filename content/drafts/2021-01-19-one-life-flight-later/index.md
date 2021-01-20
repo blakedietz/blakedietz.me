@@ -65,13 +65,15 @@ awaiting direction from my mom while she saw him.
 
 I sat there in the parking lot, staring through the windshield blankly, feeling the cold and guilt starting to sink in. Why? 
 Why did I not spend more time with him? I knew how bad of shape he was in. Every time I
-went down a path to not visiting with him be it via text, a phone call or in person, the excuse always cam back to work.
+went down a path to not visiting with him be it via text, a phone call or in person, the excuse always came back to work.
 And why? Because I was afraid. Afraid that I wouldn't excel in my job or that I would somehow lose my job even if things
 were okay. And at what cost? Not spending time with my family and friends? Not having enough restorative time to live
 a normal life.
 
+<!--
 All the last week I had been off of work. Recently I had a breaking point where I just couldn't. I just couldn't do _it_
 . I couldn't stare at the computer screen and put another problem into my head. The thought of work was revolting.
+-->
 
 
 
