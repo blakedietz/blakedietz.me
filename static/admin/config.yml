@@ -35,3 +35,7 @@ collections:
         name: 'tags'
         widget: 'list'
         default: []
+      - label: 'Draft'
+        name: draft
+        widget: boolean
+        default: true
