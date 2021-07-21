@@ -1,3 +1,10 @@
+---
+title: Create react app Tailwind UI starter
+date: "2020-04-27T00:00:00.000Z"
+description: How to set up create react app with Tailwind UI
+path: "/blog/2020-05-25/cra-tailwind-ui"
+draft: true
+---
 ```bash
 #vpype read idaho-a2.svg crop 0mm 0mm 297mm 210mm write --page-format a4 --landscape idaho-a4-0.svg
 #vpype read idaho-a2.svg crop 0mm 0mm 297mm 210mm write --page-format a4 idaho-a4-1.svg

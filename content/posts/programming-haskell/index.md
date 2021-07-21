@@ -3,6 +3,7 @@ title: Programming Haskell
 date: "2020-06-17T12:00:00.000Z"
 description: Foo
 path: "/blog/2020-06-16/programming-haskell"
+draft: true
 ---
 
 > We’ll give you a lambda expression. Keeping in mind both alpha equivalence and how multiple heads are nested, choose

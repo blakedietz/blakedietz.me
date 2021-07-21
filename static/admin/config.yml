@@ -8,7 +8,9 @@ backend:
 # https://www.netlifycms.org/docs/beta-features/#nested-collections
 collections:
   - name: posts
-    label: posts
+    label: Posts
+    label_singular: Post
+    create: true
     identifier_field: title
     folder: 'content/posts'
     # public and media folders need the following values to be '' in order to co-locate media
@@ -18,7 +20,7 @@ collections:
     public_folder: ''
     nested:
       depth: 100
-      summary: '{{title}}\n{{body}}'
+      summary: '{{title}}'
     fields:
       - label: 'Title'
         name: 'title'
@@ -26,6 +28,9 @@ collections:
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
+      - label: 'Description'
+        name: 'description'
+        widget: 'string'
       - label: 'Tags'
         name: 'tags'
         widget: 'list'

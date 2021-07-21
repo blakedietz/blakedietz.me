@@ -1,4 +1,9 @@
 ---
+title: The importance of reverse engineering context
+date: "2020-02-17T00:00:00.000Z"
+description: How to solve problems with empathy
+path: "/blog/reverse-engineering-context"
+draft: true
 ---
 
 ## VSCode is not the IDE for me
