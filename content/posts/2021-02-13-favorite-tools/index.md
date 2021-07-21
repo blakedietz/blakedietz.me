@@ -4,6 +4,7 @@ date: "2021-02-13T00:00:00.000Z"
 description: My favorite tools
 path: "/blog/2020-02-13/uses"
 tags: ["tools"]
+draft: true
 ---
 
 ## Dev
