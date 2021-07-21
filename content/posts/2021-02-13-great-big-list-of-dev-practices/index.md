@@ -4,6 +4,7 @@ date: "2021-02-13T00:00:00.000Z"
 description: Practices I've learned over the years
 path: "/blog/2020-02-13/great-big-list-of-dev-practices"
 tags: []
+draft: true
 ---
 
 ## Culture
