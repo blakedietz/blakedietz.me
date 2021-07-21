@@ -11,11 +11,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const blogPostTemplate = path.resolve(`src/templates/blog-template.js`)
 
+  //note that  filter docs are here: https://www.gatsbyjs.com/docs/graphql-reference/#filter
   const result = await graphql(`
     {
       allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
         limit: 1000
+        filter: { frontmatter: { draft: { ne: true } } }
       ) {
         edges {
           node {
