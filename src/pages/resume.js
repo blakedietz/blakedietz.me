@@ -12,7 +12,6 @@ const ResumePage = () => (
       Proto-mathematician, computer scientist, cyclist at heart. I love
       discovering through the learning process.
     </p>
-
     <h2>Contact</h2>
     <ul>
       <li>
@@ -29,7 +28,6 @@ const ResumePage = () => (
         </a>
       </li>
     </ul>
-
     <h2>Experience</h2>
     <h3>
       Integrations engineer:{" "}
