@@ -4,6 +4,7 @@ date: "2021-01-19T00:00:00.000Z"
 description: Thoughts on realizing I was going to lose my dad.
 path: "/blog/2020-01-19/one-flight-later"
 tags: ["burnout", "reflection"]
+draft: true
 ---
 
 This isn't for you, but for me. Don't live the default life. Remember what is most important to you. If you

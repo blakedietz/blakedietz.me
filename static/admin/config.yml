@@ -1,0 +1,37 @@
+media_folder: 'content/posts'
+backend:
+  name: github
+  repo: blakedietz/blakedietz.me
+  branch: master
+#  This is the magic for nesting directories
+# https://github.com/netlify/netlify-cms/issues/513
+# https://www.netlifycms.org/docs/beta-features/#nested-collections
+collections:
+  - name: posts
+    label: Posts
+    label_singular: Post
+    create: true
+    identifier_field: title
+    folder: 'content/posts'
+    # public and media folders need the following values to be '' in order to co-locate media
+    # see https://www.netlifycms.org/docs/beta-features/#folder-collections-media-and-public-folder
+    # and https://github.com/netlify/netlify-cms/issues/513
+    media_folder: ''
+    public_folder: ''
+    nested:
+      depth: 100
+      summary: '{{title}}'
+    fields:
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+      - label: 'Description'
+        name: 'description'
+        widget: 'string'
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'list'
+        default: []
