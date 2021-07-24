@@ -39,3 +39,7 @@ collections:
         name: draft
         widget: boolean
         default: true
+      - label: 'Path'
+        name: path
+        widget: string
+        default: '/blog/{{slug}}'
