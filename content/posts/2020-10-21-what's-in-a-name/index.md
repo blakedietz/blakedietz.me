@@ -3,6 +3,7 @@ title: What's in a name?
 date: "2020-10-21T00:00:00.000Z"
 description: Let's explore the different ways that you can reference a GenServer.
 path: "/blog/2020-10-21/what's-in-a-name"
+draft: true
 tags: ["elixir", "GenServer", "Supervisors"]
 ---
 

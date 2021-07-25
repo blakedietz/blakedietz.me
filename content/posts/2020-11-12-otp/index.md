@@ -3,6 +3,7 @@ title: Don't start Supervisors under GenServers
 date: "2020-11-12T00:00:00.000Z"
 description: How to properly structure your OTP application's process tree.
 path: "/blog/2020-11-12/otp-to-infinity"
+draft: true
 tags: ["elixir", "erlang", "OTP", "resources"]
 ---
 
