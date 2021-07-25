@@ -39,4 +39,13 @@ collections:
         name: draft
         widget: boolean
         default: true
+      - label: 'Date'
+        name: 'date'
+        widget: 'date'
+        default: ''
+        format: 'YYYY-MM-DDT12:00:00.000Z'
+      - label: 'Site URI'
+        name: path
+        widget: string
+        default: '/blog/{{year}}-{{month}}-{{date}}/'
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
