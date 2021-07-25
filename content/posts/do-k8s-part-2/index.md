@@ -1,10 +1,10 @@
 ---
-title: "From zero to hosted with Digital Ocean Kubernetes: Part 1 bootstrapping Argo CD"
+title: ""
 description: From zero to a cluster managed by Argo CD and ssl certs.
 tags: [tutorial,digital ocean,k8s,kubernetes,helm,argocd]
 draft: true
 date: "2021-07-24T12:00:00.000Z"
-path: "/blog/2021-07-24/digital-ocean-kubernetes"
+path: ""
 ---
 
 ## Deploy your app of apps
