@@ -1,5 +1,5 @@
 ---
-title: From zero to hosted with Digital Ocean Kubernetes: Part 1 bootstrapping Argo CD
+title: "From zero to hosted with Digital Ocean Kubernetes: Part 1 bootstrapping Argo CD"
 description: From zero to a cluster managed by Argo CD and ssl certs.
 tags: [tutorial,digital ocean,k8s,kubernetes,helm,argocd]
 draft: false
