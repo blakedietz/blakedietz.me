@@ -1,7 +1,7 @@
 ---
 path: /blog/2021-09-05/
 title: Summer is almost over
-description: Riding with my dob
+description: Riding with Velo
 tags:
   - life
 draft: false
