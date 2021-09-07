@@ -1,5 +1,5 @@
 ---
-path: /blog/2021-09-07
+path: /blog/2021-09-07-chain-wax
 title: Waxing your chain
 description: Marginal gains
 tags:
