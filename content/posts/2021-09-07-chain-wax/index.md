@@ -5,7 +5,7 @@ description: Marginal gains
 tags:
   - cycling
   - life
-draft: true
+draft: false
 date: 2021-09-07T12:00:00.000-06:00
 ---
 I've been trying out hot waxing my bike chain and I can't recommend it enough. My wax of choice has been [SILCA Secret Chain HOT MELT Wax in Convenient Stove top Boiler Bag](https://www.amazon.com/SILCA-Secret-Chain-Convenient-Boiler/dp/B08C7YJJYS). One thing that I do find annoying is that there's [a lack of succinct instructions on the web](https://www.youtube.com/watch?v=m3uSbNjI53Y&t=1609s).
