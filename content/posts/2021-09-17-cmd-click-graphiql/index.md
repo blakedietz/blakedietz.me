@@ -1,7 +1,7 @@
 ---
 path: /blog/2021-09-17-command-click-in-graphiql
 title: Command Click in GraphiQL
-description: "Jump to "
+description: Jump to a definition in your query or mutation.
 tags:
   - marginal-gains
 draft: false
