@@ -22,4 +22,5 @@ date: 2021-09-20T12:00:00.000-06:00
 * https://dev.to/vncz/forewords-and-domain-model-1p13
 * https://grossbart.github.io/fp-ts-recipes/#/async
 * https://www.youtube.com/watch?v=sxudIMiOo68
-* https://github.com/gcanti/fp-ts
+* [fp-ts library](https://github.com/gcanti/fp-ts)
+* [Typescript dependent types](https://www.javiercasas.com/articles/typescript-dependent-types)
