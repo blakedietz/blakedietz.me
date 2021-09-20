@@ -4,6 +4,9 @@ title: 2021 Week 37 Link Dump
 description: Links I found interesting for week 37
 tags:
   - elixir
+  - typescript
+  - functional-programming
+  - ""
 draft: false
 date: 2021-09-20T12:00:00.000-06:00
 ---
