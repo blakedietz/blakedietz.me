@@ -1,12 +1,12 @@
 ---
 path: /blog/2021-09-20/link-dump
-title: 2021 Week 37 Link Dump
-description: Links I found interesting for week 37
+title: "2021 Week 37: What I'm reading"
+description: Helpful Elixir links for tracing and troubleshooting mixed with
+  some resources for writing typescript in a functional style.
 tags:
   - elixir
   - typescript
   - functional-programming
-  - ""
 draft: false
 date: 2021-09-20T12:00:00.000-06:00
 ---
