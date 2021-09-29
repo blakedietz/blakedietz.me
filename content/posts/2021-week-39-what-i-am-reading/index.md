@@ -29,11 +29,23 @@ I'm always interested in learning more about functional programming, perhaps a b
 
 Koka seems the most interesting out of the three. Grain seems to be the most nascent considering that they're currently rewriting the dom standard library right now.
 
+### Type level programming
+
+https://rebeccaskinner.net/posts/2021-08-25-introduction-to-type-level-programming.html
+
+## API design
+
+[Stop splitting out your application into an api and a front end][splitting-your-apis].
+
 ## Concepts
 
 ### Kayfabe
 
 My friends Chris and Albert introduced me to [The Portal][the-portal] podcast and I have been enjoying the content thus far. Weinstein, the host, introduced an interesting term called ["kayfabe"][kayfabe] in one of the podcasts. It's a wonderful tool to help understand the world as it is today.
+
+### Preserving your attention
+
+[Stop reading the news][stop-reading-news].
 
 [journal-fp]: https://www.cambridge.org/core/journals/journal-of-functional-programming
 [koka-docs]: https://koka-lang.github.io/koka/doc/book.html#huet:zipper
@@ -42,3 +54,5 @@ My friends Chris and Albert introduced me to [The Portal][the-portal] podcast an
 [kayfabe]: https://www.edge.org/response-detail/11783
 [grain-docs]: https://grain-lang.org/
 [gleam-docs]: https://gleam.run/
+[stop-reading-news]: https://fs.blog/2013/12/stop-reading-news/
+[splitting-your-apis]: https://htmx.org/essays/splitting-your-apis/
