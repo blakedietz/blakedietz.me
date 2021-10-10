@@ -1,10 +1,16 @@
 ---
-title: ""
+path: /blog/2021-10-10/do-k8s-part-2
+title: "Digital ocean k8s part 2:"
 description: From zero to a cluster managed by Argo CD and ssl certs.
-tags: [tutorial,digital ocean,k8s,kubernetes,helm,argocd]
+tags:
+  - tutorial
+  - digital ocean
+  - k8s
+  - kubernetes
+  - helm
+  - argocd
 draft: true
-date: "2021-07-24T12:00:00.000Z"
-path: ""
+date: 2021-07-24T12:00:00.000Z
 ---
 
 ## Deploy your app of apps
