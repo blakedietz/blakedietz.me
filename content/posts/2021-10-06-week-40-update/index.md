@@ -28,7 +28,7 @@ I'm also missing college quite a bit and have been thinking about taking a cours
 
 ### Dune
 
-Frank Herbert's seminal Sci-Fi has been on my list and now that it's in movie form I want to make it as far as possible through the book without seeing the movie's interpretation. There's something about having your own version of a character in your head before you witness them on the silver screen that I would like to preserver.
+Frank Herbert's seminal Sci-Fi has been on my list and now that it's in movie form I want to make it as far as possible through the book without seeing the movie's interpretation. There's something about having your own version of a character in your head before you witness them on the silver screen.
 
 ### Stripe press reading list
 
