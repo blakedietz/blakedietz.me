@@ -3,7 +3,7 @@ path: /blog/2021-10-06/week-40-update
 title: "2021 Week 40: Weekly update"
 description: I'm changing the format a little bit
 tags: []
-draft: true
+draft: false
 date: 2021-10-10T12:00:00.000-06:00
 ---
 This week, I'm changing the format. I've decided to follow [Nicholas Zakas's](https://humanwhocodes.com/) monthly newsletter formula for my own weekly updates. I'll be adding a new "What I'm thinking about" section along with a couple of sections about what I'm consuming. It's a more generalised format that I think will fit better than a pure link dump.
