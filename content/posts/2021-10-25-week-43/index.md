@@ -6,7 +6,7 @@ tags:
   - elixir
   - music
   - weekly-update
-draft: true
+draft: false
 date: 2021-10-25T12:00:00.000-06:00
 ---
 ## What I'm thinking about
