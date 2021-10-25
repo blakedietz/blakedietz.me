@@ -43,7 +43,7 @@ Still reading Dune by Frank Herbert. Just got into Book 2!
 
 ## What I'm watching
 
-### Infomercials by adult Swim
+### Infomercials by Adult Swim
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QrGrOK8oZG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
