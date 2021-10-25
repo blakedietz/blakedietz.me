@@ -27,9 +27,9 @@ date: 2021-10-25T12:00:00.000-06:00
 
 ## What I'm doing
 
-### Elixir nerves calendar
+### Elixir nerves calendar e-ink
 
-I've been playing with building an Elixir Nerves e-ink calendar with a Raspberry Pi Zero W
+I've been playing with building an Elixir Nerves e-ink calendar with a Raspberry Pi Zero W.
 
 ## What I'm reading
 
