@@ -17,13 +17,25 @@ date: 2021-11-01T12:00:00.000-06:00
 
 ## What I'm reading
 
-### Dune
+### Sci-fi
+
+#### Dune
+
+### Programming
+
+- [Why auto increment is a bad idea][uuid]
 
 ## What I'm listening to
 
 ## What I'm watching
 
 ### Pragmatic Studio: Phoenix LiveView Pro Course
+
+### Moral orel
+
+### Recycling is a scam
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LELvVUIz5pY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## What I'm working on
 
@@ -35,3 +47,6 @@ date: 2021-11-01T12:00:00.000-06:00
 
 ## References
 
+[uuid]: https://www.clever-cloud.com/blog/engineering/2015/05/20/why-auto-increment-is-a-terrible-idea/
+
+- [Why auto-increment is a terrible idea][uuid]
