@@ -24,6 +24,7 @@ date: 2021-11-01T12:00:00.000-06:00
 ### Programming
 
 - [Why auto increment is a bad idea][uuid]
+- [Elixir Conf 2021: LiveView .17][]
 
 ## What I'm listening to
 
@@ -41,9 +42,15 @@ date: 2021-11-01T12:00:00.000-06:00
 
 ### pencyclopedia.ink 2.0
 
+Refactoring to use elixir LiveView .17
+
 ### eink calendar screen
 
+
+
 ### Keyboard maestro scripts
+
+Bakeware
 
 ## References
 
