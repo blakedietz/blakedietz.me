@@ -28,6 +28,10 @@ date: 2021-11-01T12:00:00.000-06:00
 
 ## What I'm listening to
 
+Discover weekly absolutely killed it this week. Allyanna and I were jamming to this on repeat. 5.23.19 by Mono/Poly specifically stuck out along with Lady Burning Sky by Neutron 9000 and Daniel Avery.
+
+<iframe src="https://open.spotify.com/embed/playlist/4aTZIcVH6iksCqr9PUR6ks" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
 ## What I'm watching
 
 ### Pragmatic Studio: Phoenix LiveView Pro Course
