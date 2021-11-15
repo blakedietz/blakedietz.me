@@ -11,6 +11,8 @@ date: 2021-11-01T12:00:00.000-06:00
 
 ## What I'm thinking about
 
+### Cancun
+
 ### Quotes
 
 > Many years ago I was told by a very wise man "Mind Ok, Everything Ok". It is so true. I have encountered poor, sick people who are happy, and rich, healthy, miserable folk. Wealth, fame etc count for nothing if you're miserable. Mind and the way it views the world are the most important thing. "MindOk" is there to remind me every day.[<sub>mindok</sub>][mindok]
@@ -22,8 +24,6 @@ date: 2021-11-01T12:00:00.000-06:00
 ### Psychology
 
 #### Why you should assume everyone is stupid
-
-Cancun
 
 #### 
 
