@@ -32,10 +32,12 @@ Cancun
 
 #### Dune
 
+I think I've made it to the point where Allyanna and I can watch the movie.
+
 ### Programming
 
-- [Why auto increment is a bad idea][uuid]
-- [Elixir Conf 2021: LiveView .17][]
+- [Why auto increment is a terrible idea][uuid]
+- [Elixir Conf 2021: LiveView .17][future]
 
 ## What I'm listening to
 
@@ -47,7 +49,7 @@ Discover weekly absolutely killed it this week. Allyanna and I were jamming to t
 
 ### Pragmatic Studio: Phoenix LiveView Pro Course
 
-### Moral orel
+### Moral Orel
 
 ### Recycling is a scam
 
@@ -61,8 +63,6 @@ Refactoring to use elixir LiveView .17
 
 ### eink calendar screen
 
-
-
 ### Keyboard maestro scripts
 
 Bakeware
@@ -73,8 +73,12 @@ Bakeware
 [stupid]: https://lifehacker.com/why-you-should-assume-everyone-is-stupid-lazy-and-pos-1847997212
 [anxiety]: https://news.ncsu.edu/2020/07/tech-job-interviews-anxiety/
 [mindok]: https://contex-charts.org/faq
+[orel]: https://en.wikipedia.org/wiki/Moral_Orel
+[future]: https://www.youtube.com/watch?v=Of1phFsC4ZI
 
 - [Why auto-increment is a terrible idea][uuid]
 - [Why you should assume everyone is stupid][stupid]
-- [ ][anxiety]
+- [Tech sector job interviews assess anxiety, not software skills][anxiety]
 - [Mindok][mindok]
+- [Moral Orel][orel]
+- [The future of fullstack][future]
