@@ -1,7 +1,7 @@
 ---
-path: /blog/2021/week/44
-title: "Weekly update: 2021 Week 44"
-description: Elixir liveview
+path: /blog/2021/week/46
+title: "Weekly update: 2021 Week 46"
+description: Did you know recycling is a scam pushed by big oil?
 tags:
   - weekly-update
   - elixir
@@ -13,9 +13,20 @@ date: 2021-11-01T12:00:00.000-06:00
 
 ### Quotes
 
+> Many years ago I was told by a very wise man "Mind Ok, Everything Ok". It is so true. I have encountered poor, sick people who are happy, and rich, healthy, miserable folk. Wealth, fame etc count for nothing if you're miserable. Mind and the way it views the world are the most important thing. "MindOk" is there to remind me every day.[<sub>mindok</sub>][mindok]
+
 ### Reviewing open source prs
 
 ## What I'm reading
+
+### Psychology
+
+#### Why you should assume everyone is stupid
+
+Cancun
+
+#### 
+
 
 ### Sci-fi
 
@@ -59,5 +70,11 @@ Bakeware
 ## References
 
 [uuid]: https://www.clever-cloud.com/blog/engineering/2015/05/20/why-auto-increment-is-a-terrible-idea/
+[stupid]: https://lifehacker.com/why-you-should-assume-everyone-is-stupid-lazy-and-pos-1847997212
+[anxiety]: https://news.ncsu.edu/2020/07/tech-job-interviews-anxiety/
+[mindok]: https://contex-charts.org/faq
 
 - [Why auto-increment is a terrible idea][uuid]
+- [Why you should assume everyone is stupid][stupid]
+- [ ][anxiety]
+- [Mindok][mindok]
