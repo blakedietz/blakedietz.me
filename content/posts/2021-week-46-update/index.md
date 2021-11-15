@@ -5,7 +5,7 @@ description: Did you know recycling is a scam pushed by big oil?
 tags:
   - weekly-update
   - elixir
-draft: true
+draft: false
 date: 2021-11-01T12:00:00.000-06:00
 ---
 
