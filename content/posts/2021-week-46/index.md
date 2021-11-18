@@ -16,6 +16,17 @@ date: 2021-11-17T12:00:00.000-07:00
 
 https://psyche.co/ideas/depression-is-more-than-low-mood-its-a-change-of-consciousness
 
+https://github.com/ibraheemdev/modern-unix
+
+https://www.infoq.com/articles/code-walkthrough-documentation/
+
+https://psyche.co/ideas/depression-is-more-than-low-mood-its-a-change-of-consciousness
+
+https://www.firstthings.com/article/2021/12/its-not-all-in-your-head
+
+
+####
+
 ### Sci-fi
 
 #### Dune
