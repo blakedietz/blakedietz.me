@@ -9,20 +9,18 @@ date: 2021-11-17T12:00:00.000-07:00
 
 ## What I'm thinking about
 
+## Quotes
+
+### On the destruction of our education system
+
+> And there you have it. A complete prescription for permanently disabling young minds— a proven cure for curiosity. What have they done to mathematics!
+
+> Two weeks of content are stretched to semester length by masturbatory
+definitional runarounds.
 
 ## What I'm reading
 
 ### Psychology
-
-https://psyche.co/ideas/depression-is-more-than-low-mood-its-a-change-of-consciousness
-
-https://github.com/ibraheemdev/modern-unix
-
-https://www.infoq.com/articles/code-walkthrough-documentation/
-
-https://psyche.co/ideas/depression-is-more-than-low-mood-its-a-change-of-consciousness
-
-https://www.firstthings.com/article/2021/12/its-not-all-in-your-head
 
 
 ####
@@ -42,3 +40,9 @@ https://www.firstthings.com/article/2021/12/its-not-all-in-your-head
 
 
 ## References
+
+[lockhart]: https://discord.com/channels/@me/478024443692580914/910671035425247293
+[depression]: https://psyche.co/ideas/depression-is-more-than-low-mood-its-a-change-of-consciousness
+[unix]: https://github.com/ibraheemdev/modern-unix
+[doc]: https://www.infoq.com/articles/code-walkthrough-documentation/
+[head]: https://www.firstthings.com/article/2021/12/its-not-all-in-your-head
