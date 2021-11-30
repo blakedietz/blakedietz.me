@@ -69,5 +69,5 @@ I've started my first LLC with hopes of doing some contracting work.
 1. [Modern unix][unix]
 1. [Code walkthrough documentation][doc]
 1. [It's not all in your head][head]
-1. [Every pricing page should have gifs][https://tdinh.notion.site/Every-pricing-page-should-have-GIFs-e74d6d363d4c4d33b5ff754452f7ab96]
+1. [Every pricing page should have gifs](https://tdinh.notion.site/Every-pricing-page-should-have-GIFs-e74d6d363d4c4d33b5ff754452f7ab96)
 1. [Increasing the quality of our decisions][brex]
