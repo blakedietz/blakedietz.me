@@ -36,6 +36,14 @@ I've completed Dune, well the first book at least. Now I'm just waiting for Ally
 
 ## What I'm listening to
 
+### Music for psychedelic therapy by Jon Hopkins
+
+<iframe src="https://open.spotify.com/embed/album/2zY5p176SfmupXceLKT6bH" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+### Winter flower by Clams Casino
+
+<iframe src="https://open.spotify.com/embed/album/259OLvPj1qoZpCXXQRavBx" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
 
 ## What I'm watching
 
