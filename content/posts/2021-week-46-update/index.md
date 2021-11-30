@@ -1,7 +1,7 @@
 ---
 path: /blog/2021/week/46
 title: "Weekly update: 2021 Week 46"
-description: Did you know recycling is a scam pushed by big oil?
+description: Mid ok, everything ok
 tags:
   - weekly-update
   - elixir
@@ -24,9 +24,6 @@ date: 2021-11-01T12:00:00.000-06:00
 ### Psychology
 
 #### Why you should assume everyone is stupid
-
-#### 
-
 
 ### Sci-fi
 
