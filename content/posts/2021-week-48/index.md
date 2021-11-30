@@ -1,6 +1,6 @@
 ---
 path: /blog/{{year}}-{{month}}-{{date}}/
-title: "Weekly update: 2021 Week 46"
+title: "Weekly update: 2021 Week 48"
 description: asdf
 tags: []
 draft: true
@@ -10,8 +10,6 @@ date: 2021-11-17T12:00:00.000-07:00
 ## What I'm thinking about
 
 ### Gratitude for my physical health
-
-
 
 ## Quotes
 
@@ -32,6 +30,7 @@ definitional runarounds.
 
 #### Dune
 
+I've completed Dune, well the first book at least. Now I'm just waiting for Allyanna to finish up so we can have a discussion.
 
 ## What I'm listening to
 
@@ -41,6 +40,7 @@ definitional runarounds.
 
 ## What I'm working on
 
+### pencyclopedia 2.0
 
 ## References
 
@@ -49,9 +49,11 @@ definitional runarounds.
 [unix]: https://github.com/ibraheemdev/modern-unix
 [doc]: https://www.infoq.com/articles/code-walkthrough-documentation/
 [head]: https://www.firstthings.com/article/2021/12/its-not-all-in-your-head
+[pricing]: https://tdinh.notion.site/Every-pricing-page-should-have-GIFs-e74d6d363d4c4d33b5ff754452f7ab96
 
 1. [Lockhart's Lament][lockhart]
 1. [Depression is more than low mood it's a change of consciousness][depression]
 1. [Modern unix][unix]
 1. [Code walkthrough documentation][doc]
 1. [It's not all in your head][head]
+1. [Every pricing page should have gifs][https://tdinh.notion.site/Every-pricing-page-should-have-GIFs-e74d6d363d4c4d33b5ff754452f7ab96]
