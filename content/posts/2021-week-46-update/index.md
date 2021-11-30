@@ -1,7 +1,7 @@
 ---
 path: /blog/2021/week/46
 title: "Weekly update: 2021 Week 46"
-description: Mid ok, everything ok
+description: Mind ok, everything ok
 tags:
   - weekly-update
   - elixir
