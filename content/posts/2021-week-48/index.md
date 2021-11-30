@@ -32,6 +32,8 @@ definitional runarounds.
 
 I've completed Dune, well the first book at least. Now I'm just waiting for Allyanna to finish up so we can have a discussion.
 
+#### 1984
+
 ## What I'm listening to
 
 
@@ -41,6 +43,10 @@ I've completed Dune, well the first book at least. Now I'm just waiting for Ally
 ## What I'm working on
 
 ### pencyclopedia 2.0
+
+### cyberdeck.llc
+
+I've started my first LLC with hopes of doing some contracting work.
 
 ## References
 
