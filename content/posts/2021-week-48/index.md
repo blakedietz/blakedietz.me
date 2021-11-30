@@ -44,9 +44,7 @@ I've completed Dune, well the first book at least. Now I'm just waiting for Ally
 
 <iframe src="https://open.spotify.com/embed/album/259OLvPj1qoZpCXXQRavBx" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-
 ## What I'm watching
-
 
 ## What I'm working on
 
