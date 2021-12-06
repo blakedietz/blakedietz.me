@@ -64,6 +64,7 @@ I've started my first LLC with hopes of doing some contracting work.
 [pricing]: https://tdinh.notion.site/Every-pricing-page-should-have-GIFs-e74d6d363d4c4d33b5ff754452f7ab96
 [brex]: https://building.brex.com/increasing-the-quality-of-our-decisions-e6e0f7e7a9dc
 [maintainable]: https://max.engineer/maintainable-code
+[events]: https://blog.sequin.io/events-not-webhooks
 
 1. [Lockhart's Lament][lockhart]
 1. [Depression is more than low mood it's a change of consciousness][depression]
@@ -73,3 +74,4 @@ I've started my first LLC with hopes of doing some contracting work.
 1. [Every pricing page should have gifs](https://tdinh.notion.site/Every-pricing-page-should-have-GIFs-e74d6d363d4c4d33b5ff754452f7ab96)
 1. [Increasing the quality of our decisions][brex]
 1. [Maintainable code][maintainable]
+1. [Events not webhooks][events]
