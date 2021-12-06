@@ -21,7 +21,7 @@ My favourite UI so far is the task list. In particular, the hover functionality 
 
 ### Fewer number of steps
 
-The typical task list will have one or two points in the UI to add a new task. This will typically be a top level button outside the task list as well as a ghost row inlined in the task list. With both of these UI elements you must first click the element, type your text and then drag the element into the order that you want it to be in.
+The typical task list will have one or two points in the UI to add a new task. This will commonly be a top level button outside the task list as well as a ghost row inlined in the task list. With both of these UI elements you must first click the element, type your text and then drag the element into the order that you want it to be in.
 
 Typical task list UX
 
@@ -35,9 +35,11 @@ Amazing Marvin task list UX
 
 - Find the element you want your new task to be above or below
 - Click the top or bottom plus sign
-- Type the text
+- Type the text for the newly created item
 
 ### Less context switching
+
+On top of being a fewer number of steps for the user, I think the more important metric is the reduction of context switching. In the typical task list UX, users need move their eyes across the page more.
 
 
 
