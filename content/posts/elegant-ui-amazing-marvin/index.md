@@ -23,15 +23,18 @@ My favourite UI so far is the task list. In particular, the hover functionality 
 
 The typical task list will have one or two points in the UI to add a new task. This will typically be a top level button outside the task list as well as a ghost row inlined in the task list. With both of these UI elements you must first click the element, type your text and then drag the element into the order that you want it to be in.
 
-Typical UX
+Typical task list UX
 
-- Find creation control element you want
-- Type the text for the element
-- Drag the element to the point to the order that you want the item to be in
+- Find one of two creation control elements
+- Click the element
+- Find the new element in the list that was added
+- Type the text for the newly created item
+- Drag the element to the row in the list that you want it to be in
 
-Amazing Marvin UX
+Amazing Marvin task list UX
 
 - Find the element you want your new task to be above or below
+- Click the top or bottom plus sign
 - Type the text
 
 ### Less context switching
