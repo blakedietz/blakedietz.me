@@ -65,6 +65,9 @@ I've started my first LLC with hopes of doing some contracting work.
 [brex]: https://building.brex.com/increasing-the-quality-of-our-decisions-e6e0f7e7a9dc
 [maintainable]: https://max.engineer/maintainable-code
 [events]: https://blog.sequin.io/events-not-webhooks
+[boilerplate]: https://www.molecule.dev/
+[twist]: https://twist.com/
+[ecto]: http://blog.plataformatec.com.br/2015/08/working-with-ecto-associations-and-embeds/
 
 1. [Lockhart's Lament][lockhart]
 1. [Depression is more than low mood it's a change of consciousness][depression]
@@ -75,3 +78,6 @@ I've started my first LLC with hopes of doing some contracting work.
 1. [Increasing the quality of our decisions][brex]
 1. [Maintainable code][maintainable]
 1. [Events not webhooks][events]
+1. [Twist][twist]
+1. [Interesting boilerplate][boilerplate]
+1. [Ecto associations][ecto]
