@@ -5,6 +5,7 @@ description: How to set up an elixir app to start on raspberry pi using systemd.
 tags:
   - raspberrypi
   - systemd
+  - elixir
 draft: false
 date: 2021-12-12T12:00:00.000-07:00
 ---
