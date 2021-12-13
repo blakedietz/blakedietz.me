@@ -45,7 +45,9 @@ In the typical task list UX, users need to move their eyes from the detail list 
 
 #### Using the master element
 
-The user must either, scroll to the top of the page if the list does not have a sticky header of some sort. Then the user must click add and scroll to the bottom of the list to add detail about the list item. From there the user must then move the item often times with a janky scrolling experience as the user must both hold the left click down and drag the element high enough up the list to 
+When using the top level list item add, a lot of the time (I'm looking at you JIRA) the user must scroll to the top of the page if the list does not have a sticky header of some sort. The user must then click add and scroll to the bottom of the list to add detail about the list item. From there the user must then move the item often times with a janky scrolling experience as the user must both hold the left click down to keep hold of the item to be prioritised and then drag the element high enough up the list to place the item in the desired order.
+
+Simply looking at the type of movement that a user must mouse movement almost looks like an N pattern. The user starts at the bottom moving up (|) then after clicking the master element the user has to move to the bottom of the list (|\) then the user has to drag the element to the desired location in the list (|\|). It's quite the mess.
 
 
 
