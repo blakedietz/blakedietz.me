@@ -39,7 +39,13 @@ Amazing Marvin task list UX
 
 ### Less context switching
 
-On top of being a fewer number of steps for the user, I think the more important metric is the reduction of context switching. In the typical task list UX, users need move their eyes across the page more.
+On top of being a fewer number of steps for the user, I think the more important metric is the reduction of context switching. For the sake of this article, let's define context switching as the act of the user changing attention from one ui element to another.
+
+In the typical task list UX, users need to move their eyes from the detail list view to the top level button or to the inline ghost button. Typically the user has scrolled to the point of interest in the list and realise that a new task needs to be added, often times, around the point where the list is currently scrolled.
+
+#### Using the master element
+
+The user must either, scroll to the top of the page if the list does not have a sticky header of some sort. Then the user must click add and scroll to the bottom of the list to add detail about the list item. From there the user must then move the item often times with a janky scrolling experience as the user must both hold the left click down and drag the element high enough up the list to 
 
 
 
