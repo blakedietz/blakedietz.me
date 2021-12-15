@@ -69,6 +69,7 @@ I've started my first LLC with hopes of doing some contracting work.
 [twist]: https://twist.com/
 [ecto]: http://blog.plataformatec.com.br/2015/08/working-with-ecto-associations-and-embeds/
 [k8s-elixir]: http://blog.plataformatec.com.br/2019/10/kubernetes-and-the-erlang-vm-orchestration-on-the-large-and-the-small/
+[truths]: https://buttondown.email/hillelwayne/archive/uncomfortable-truths-in-software-engineering/
 
 1. [Lockhart's Lament][lockhart]
 1. [Depression is more than low mood it's a change of consciousness][depression]
@@ -83,3 +84,4 @@ I've started my first LLC with hopes of doing some contracting work.
 1. [Interesting boilerplate][boilerplate]
 1. [Ecto associations][ecto]
 1. [Kubernetes and the Erlang VM: orchestration on the large and the small][k8s-elixir]
+1. [Uncomfortable truths in software engineering][truths]
