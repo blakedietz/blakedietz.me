@@ -1,7 +1,7 @@
 ---
 path: /blog/2021-12-16/poem-number-two
 title: Poem number two
-description: A poem that I wrote for the book
+description: A poem that I wrote for the book "Toilet Tag"
 tags:
   - poetry
   - silly
