@@ -4,7 +4,6 @@ title: Valheim selfie
 description: A selfie to commemorate beating Valheim with the best of friends
 tags:
   - gaming
-  - ""
 draft: false
 date: 2021-12-29T12:00:00.000-07:00
 ---
