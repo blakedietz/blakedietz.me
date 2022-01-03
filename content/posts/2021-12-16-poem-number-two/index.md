@@ -4,7 +4,7 @@ title: Poem number two
 description: A poem that I wrote for the book "Toilet Tag"
 tags:
   - poetry
-  - silly
+  - humor
 draft: false
 date: 2021-12-16T12:00:00.000-07:00
 ---
