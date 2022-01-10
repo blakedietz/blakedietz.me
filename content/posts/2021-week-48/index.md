@@ -1,9 +1,10 @@
 ---
-path: /blog/{{year}}-{{month}}-{{date}}/
-title: "Weekly update: 2021 Week 48"
-description: asdf
-tags: []
-draft: true
+path: /blog/2021-week-48
+title: "Weekly update: 2021 week 48 - 52"
+description: Week 48 to 52 update
+tags:
+  - weekly update
+draft: false
 date: 2021-11-17T12:00:00.000-07:00
 ---
 
@@ -18,13 +19,9 @@ date: 2021-11-17T12:00:00.000-07:00
 > And there you have it. A complete prescription for permanently disabling young minds— a proven cure for curiosity. What have they done to mathematics!
 
 > Two weeks of content are stretched to semester length by masturbatory
-definitional runarounds.
+> definitional runarounds.
 
 ## What I'm reading
-
-### Psychology
-
-####
 
 ### Sci-fi
 
@@ -33,6 +30,8 @@ definitional runarounds.
 I've completed Dune, well the first book at least. Now I'm just waiting for Allyanna to finish up so we can have a discussion.
 
 #### 1984
+
+#### There is no antimemtics division
 
 ## What I'm listening to
 
@@ -48,11 +47,7 @@ I've completed Dune, well the first book at least. Now I'm just waiting for Ally
 
 ## What I'm working on
 
-### pencyclopedia 2.0
-
-### cyberdeck.llc
-
-I've started my first LLC with hopes of doing some contracting work.
+Not much right now
 
 ## References
 
