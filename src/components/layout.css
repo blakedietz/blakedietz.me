@@ -174,3 +174,15 @@ blockquote {
   @apply text-powder-blue;
   @apply border-l-4;
 }
+
+.table-of-contents li {
+  list-style: none;
+  @apply ml-2;
+}
+.table-of-contents p {
+  @apply m-0;
+}
+
+a.anchor.before > svg {
+  fill: #40b4c4;
+}

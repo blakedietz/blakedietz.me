@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
 import { getFormattedDate } from "../utils/utils"
-import "./index.css"
 import { Pills } from "../components/pill"
 
 const PostLink = ({ post }) => (

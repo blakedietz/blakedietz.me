@@ -6,7 +6,7 @@ import { getFormattedDate } from "../utils/utils"
 
 export default function Template({ data }) {
   const { markdownRemark } = data
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter, html, tableOfContents } = markdownRemark
   return (
     <Layout>
       <SEO title={frontmatter.title} />
@@ -18,6 +18,12 @@ export default function Template({ data }) {
             <h1>{frontmatter.title}</h1>
             <h2>{getFormattedDate(new Date(frontmatter.date))}</h2>
           </div>
+          {tableOfContents && (
+          <div>
+            <h2>Table of contents</h2>
+            <div className="table-of-contents" dangerouslySetInnerHTML={{__html: tableOfContents }}/>
+          </div>
+          )}
           <div
             className="blog-post-content list-disc list-decimal"
             dangerouslySetInnerHTML={{ __html: html }}
@@ -32,6 +38,7 @@ export const pageQuery = graphql`
   query($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
+      tableOfContents
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path

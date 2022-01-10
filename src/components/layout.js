@@ -8,9 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql, Link } from "gatsby"
-import "./layout.css"
-import "./header.css"
-import "./prism.css"
 import "../utils/ascii"
 
 const Layout = ({ children }) => {
