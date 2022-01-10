@@ -1,6 +1,6 @@
 ---
 path: /blog/2022-01-07/elixir-live-view-cheat-sheet
-title: Valheim selfie
+title: Elixir live view cheat sheet
 description: Commonly referenced resources for elixir live view
 tags:
   - cheat sheet
