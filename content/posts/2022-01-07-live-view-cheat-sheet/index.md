@@ -26,7 +26,7 @@ date: 2022-01-07T12:00:00.000-07:00
 >
 > That does affect even subscribing. If you use Phoenix.Endpoint.subscribe it’s reasonable to expect to receive only messages, which adhere to the format mentioned. If you subscribe with Phoenix.PubSub that assumption is off.
 >
-> Plain Phoenix.PubSub is more low level than the channels based messaging.
+> Plain Phoenix.PubSub is more low level than the channels based messaging.[<sub>2</sub>][presence]
 
 ## References
 
