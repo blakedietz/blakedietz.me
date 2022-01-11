@@ -45,6 +45,7 @@ https://www.amazon.com/dp/B08FZ8QTP4/ref=dp-kindle-redirect?_encoding=UTF8&btkr=
 [effective-engineer]: https://copyconstruct.medium.com/know-how-your-org-works-or-how-to-become-a-more-effective-engineer-1a3287d1f58d
 [sealed-conversion]: https://www.youtube.com/watch?v=1BrVjDFqotE
 [ecto-without-the-db]: https://www.youtube.com/watch?v=k_xDi7zAcNM
+[websocket-handbook]: https://ably.com/blog/introducing-the-websocket-handbook
 
 1. [Derek Sivers's blog][sivers]
 1. [How to quit][how-to-quit]
@@ -52,3 +53,4 @@ https://www.amazon.com/dp/B08FZ8QTP4/ref=dp-kindle-redirect?_encoding=UTF8&btkr=
 1. [How to be an effective engineer][effective-engineer]
 1. [Convert a loose bearing to sealed bottom bracket][sealed-conversion]
 1. [Using Ecto changesets without the db][ecto-without-the-db]
+1. [Introducing the websocket handbook][websocket-handbook]
