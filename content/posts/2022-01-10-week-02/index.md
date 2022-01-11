@@ -33,6 +33,10 @@ https://www.amazon.com/dp/B08FZ8QTP4/ref=dp-kindle-redirect?_encoding=UTF8&btkr=
 
 ## What I'm listening to
 
+### System of a Down: Toxicity
+
+<iframe src="https://open.spotify.com/embed/album/6jWde94ln40epKIQCd8XUh" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
 ## References
 
 [sivers]: https://sive.rs/
