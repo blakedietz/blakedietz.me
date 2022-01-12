@@ -7,7 +7,7 @@ tags:
 draft: false
 date: 2021-12-29T12:00:00.000-07:00
 ---
-Allyanna, Zac Feurborn and I finished Valheim together on 2021-05-09 at 00:04:06. It was one of the first more challenging games that she finished and was a great time with my buddy Zac.
+Allyanna, Zac and I finished Valheim together on 2021-05-09 at 00:04:06. It was one of the first more challenging Ally had finished and was a great time with Zac. :)
 
 ![](screen-shot-2021-05-09-at-00.03.45.png)
 
