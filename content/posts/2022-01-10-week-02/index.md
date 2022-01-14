@@ -46,6 +46,7 @@ https://www.amazon.com/dp/B08FZ8QTP4/ref=dp-kindle-redirect?_encoding=UTF8&btkr=
 [sealed-conversion]: https://www.youtube.com/watch?v=1BrVjDFqotE
 [ecto-without-the-db]: https://www.youtube.com/watch?v=k_xDi7zAcNM
 [websocket-handbook]: https://ably.com/blog/introducing-the-websocket-handbook
+[24-hours]: https://www.justindfuller.com/2022/01/living-on-24-hours-a-day/
 
 1. [Derek Sivers's blog][sivers]
 1. [How to quit][how-to-quit]
@@ -54,3 +55,4 @@ https://www.amazon.com/dp/B08FZ8QTP4/ref=dp-kindle-redirect?_encoding=UTF8&btkr=
 1. [Convert a loose bearing to sealed bottom bracket][sealed-conversion]
 1. [Using Ecto changesets without the db][ecto-without-the-db]
 1. [Introducing the websocket handbook][websocket-handbook]
+1. [Living on 24 Hours a Day][24-hours]
