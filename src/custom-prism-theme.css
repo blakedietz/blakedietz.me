@@ -34,8 +34,6 @@ pre[class*="language-"] {
   margin: 0.5em 0;
   overflow: auto;
   outline: 1px solid #716385;
-  /*This is for mobile support. Sometimes the codeblocks were blowing out the document width.*/
-  max-width: 90vw;
 }
 
 /* Inline code */

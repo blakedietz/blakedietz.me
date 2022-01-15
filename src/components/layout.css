@@ -104,6 +104,11 @@ td {
 
 .content {
   grid-area: site-content;
+  /* 
+   * Required for pre-tags without this the pre content would overflow the page
+   * see [this example](https://stackoverflow.com/questions/45468633/pre-tag-causing-page-to-scroll-horizontally-in-css-grid#comment77899249_45468633)
+   */
+  min-width: 0px;
 }
 
 .footer {
