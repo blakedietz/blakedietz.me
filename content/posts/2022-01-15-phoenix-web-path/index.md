@@ -27,6 +27,7 @@ Would be put under the following in your Phoenix `router.ex` file:
   # ...
   end
 #...
+```
 
 I was running into an issue with live view test generation where tests depending on `render_click` usages needed to account for the `/app` prefix when using query selectors for finding a button in the generated live view to click. More specifically the line of code of interest was
 
