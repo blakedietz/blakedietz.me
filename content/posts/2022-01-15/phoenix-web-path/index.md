@@ -1,6 +1,7 @@
 ---
 path: /blog/2022-01-15/phoenix-web-path
-title: Using Phoenix's `schema.web_path` account for web namespaces in your templates
+title: Using Phoenix's `schema.web_path` to account for web namespaces in your
+  templates
 description: Reference the path of the web namespace passed to your custom generators
 tags:
   - elixir
