@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     //Colors found at https://github.com/Jaredk3nt/laserwave
     colors:{
