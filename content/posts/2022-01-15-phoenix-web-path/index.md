@@ -29,13 +29,13 @@ Would be put under the following in your Phoenix `router.ex` file:
 #...
 ```
 
-I was running into an issue with live view test generation where tests depending on `render_click` usages needed to account for the `/app` prefix when using query selectors for finding a button in the generated live view to click. More specifically the line of code of interest was
+I was running into an issue with live view test generation where tests depending on `render_click` usages needed to account for the `/app` prefix when using query selectors for finding a button in the generated live view to click. More specifically the line of code of interest was the following:
 
 ```elixir
 assert index_live |> element("a[href=\"/<%= schema.plural %>/new\"]") |> render_click() =~
                "New <%= schema.human_singular %>"
 ```
-where the element in the page actually had a generated href of `/app/example_model/new`.
+The element in the live view page had a generated href of `/app/example_model/new` since it was in the `App` web namespace.
 
 After doing some digging. [I was able to find the exact name of the variable that's passed to the `eex` templates for `phx.gen.live`](https://github.com/phoenixframework/phoenix/blob/41435470bc414b859497cd03a5b39e08da659368/lib/mix/tasks/phx.gen.html.ex#L146). It was a bit more of a pain in the ass than I had expected because there were quite a few different names that were very similar to `schema.web_path`, some being file paths, others being elixir module names.
 
