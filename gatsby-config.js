@@ -39,6 +39,30 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: "gatsby-remark-code-buttons",
+            options: {
+              // Optional button container class name. Defaults
+              // to 'gatsby-code-button-container'.
+              buttonContainerClass: `copy-code-button-container`,
+              // Optional button class name. Defaults to 'gatsby-code-button'.
+              buttonClass: `copy-code-button`,
+              // Optional svg icon class name. Defaults to 'gatsby-code-button-icon'.
+              svgIconClass: `copy-code-icon`,
+              // // Optional svg icon. Defaults to svg string and can be
+              // // replaced with any other valid svg. Use custom classes
+              // // in the svg string and skip `iconClass` option.
+              // svgIcon: `customSvgIcon`,
+              // // Optional tooltip text. Defaults to ''.
+              // tooltipText: `customTooltipText`,
+              // // Optional toaster class name. Defaults to ''.
+              toasterClass: `copy-code-tooltip`,
+              // // Optional toaster text class name. Defaults to ''.
+              // toasterTextClass: `customToasterTextClass`,
+              // // Optional toaster text. Defaults to ''.
+              toasterText: "copied",
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1200,
@@ -115,12 +139,12 @@ module.exports = {
               escapeEntities: {},
             },
           },
-          `gatsby-remark-autolink-headers`
+          `gatsby-remark-autolink-headers`,
         ],
       },
     },
     `gatsby-plugin-postcss`,
-    `gatsby-plugin-netlify-cms`
+    `gatsby-plugin-netlify-cms`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
