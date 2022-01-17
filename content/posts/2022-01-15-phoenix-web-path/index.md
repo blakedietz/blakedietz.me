@@ -10,6 +10,7 @@ tags:
 draft: false
 date: 2022-01-15T12:00:00.000-07:00
 ---
+
 For a personal project I have some generators for live views. They handle most of the boilerplate of starting a live view based feature and create components, as well as their concomitant test files. These are a custom set of generators that work similarly to `phx.gen.live` but have more application specific styling and functionality.
 
 The application referenced above is using [Phoenix web namespaces](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Html.html#module-web-namespace) to better segregate the codebase per each functionality. For example, there is an admin and app namespace, each with specific authorisation and view logic. Namespaces are passed to the generator via the `--web` flag. So for example
@@ -18,11 +19,12 @@ The application referenced above is using [Phoenix web namespaces](https://hexdo
 mix phx.gen.pretty_live Foo Bar bars name:string description:text --web App
 ```
 
-Would be put under the following in your Phoenix `router.ex` file:
+would be put in a `scope` block located in the `router.ex` file as
 
 ```elixir
-#router.ex
+# router.ex
 #...
+  # routes prepended with "/app" will be delegated to this scope.
   scope "/app", MyAppWeb.App, as: :app do
   # ...
   end
@@ -35,6 +37,7 @@ I was running into an issue with live view test generation where tests depending
 assert index_live |> element("a[href=\"/<%= schema.plural %>/new\"]") |> render_click() =~
                "New <%= schema.human_singular %>"
 ```
+
 The element in the live view page had a generated href of `/app/example_model/new` since it was in the `App` web namespace.
 
 After doing some digging. [I was able to find the exact name of the variable that's passed to the `eex` templates for `phx.gen.live`](https://github.com/phoenixframework/phoenix/blob/41435470bc414b859497cd03a5b39e08da659368/lib/mix/tasks/phx.gen.html.ex#L146). It was a bit more of a pain in the ass than I had expected because there were quite a few different names that were very similar to `schema.web_path`, some being file paths, others being elixir module names.
