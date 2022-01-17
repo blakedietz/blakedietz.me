@@ -180,6 +180,12 @@ blockquote {
   @apply border-l-4;
 }
 
+blockquote ul,
+blockquote li,
+blockquote ol {
+  @apply text-powder-blue;
+}
+
 .table-of-contents li {
   list-style: none;
   @apply ml-2;
@@ -188,6 +194,7 @@ blockquote {
   @apply m-0;
 }
 
+/* Style the anchor link that appears on hover */
 a.anchor.before > svg {
-  fill: #40b4c4;
+  fill: theme("colors.maximum-blue");
 }
