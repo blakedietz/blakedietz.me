@@ -5,3 +5,15 @@
  */
 
 // You can delete this file if you're not using it
+import React from "react"
+export function onRenderBody({ setHeadComponents }) {
+  setHeadComponents(
+    <>
+      <script
+        defer
+        data-domain="blakedietz.me"
+        src="https://plausible.blakedietz.me/js/plausible.js"
+      ></script>
+    </>
+  )
+}
