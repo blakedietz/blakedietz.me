@@ -11,7 +11,11 @@ date: 2022-01-10T12:00:00.000-07:00
 
 ### How avoidance impacts my life
 
+I had a recent conversation with my sister Jessica and she mentioned some psychology concepts that made me start doing some reflection. I came to realize that there are certain aspects of my life that I'm avoidant about. This is something I'm going to dig a bit more into to learn more about myself.
+
 ### Mimesis
+
+I've been thinking a lot about the contents of ["Wanting"][wanting]. It's amazing how much of your life decisions are motivated by imitation.
 
 ## What I'm working on
 
@@ -23,7 +27,15 @@ I'm working on a bike project. I've had a Romolo Lazzaretti for quite some time.
 
 ### Wanting: The Power of Mimetic Desire in Everyday Life
 
-https://www.amazon.com/dp/B08FZ8QTP4/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
+[Amazon][wanting]
+
+### Quotes
+
+#### On stoicism
+
+> “Do not ask your children to strive for extraordinary lives. Such striving may seem admirable, but it is the way of foolishness. Help them instead to find the wonder and the marvel of an ordinary life. Show them the joy of tasting tomatoes, apples and pears. Show them how to cry when pets and people die. Show them the infinite pleasure in the touch of a hand. And make the ordinary come alive for them. The extraordinary will take care of itself.”
+> 
+> William Martin <sub>[ref][stoic]</sub>
 
 ## What I'm watching
 
@@ -48,6 +60,8 @@ https://www.amazon.com/dp/B08FZ8QTP4/ref=dp-kindle-redirect?_encoding=UTF8&btkr=
 [websocket-handbook]: https://ably.com/blog/introducing-the-websocket-handbook
 [24-hours]: https://www.justindfuller.com/2022/01/living-on-24-hours-a-day/
 [command]: https://en.wikipedia.org/wiki/Command_pattern
+[wanting]: https://www.amazon.com/dp/B08FZ8QTP4/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
+[stoic]: https://news.ycombinator.com/item?id=29979220
 
 1. [Derek Sivers's blog][sivers]
 1. [How to quit][how-to-quit]
@@ -58,3 +72,5 @@ https://www.amazon.com/dp/B08FZ8QTP4/ref=dp-kindle-redirect?_encoding=UTF8&btkr=
 1. [Introducing the websocket handbook][websocket-handbook]
 1. [Living on 24 Hours a Day][24-hours]
 1. [Command pattern][command]
+1. [Wanting][wanting]
+1. [HN Discussion][stoic]
