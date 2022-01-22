@@ -8,12 +8,13 @@
 import React from "react"
 export function onRenderBody({ setHeadComponents }) {
   setHeadComponents(
-    <>
+    [
       <script
+        id="plausible"
         defer
         data-domain="blakedietz.me"
         src="https://plausible.blakedietz.me/js/plausible.js"
       ></script>
-    </>
+  ]
   )
 }
