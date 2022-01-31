@@ -16,7 +16,7 @@ My older sister Jessica spent her time in Idaho from 2022/01/20 until 2022/01/30
 
 It was a nice opportunity to catch up with my middle sister. There have been so many miles and so many years between us; to say I missed her doesn't quite describe  the hole in my heart. The most beautiful part about having that hole temporarily filled was how easily we fell back together. There were plenty of late nights of stories from the both of us and an unhealthy amount of wine consumption to boot.
 
-Thankfully we were able to catch a few moments while she was up here.
+Thankfully we were able to catch a few moments while she was here.
 
 I had the pleasure of showing her a book that my dad had mostly filled out. It has a question and answer format about various formative and seemingly trivial aspects of his life. I caught her perusing the book while she was watching over my new great niece Maya along side her newfound friend Velo.
 
