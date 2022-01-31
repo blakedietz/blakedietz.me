@@ -46,7 +46,7 @@ i took a break this week from my side projects to focus on time with my sister.
 
 ### Wanting: The Power of Mimetic Desire in Everyday Life
 
-[Amazon]
+Didn't get as far as I would have liked this week, but that's okay.
 
 ## What I'm watching
 
