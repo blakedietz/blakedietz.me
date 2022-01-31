@@ -18,7 +18,7 @@ It was a nice opportunity to catch up with my middle sister. There have been so 
 
 Thankfully we were able to catch a few moments while she was here.
 
-I had the pleasure of showing her a book that my dad had mostly filled out. It has a question and answer format about various formative and seemingly trivial aspects of his life. I caught her perusing the book while she was watching over my new great niece Maya along side her newfound friend Velo.
+I had the pleasure of showing her a book that my dad had mostly filled out. It has a question and answer format about various formative and seemingly trivial aspects of his life. I caught her perusing the book while she was watching over my new great niece Maya alongside her newfound friend Velo.
 
 This photo is dear to me as it shows some of the essence of my sister, a person whom I'm both familiar and estranged to. She sits learning, empathising with our father, one of the most important models in our life while simultaneously watching over her new grand daughter Maya. Yet another beautiful aspect is the evidence of the newfound bond she's made with Velo. Throughout the whole trip I saw these strange parallels between her and I through her interactions with Velo and in turn our relationship with our dad.
 
