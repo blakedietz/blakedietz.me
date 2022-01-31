@@ -26,9 +26,7 @@ I had the pleasure of showing her a book that my dad had mostly filled out. It h
 
 This photo is dear to me as it shows some of the essence of my sister, a person whom I'm both familiar and estranged to. She sits learning, empathising with our father, one of the most important models in our life while simultaneously watching over her new grand daughter Maya. Yet another beautiful aspect is the evidence of the newfound bond she's made with Velo. Throughout the trip I saw these strange parallels between her and I through her interactions with Velo and in turn our relationship with our dad.
 
-Dad taught us the importance of connecting with nature. Whether it was through having us do things that we didn't necessarily want to do for example, crawling on my hands and knees in a potato storage to catch some tiger salamanders or by taking awe in the minutia in nature by simply admiring the beauty of a beetle's pearlescent wings centred in his work-worn hands.
-
-I was gobsmacked when I saw Jessica play with Velo. It was like looking in a mirror. Jessica would rile Velo to the point of zoomies and then run and hide only to jump out as he made his rounds through the house. I've never seen anyone else play with a dog like I do; like my dad did.
+Dad taught us the importance of connecting with nature, and just how much nature is just like us. Whether it was through having us do things that we didn't necessarily want to do for example, crawling on my hands and knees in a potato storage to catch some tiger salamanders or by taking awe in the minutia in nature by simply admiring the beauty of a beetle's pearlescent wings centred in his work-worn hands or making best friends out of the household dog. I was gobsmacked when I saw Jessica play with Velo. It was like looking in a mirror. Jessica would rile Velo to the point of zoomies and then run and hide only to jump out as he made his rounds through the house. I've never seen anyone else play with a dog like I do; like our dad did.
 
 ![Blake holding Velo with Jessica standing by his side](img_0442.jpeg "Blake holding Velo with Jessica standing by his side")
 
