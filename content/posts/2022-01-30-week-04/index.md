@@ -14,7 +14,7 @@ date: 2022-01-30T12:00:00.000-07:00
 
 My older sister Jessica spent her time in Idaho from 2022/01/20 until 2022/01/30 visiting. She stayed with Allyanna and I for the most part with some visits to Fruitland as well as to her new granddaughter's house.
 
-It was a nice opportunity to catch up with my middle sister. There have been so many miles and so many years between us; to say I missed her doesn't quite fill the hole in my heart. The most beautiful part about having that hole filled was how easily we fell back together. There were plenty of late nights of stories and an unhealthy amount of wine consumption.
+It was a nice opportunity to catch up with my middle sister. There have been so many miles and so many years between us; to say I missed her doesn't quite describe  the hole in my heart. The most beautiful part about having that hole filled was how easily we fell back together. There were plenty of late nights of stories and an unhealthy amount of wine consumption.
 
 Thankfully we were able to catch a few moments while she was up here.
 
