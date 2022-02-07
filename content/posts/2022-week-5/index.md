@@ -2,7 +2,8 @@
 path: /blog/2022/week/5
 title: "Weekly update: 2022 week 5"
 description: Week five update
-tags: []
+tags:
+  - weekly update
 draft: true
 date: 2022-02-07T12:00:00.000-07:00
 ---
