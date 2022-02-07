@@ -25,6 +25,10 @@ Allyanna and I have been trying to better organize work between the two of us. T
 
 Didn't get as far as I would have liked this week, but that's okay.
 
+### Ask HN: How do you deal with getting old and feeling lost?
+
+Found [this][old] thread interesting and full of insight for problems I'm sure to face the older I get.
+
 ## What I'm watching
 
 ### Righteous Gemstones
@@ -40,4 +44,7 @@ Didn't get as far as I would have liked this week, but that's okay.
 ## References
 
 [old]: https://news.ycombinator.com/item?id=30230620
+[red-light]: https://jamessevedge.com/articles/red-light-green-light/
 
+1. [Red light green light][red-light]
+1. [Ask HN: How do you deal with getting old and feeling lost?][old]
