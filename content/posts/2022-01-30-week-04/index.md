@@ -40,7 +40,7 @@ Our dog Velo a Kai Ken had his fourth birthday. We cooked him some filet mignon 
 
 ## What I'm working on
 
-i took a break this week from my side projects to focus on time with my sister.
+I took a break this week from my side projects to focus on time with my sister.
 
 ## What I'm reading
 
