@@ -8,7 +8,15 @@ date: 2022-02-07T12:00:00.000-07:00
 ---
 ## What I'm thinking about
 
+### Suboptimal defaults
+
+I've been thinking about default configurations that don't make sense. Things like desk layout, editor orientation and gaming keyboard mappings often don't make much sense by default.
+
 ## What I'm working on
+
+### Better communicating work with my partner Allyanna
+
+Allyanna and I have been trying to better organize work between the two of us. There's nothing like finding a groove as a couple by knowing what we're both working on. We've been doing couple's scrum for years on and off and have decided to get back into it by setting up a new kanban board. We've been picking off tickets consistently and it feels good.
 
 ## What I'm reading
 
