@@ -11,7 +11,7 @@ date: 2022-02-07T12:00:00.000-07:00
 
 ### Suboptimal defaults
 
-I've been thinking about default configurations that don't make sense. Things like desk layout, editor orientation and gaming keyboard mappings often don't make much sense by default.
+I've been thinking about default configurations that don't make sense. Things like desk layout, editor orientation and gaming keyboard mappings are not the best solutions to the problems they solve, but they still won as the recommended solution.
 
 ## What I'm working on
 
@@ -36,4 +36,8 @@ Didn't get as far as I would have liked this week, but that's okay.
 ### Weval: Changed for the better
 
 <iframe src="https://open.spotify.com/embed/album/3l6tnMhIsyLBCsIz3wLUFE?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+## References
+
+[old]: https://news.ycombinator.com/item?id=30230620
 
