@@ -20,7 +20,7 @@ Didn't get as far as I would have liked this week, but that's okay.
 
 ### Righteous Gemstones
 
-[Sesons two of "Righteous Gemstones"](https://www.imdb.com/title/tt8634332/) was released.
+[Season two of "Righteous Gemstones"](https://www.imdb.com/title/tt8634332/) was released.
 
 ## What I'm listening to
 
