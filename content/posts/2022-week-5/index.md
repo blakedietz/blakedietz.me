@@ -24,3 +24,7 @@ Didn't get as far as I would have liked this week, but that's okay.
 
 ## What I'm listening to
 
+### Weval: Changed for the better
+
+<iframe src="https://open.spotify.com/embed/album/3l6tnMhIsyLBCsIz3wLUFE?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
