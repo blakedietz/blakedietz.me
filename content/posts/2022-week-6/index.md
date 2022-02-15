@@ -3,7 +3,7 @@ path: /blog/2022/week/06
 title: "Weekly update: 2022 week 6"
 description: Ally gets her first gaming PC
 tags: []
-draft: false
+draft: true
 date: 2022-02-08T12:00:00.000-07:00
 ---
 ## What I'm grateful for
