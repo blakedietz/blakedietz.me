@@ -8,7 +8,13 @@ date: 2022-02-08T12:00:00.000-07:00
 ---
 ## What I'm grateful for
 
+### Remote work
+
+This week I travelled to Pocatello with my partner Allyanna and it was all possible because I'm able to work remote.
+
 ## What I'm thinking about
+
+### Stoicism
 
 ## What I'm working on
 
@@ -17,6 +23,15 @@ date: 2022-02-08T12:00:00.000-07:00
 ## What I'm watching
 
 ## What I'm listening to
+
+### With Teeth by Nine Inch Nails
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/56Us3Q6UIM4jKJZlWhqddL?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+### Ghosts on tape by Blood Red Shoes
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/65zRHfqj1uInYUCZInyDvF?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
 
 ## References
 
