@@ -1,10 +1,10 @@
 ---
-path: /blog/2022/week/06
+path: /blog/2022/week/11
 title: "Weekly update: 2022 week 11"
 description: Ally gets her first gaming PC
 tags: []
 draft: true
-date: 2022-02-08T12:00:00.000-07:00
+date: 2022-03-17T12:00:00.000-06:00
 ---
 ## What I'm grateful for
 
@@ -21,6 +21,10 @@ This week I travelled to Pocatello with my partner Allyanna and it was all possi
 ## What I'm reading
 
 ## What I'm watching
+
+### Better Call Saul
+
+### Watchmen
 
 ## What I'm listening to
 
