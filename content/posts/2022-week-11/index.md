@@ -7,7 +7,6 @@ tags:
   - phoenix
   - liveview
   - PETAL
-  - tailwind css
 draft: false
 date: 2022-03-17T12:00:00.000-06:00
 ---
