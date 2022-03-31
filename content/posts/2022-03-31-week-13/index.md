@@ -28,7 +28,6 @@ date: 2022-03-30T12:00:00.000-06:00
 [nnignbtjbtc]: https://thomasjbevan.substack.com/p/all-news-is-bad-news?s=r
 [tlgtc]: https://www.mollywhite.net/annotations/latecomers-guide-to-crypto#
 
-
 - [Your computer is a distributed system][yciads]
 - [Parser Combinators in Elixir][pcie]
 - [Maybe you should do less "work"][mysdljih]
