@@ -26,9 +26,12 @@ date: 2022-03-30T12:00:00.000-06:00
 [mysdljih]: https://www.johnwhiles.com/posts/work.html
 [gpnmos]: https://github.com/phaazon/hop.nvim#usage
 [nnignbtjbtc]: https://thomasjbevan.substack.com/p/all-news-is-bad-news?s=r
+[tlgtc]: https://www.mollywhite.net/annotations/latecomers-guide-to-crypto#
+
 
 - [Your computer is a distributed system][yciads]
 - [Parser Combinators in Elixir][pcie]
 - [Maybe you should do less "work"][mysdljih]
 - [GitHub - phaazon/hop.nvim: Neovim motions on speed!][gpnmos]
 - [No News Is Good News - by Thomas J Bevan - The Commonplace][nnignbtjbtc]
+- [The (Edited) Latecomer's Guide to Crypto][tlgtc]
