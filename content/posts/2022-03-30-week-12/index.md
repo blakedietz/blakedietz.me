@@ -22,6 +22,8 @@ Before that we went to Hyde Park Wine and grabbed our monthly allotment while en
 
 ## What I'm thinking about
 
+Nothing specific this week.
+
 ## What I'm working on
 
 ### Updated blakedietz.me to support mermaid.js
@@ -43,6 +45,8 @@ I was able to crack the AES key for b4b which finally let me get a hold of the i
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cMDGwj1QlSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## What I'm listening to
+
+Nothing specific this week.
 
 ## References
 
