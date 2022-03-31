@@ -29,6 +29,6 @@ date: 2022-03-30T12:00:00.000-06:00
 
 - [Your computer is a distributed system][yciads]
 - [Parser Combinators in Elixir][pcie]
-- [Maybe you should do less &#x27;work&#x27; - John&#x27;s internet house][mysdljih]
+- [Maybe you should do less "work"][mysdljih]
 - [GitHub - phaazon/hop.nvim: Neovim motions on speed!][gpnmos]
 - [No News Is Good News - by Thomas J Bevan - The Commonplace][nnignbtjbtc]
