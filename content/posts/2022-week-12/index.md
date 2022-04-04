@@ -6,7 +6,6 @@ tags:
   - weekly update
   - design
   - api design
-  - ""
 draft: false
 date: 2022-03-30T12:00:00.000-06:00
 ---
