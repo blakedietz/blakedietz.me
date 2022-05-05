@@ -16,15 +16,43 @@ const codeSites = [
 
 const ProjectsPage = () => (
   <Layout>
-    <SEO title="Projects"/>
+    <SEO title="Projects" />
     <h1>Projects</h1>
-
-    <h2>Code</h2>
-    <LinkList sites={codeSites}/>
-    <h2>pencyclopedia.ink</h2>
     <p>
-      A user driven fountain pen knowledgebase.
+      I'm constantly tinkering in my spare time; whether it's to solve my own
+      problems or customer problems. Designing, and engineering solutions from
+      start to finish is one of the highest forms of creativity in my opinion.
     </p>
+    <h2>Code</h2>
+    <LinkList sites={codeSites} />
+    <h2>Current</h2>
+    <h3>b4b.guide</h3>
+    <p>
+      A real time collaborative deck editor for the survival, horror PvE game
+      back4blood.
+    </p>
+    <p>
+      <a href="https://b4b.guide">https://b4b.guide</a>
+    </p>
+    <Technologies
+      tech={[
+        `Phoenix`,
+        `Elixir`,
+        `Tailwind CSS`,
+        `Alpine`,
+        `LiveView`,
+        `Postgres`,
+        `fly.io`,
+        `plausible.io`,
+      ]}
+    />
+    <h2>Past</h2>
+    <p>
+      Projects and sites listed below might be decomissioned or are no longer
+      actively maintained.
+    </p>
+    <h3>pencyclopedia.ink</h3>
+    <p>A user driven fountain pen knowledgebase.</p>
     <p>
       <a href="https://pencyclopedia.ink">https://pencyclopedia.ink</a>
     </p>
@@ -34,29 +62,21 @@ const ProjectsPage = () => (
         `Phoenix`,
         `Postgres`,
         `GraphQL`,
-        'React',
-        'Material UI',
+        "React",
+        "Material UI",
         `AWS SQS`,
         `Gigalixir`,
+        `Sentry`,
         `Netlify`,
       ]}
     />
-    <h2>plott.id</h2>
+    <h3>plott.id</h3>
     <p>
       A selection of generative algorithms re-implemented in React and browser
       technologies well fit for pen plotting.
     </p>
-    <p>
-      <a href="https://plott.id">https://plott.id</a>
-    </p>
-    <Technologies
-      tech={[
-        "React",
-        "Material UI",
-        "Redux",
-      ]}
-    />
-    <h2>Nested tags</h2>
+    <Technologies tech={["React", "Material UI", "Redux"]} />
+    <h3>Nested tags</h3>
     <p>
       A vs code plugin designed to organize your markdown notes by using
       arbitrary tagging and nested tagging. Stop using your file tree to
@@ -67,13 +87,8 @@ const ProjectsPage = () => (
         vs-code-nested-tags
       </a>
     </p>
-    <Technologies
-      tech={[
-        "Typescript",
-        "node.js",
-      ]}
-    />
-    <h2>kbd-prettier</h2>
+    <Technologies tech={["Typescript", "node.js"]} />
+    <h3>kbd-prettier</h3>
     <p>Make your keyboard layouts pretty &#x2328;&#xFE0F;&#x1F485;&#x2728;.</p>
     <p>
       This tool automatically makes your keyboard layout uniform. That&apos;s
@@ -86,13 +101,8 @@ const ProjectsPage = () => (
     <p>
       <a href="https://www.npmjs.com/package/kbd-prettier">kbd-prettier</a>
     </p>
-    <Technologies
-      tech={[
-        "Typescript",
-        "node.js",
-      ]}
-    />
-    <h2>js-live-templates</h2>
+    <Technologies tech={["Typescript", "node.js"]} />
+    <h3>js-live-templates</h3>
     <p>
       An extensive set of Javascript live templates for use in JetBrains IDEs.
       These live templates are based off of{" "}
@@ -106,12 +116,8 @@ const ProjectsPage = () => (
         js-live-templates
       </a>
     </p>
-    <Technologies
-      tech={[
-        "node.js",
-      ]}
-    />
-    <h2>Treefort music fest</h2>
+    <Technologies tech={["node.js"]} />
+    <h3>Treefort music fest</h3>
 
     <p>
       I worked on the Treefort music festival mobile application and backing api
@@ -138,13 +144,7 @@ const ProjectsPage = () => (
       </a>
     </p>
     <Technologies
-      tech={[
-        "Express",
-        "node.js",
-        "API Gateway",
-        "AWS Lambda",
-        "Dynamodb",
-      ]}
+      tech={["Express", "node.js", "API Gateway", "AWS Lambda", "Dynamodb"]}
     />
   </Layout>
 )

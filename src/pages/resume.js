@@ -24,32 +24,46 @@ const ResumePage = () => (
       <li>
         Linkedin:{" "}
         <a href="https://www.linkedin.com/in/blake-dietz-08229a61/">
-          https://www.linkedin.com/in/blake-dietz-08229a61/
+          https://www.linkedin.com/in/blake-dietz-08229a61
         </a>
       </li>
     </ul>
+    <h2>Projects</h2>
+    View a list of personal projects I've built{" "}
+    <a href="/projects">here</a>.
     <h2>Experience</h2>
-    <h3>
-      Integrations engineer:{" "}
-      <a href="https://www.instinct.vet">Instinct</a>
-    </h3>
+    <h3>Owner: Cyberdeck LLC</h3>
     <div className={`mx-2`}>
-      <h4> 2020/10/05 - Present</h4>
-      <p>
-        Instinct is a new software system focused on emergency/specialty centers. We already power many of the world's
-        most advanced care centers including teaching hospitals, private specialty centers, and leading ER hospitals.
-        Instinct includes digital whiteboards and treatment sheets, patient safety warnings, built in Plumb's, live
-        invoice auditing, and much more!
-      </p>
+      <h4>2021/07/01 - Present</h4>
       <Technologies
         tech={[
-          `Elixir`,
-          `OTP`,
-          `Postgres`,
-          `Erlang`,
-          `GraphQL`,
-          `REST`
+          "Elixir",
+          "Phoenix",
+          "Postgres",
+          "Liveview",
+          "TypeScript",
+          "GraphQL",
+          "React",
         ]}
+      />
+    </div>
+    <h3>
+      Senior software engineer: <a href="https://www.intuit.com">Intuit</a>
+    </h3>
+    <div className={`mx-2`}>
+      <h4>2021/05/01 - Present</h4>
+      <h5>Team: Growth</h5>
+      <Technologies
+        tech={["TypeScript", "GraphQL", "React", "Amplitude", "Splunk"]}
+      />
+    </div>
+    <h3>
+      Integrations engineer: <a href="https://www.instinct.vet">Instinct</a>
+    </h3>
+    <div className={`mx-2`}>
+      <h4>2020/10/05 - 2021/01/28</h4>
+      <Technologies
+        tech={[`Elixir`, `OTP`, `Postgres`, `Erlang`, `GraphQL`, `REST`]}
       />
     </div>
     <h3>
@@ -57,20 +71,13 @@ const ResumePage = () => (
       <a href="https://www.vetspire.com">Vetspire</a>
     </h3>
     <div className={`mx-2`}>
-      <h4> 2019/12/09 - 20120/09/03</h4>
+      <h4>2019/12/09 - 2020/09/03</h4>
+      <h5>Dedicated engineer for PETCO</h5>
       <p>
-        Vetspire is an artificial intelligence driven veterinary medical records
-        and practice management platform. The company is a startup re-imagining
-        the way that veterinarians use technology, impacting every aspect of
-        patient care from AI assistance in the exam room to managing client
-        communications and clinical analytics.
-      </p>
-      <h5>Petco</h5>
-      <p>
-        From day to day I communicate with project managers and engineers at
-        Petco to gather requirements, understand customer problems and plan
-        bodies of work. Features that are built based upon Petco's request are
-        implemented with all Vetspire customers in mind.
+        Worked with project managers and engineers at Petco to gather
+        requirements, understand customer problems and plan bodies of work.
+        Features that are built based upon Petco's request are implemented with
+        all Vetspire customers in mind.
       </p>
       <Technologies
         tech={[
@@ -94,8 +101,8 @@ const ResumePage = () => (
       <h4>2019/03/01 - 2019/12/09</h4>
       <h5>Team: Developer experience </h5>
       <p>
-        I was responsible for creating a seamless development experience for a
-        team of 90+ engineers with a primary focus on the backend. Challenges
+        Responsible for creating a paved road development experience for a team
+        of 90+ engineers with a primary focus on the backend. Challenges
         included transitioning the full team of developers from SVN to git,
         creating continuous delivery, integration and deployment pipelines in
         Kubernetes while also streamlining all aspects of the development
@@ -196,7 +203,7 @@ const ResumePage = () => (
     </h3>
     <div className={`mx-2`}>
       <p>
-        I volunteered for a local music festival for a few years. This helped to
+        Volunteered for a local music festival for a few years. This helped to
         scratch my itch to learn about deploying to AWS while also deploying a
         cross platform mobile application and getting a sneak peak at the artist
         lineups.
