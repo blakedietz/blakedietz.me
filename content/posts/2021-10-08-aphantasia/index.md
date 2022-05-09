@@ -1,7 +1,7 @@
 ---
 path: /blog/aphantasia
 title: I might have aphantasia
-description: My mind doesn't play eyelid movies?
+description: My mind doesn't play eyelid movies.
 tags: []
 draft: true
 date: 2021-10-08T12:00:00.000-06:00
