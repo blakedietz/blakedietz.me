@@ -1,7 +1,7 @@
 ---
 path: /blog/2022/04/03
 title: "Solved: ERR_MODULE_NOT_FOUND"
-description: These two solutions worked for error
+description: Ran into some issues with module resolution when working with typescript.
 tags:
   - typescript
 draft: false
