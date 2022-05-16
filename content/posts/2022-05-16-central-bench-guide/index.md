@@ -14,7 +14,7 @@ The other day I was riding from the Idaho Youth ranch after making a donation. I
 
 The eatery goes by Antojitos El Cabezazo! It's located at 340 N Orchard St Boise, Idaho 83706.
 
-We ended up grabbing a handful of tacos. My favorite was the chorizo by far. If you're near the Central Bench, go give a shot. The owners are kind, and the food is wonderful.
+We ended up grabbing a handful of tacos. My favorite was the chorizo by far. If you're near the Central Bench, go give the place a shot. The owners are kind, and the food is wonderful.
 
 ![](./antojitos-elcabezazo!.jpg)
 
