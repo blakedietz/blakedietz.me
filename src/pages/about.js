@@ -8,12 +8,14 @@ const AboutPage = () => (
     <SEO title="About" />
     <h1>About</h1>
     <h2>🧑‍💻 Me 🚲</h2>
+    <Image />
     <h3>Hobbies</h3>
     <h4>Current</h4>
     <ul>
-      <li>Traditional weight lifting</li>
+      <li>Copperplate calligraphy</li>
       <li>Mountain biking</li>
       <li>PC gaming</li>
+      <li>Traditional weight lifting</li>
     </ul>
     <h4>Past</h4>
     <ul>
@@ -31,7 +33,6 @@ const AboutPage = () => (
       <li>Vintage pen collection and restoration</li>
       <li>Yo-yoing</li>
     </ul>
-
     <h2>👫 Family 🐕</h2>
     <p>
       <a href={"https://instagram.com/allyan_na"}>Allyanna Wintermote</a> is my
