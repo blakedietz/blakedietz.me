@@ -72,7 +72,7 @@ These views call `<%= @inner_content %>` to [transclude] the child views into th
 
 ### How is the layout option passed for child views?
 
-#### `lib/exo_web.ex`
+#### `lib/my_app_web.ex`
 
 If you read the above description and check your current project's LiveViews, you might be wondering how the layout option is being set for LiveViews. If you read through your LiveView module, you'll most likely see something like the following.
 
@@ -83,7 +83,7 @@ defmodule MyAppWeb.ExampleLive.Index do
 end
 ```
 
-There aren't any references to passing the `:layout` param to LiveView anywhere. There is one key line here: `use ExoWeb, :live_view`. If you open up `lib/my_app_web.ex` you'll see something similar to the following:
+There aren't any references to passing the `:layout` param to LiveView anywhere. There is one key line here: `use MyAppWeb, :live_view`. If you open up `lib/my_app_web.ex` you'll see something similar to the following:
 
 ```elixir
 # ...
@@ -133,3 +133,6 @@ Passing `container: {:div, class: "liveview-container"}` allows you to define an
 
 [transclude]: https://en.wikipedia.org/wiki/Transclusion
 [live-layouts]: https://hexdocs.pm/phoenix_live_view/live-layouts.html
+
+1. [Transclude][transclude]
+1. [Live layouts][live-layouts]
