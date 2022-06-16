@@ -1,6 +1,6 @@
 ---
 path: /blog/2022-05-31/data-phx-main
-title: Discovering the container element for Phoenix LiveViews
+title: Discovering the extra container element for Phoenix LiveViews
 description: The data-phx-main element makes live.html.heex DOM structure slighty different than app.html.heex. Learn about where it comes from and how to configure it.
 tags:
   - software
@@ -48,7 +48,7 @@ The better approach is to configure your LiveView container value in your applic
 
 ## Problem
 
-In order to keep the experience the same between Live and non-LiveViews I wanted to style the two layout templates the same. However, when applying the exact same styling to the two different `app.html.heex` and `live.html.heex` views, the `live.html.heex` version was rendering differently than the `app.html.heex` view.
+In order to keep the experience the consistent between web page views that are LiveViews and static views I wanted to create a shared layout. However, when applying the same styling to the two the shared layout in LiveViews and non-LiveViews, the LiveViews did not render the same. This is because the structure of the DOM for LiveView views was slightly different, causing some of the CSS to apply differently.
 
 ## Assumptions
 
@@ -58,7 +58,7 @@ For the rest of the post, assume that the app name is `my_app`. So if you starte
 
 ## First principles
 
-Before we get down to the one line change, let's tease back a little bit of the magic in Phoenix to make sure our foundation for understanding how and when this problem arises is strong.
+Before we get down to the one line change, let's tease back a little bit of the magic in Phoenix to make sure we understand how everything works.
 
 ### Phoenix layout templates
 
