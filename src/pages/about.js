@@ -8,7 +8,6 @@ const AboutPage = () => (
     <SEO title="About" />
     <h1>About</h1>
     <h2>🧑‍💻 Me 🚲</h2>
-    <Image />
     <h3>Hobbies</h3>
     <h4>Current</h4>
     <ul>
