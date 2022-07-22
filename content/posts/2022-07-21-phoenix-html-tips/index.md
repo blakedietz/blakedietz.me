@@ -7,7 +7,7 @@ tags:
   - elixir
   - programming
   - LiveView
-draft: true
+draft: false
 date: 2022-07-21T12:00:00.000-06:00
 ---
 ## Make sure to pass an id for multiple inputs_for for the same entity
