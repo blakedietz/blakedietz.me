@@ -20,12 +20,12 @@ def render(assigns) do
 ~H"""
   <.form for={@user_changeset} let={} %>
     <%= inputs_for f, :friend, fn friend -> %>
-    <!-- ... -->
+      <!-- ... -->
     <% end %>
     <!-- ... -->
     <%= inputs_for f, :friend, [id: "secondary-friend-input"], fn friend -> %>
-    <!-- ... -->
-  <% end %>
+      <!-- ... -->
+    <% end %>
 <% end %>
 """
 ```
