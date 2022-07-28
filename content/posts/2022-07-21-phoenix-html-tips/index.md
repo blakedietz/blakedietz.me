@@ -18,7 +18,7 @@ You can use multiple `inputs_for` for the same entity, just make sure to pass id
 # some-file.ex
 def render(assigns) do
 ~H"""
-  <.form for={@user_changeset} let={} %>
+  <.form for={@user_changeset} let={f} %>
     <%= inputs_for f, :friend, fn friend -> %>
       <!-- ... -->
     <% end %>
@@ -26,6 +26,6 @@ def render(assigns) do
     <%= inputs_for f, :friend, [id: "secondary-friend-input"], fn friend -> %>
       <!-- ... -->
     <% end %>
-<% end %>
+  <% end %>
 """
 ```
