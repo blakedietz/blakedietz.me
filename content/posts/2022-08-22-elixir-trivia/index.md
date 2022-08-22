@@ -17,7 +17,7 @@ I learned that you can pattern match structs.
 
 ```elixir
 def new(%_{} = struct), do: new_from_enum(struct)
-```<sub></sub>
+```
 
 ## References
 
