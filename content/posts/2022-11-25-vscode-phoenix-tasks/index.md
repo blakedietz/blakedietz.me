@@ -7,7 +7,7 @@ tags:
   - Elixir
   - VSCode
 draft: false
-date: 2022-11-25T00:00.000-07:00
+date: 2022-11-25T12:00:00.000-07:00
 ---
 
 Here's the associated [git repo](https://github.com/blakedietz/vscode-phoenix-tasks/tree/main). This is here primarily for seo and simplicity.
