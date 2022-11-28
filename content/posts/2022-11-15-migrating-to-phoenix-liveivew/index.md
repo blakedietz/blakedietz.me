@@ -1,5 +1,5 @@
 ---
-path: /blog/2022/11/22
+path: /blog/2022/11/15
 title: "Migrating to Phoenix LiveView 0.18"
 description: Some patterns for migrating from Phoenix LiveView 0.17 to 0.18.3
 tags:
@@ -8,7 +8,7 @@ tags:
   - Migration guide
   - Elixir
 draft: false
-date: 2022-11-22T12:00:00.000-07:00
+date: 2022-11-15T12:00:00.000-07:00
 ---
 
 ## Properties with a leading colon
@@ -56,7 +56,6 @@ end
         container: {:div, class: "grow flex flex-col overflow-hidden"}
   # ...
 ```
-
 ### Solution
 
 ```elixir
