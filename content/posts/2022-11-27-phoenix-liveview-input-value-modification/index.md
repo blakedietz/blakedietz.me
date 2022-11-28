@@ -77,11 +77,10 @@ Associated code block [here](https://github.com/blakedietz/phoenix-liveview-form
 
 ## In focus elements cannot be modified
 
-The element that is in focus is the `age_range`. When attempting to modify the `age_range` from the server side, the value is not modified.
-
-Here `handle_event` captures all changes for the `step` input only. Upon change `step` is set the value of 0. Note that it doesn't override the form value on the client side.
+The element that is in focus is `step`. When attempting to modify `step` from the server side, the value is not modified.
 
 ```elixir
+# Here `handle_event` captures all changes for the `step` input only. Upon change `step` is set the value of 0. Note in the gif that it doesn't override the form value on the client side.
 def handle_event(
       "validate",
       %{
