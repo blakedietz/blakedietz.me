@@ -73,7 +73,7 @@ end
 
 Associated code block [here](https://github.com/blakedietz/phoenix-liveview-form-focus/blob/1a6383d251405460202e152d749df624074a6e25/lib/app_web/live/age_range_live/form_component.ex#L41).
 
-![](https://github.com/blakedietz/phoenix-liveview-form-focus/blob/6137c7f391f239185055a896ddb0eb0a0de225cb/images/not-in-focus.gif)
+![](./not-in-focus.gif)
 
 ## In focus elements cannot be modified
 
@@ -107,4 +107,4 @@ end
 
 Associated code block [here](<[true](https://github.com/blakedietz/phoenix-liveview-form-focus/blob/1a6383d251405460202e152d749df624074a6e25/lib/app_web/live/age_range_live/form_component.ex#L16)>).
 
-![](https://github.com/blakedietz/phoenix-liveview-form-focus/blob/6137c7f391f239185055a896ddb0eb0a0de225cb/images/in-focus.gif)
+![](./in-focus.gif)
