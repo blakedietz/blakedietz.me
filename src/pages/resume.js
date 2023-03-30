@@ -48,10 +48,37 @@ const ResumePage = () => (
       />
     </div>
     <h3>
+      Founding engineer: <a href="https://www.elegysoftware.com">elegy software</a>
+    </h3>
+    <div className={`mx-2`}>
+      <h4>2022/06/20 - Present</h4>
+      <p>
+        As one of three founding engineers I had direct impact on delivering value to our customers, while also helping to shape
+        the Phoenix LiveView codebase. I played a part of nearly every aspect of delivering product; from conducting on site
+        follow me homes with customers in order to research potential features, to helping write the SaaS product from the ground up,
+        my role was full stack in the truest sense.
+      </p>
+      <p>
+        Some concrete examples of features and domains I helped shape are as follows:
+      </p>
+      <ul>
+        <li>Created a fully featured invoicing system that was customized for the customer domain. This functionality directly lead to a customer acquisition.</li>
+        <li>Building an internal component ecosystem to accelerate and unify feature delivery across the product.</li>
+        <li>Designing and implementing full mobile support app wide.</li>
+        <li>Adding error logging and instrumenting user interaction for analytics.</li>
+        <li>Championing app wide user experience improvements such as redesigning page informatino hierarchy and autosave.</li>
+        <li>Designing and prototyping industry leading EDRS integrations.</li>
+        <li>Prioritizing and scoping issues based upon customer feedback</li>
+      </ul>
+      <Technologies
+        tech={["Elixir", "Phoenix", "Tailwind", "LiveView", "Postgres", "GitHub Actions", "AWS Fargate", "DataDog", "Sentry", "fly.io"]}
+      />
+    </div>
+    <h3>
       Senior software engineer: <a href="https://www.intuit.com">Intuit</a>
     </h3>
     <div className={`mx-2`}>
-      <h4>2021/05/01 - Present</h4>
+      <h4>2021/05/01 - 2022/06/01</h4>
       <h5>Team: Growth</h5>
       <Technologies
         tech={["TypeScript", "GraphQL", "React", "Amplitude", "Splunk"]}
