@@ -52,23 +52,20 @@ const ResumePage = () => (
     </h3>
     <div className={`mx-2`}>
       <h4>2022/06/20 - Present</h4>
-      <p>
-        As one of three founding engineers I had direct impact on delivering value to our customers, while also helping to shape
-        the Phoenix LiveView codebase. I played a part of nearly every aspect of delivering product; from conducting on site
-        follow me homes with customers in order to research potential features, to helping write the SaaS product from the ground up,
-        my role was full stack in the truest sense.
+      <p>As one of two founding engineers, I directly impacted our customers' experience while also contributing significantly to the development of the Phoenix LiveView codebase.
+        My involvement spanned almost every aspect of product delivery, from conducting on-site follow-me-home research with customers to identify potential features, to assisting
+        in building the SaaS product from scratch, epitomizing the full-stack role.
       </p>
-      <p>
-        Some concrete examples of features and domains I helped shape are as follows:
-      </p>
+
+      <p>Here are some specific examples of features and domains I've helped shape:</p>
       <ul>
-        <li>Created a fully featured invoicing system that was customized for the customer domain. This functionality directly lead to a customer acquisition.</li>
-        <li>Building an internal component ecosystem to accelerate and unify feature delivery across the product.</li>
-        <li>Designing and implementing full mobile support app wide.</li>
-        <li>Adding error logging and instrumenting user interaction for analytics.</li>
-        <li>Championing app wide user experience improvements such as redesigning page information hierarchy and autosave.</li>
-        <li>Designing and prototyping industry leading EDRS integrations.</li>
-        <li>Prioritizing and scoping issues based upon customer feedback.</li>
+        <li>Developed a comprehensive, customizable invoicing system tailored to the customer domain, which directly contributed to customer acquisition.</li>
+        <li>Constructed an internal component ecosystem to expedite and standardize feature delivery across the product.</li>
+        <li>Designed and implemented app-wide mobile support.</li>
+        <li>Incorporated error logging and user interaction instrumentation for analytics.</li>
+        <li>Advocated for app-wide user experience enhancements, such as redesigning page information hierarchy and implementing autosave functionality.</li>
+        <li>Devised and prototyped cutting-edge EDRS integrations.</li>
+        <li>Prioritized and scoped issues based on customer feedback.</li>
       </ul>
       <Technologies
         tech={["Elixir", "Phoenix", "Tailwind", "LiveView", "Postgres", "GitHub Actions", "AWS Fargate", "DataDog", "Sentry", "fly.io"]}
