@@ -26,6 +26,27 @@ const ProjectsPage = () => (
     <h2>Code</h2>
     <LinkList sites={codeSites} />
     <h2>Current</h2>
+    <h3>Phoenix LiveView Snippets</h3>
+    <p>
+      A well documented set of snippets commonly used when writing LiveView code.
+    </p>
+    <p>
+      <a href="https://marketplace.visualstudio.com/items?itemName=phoenix-liveview-snippets.phoenix-liveview-snippets">Phoenix LiveView snippets</a>
+    </p>
+    <Technologies
+      tech={[
+        `Phoenix`,
+        `Elixir`,
+        `LiveView`,
+        `VSCode`,
+        `NeoVim`
+      ]}
+    />
+    <h2>Past</h2>
+    <p>
+      Projects and sites listed below might be decomissioned or are no longer
+      actively maintained.
+    </p>
     <h3>b4b.guide</h3>
     <p>
       A real time collaborative deck editor for the survival, horror PvE game
@@ -46,11 +67,6 @@ const ProjectsPage = () => (
         `plausible.io`,
       ]}
     />
-    <h2>Past</h2>
-    <p>
-      Projects and sites listed below might be decomissioned or are no longer
-      actively maintained.
-    </p>
     <h3>pencyclopedia.ink</h3>
     <p>A user driven fountain pen knowledgebase.</p>
     <p>
