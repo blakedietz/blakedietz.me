@@ -68,7 +68,7 @@ const ResumePage = () => (
         <li>Adding error logging and instrumenting user interaction for analytics.</li>
         <li>Championing app wide user experience improvements such as redesigning page information hierarchy and autosave.</li>
         <li>Designing and prototyping industry leading EDRS integrations.</li>
-        <li>Prioritizing and scoping issues based upon customer feedback</li>
+        <li>Prioritizing and scoping issues based upon customer feedback.</li>
       </ul>
       <Technologies
         tech={["Elixir", "Phoenix", "Tailwind", "LiveView", "Postgres", "GitHub Actions", "AWS Fargate", "DataDog", "Sentry", "fly.io"]}
