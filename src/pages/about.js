@@ -11,10 +11,11 @@ const AboutPage = () => (
     <h3>Hobbies</h3>
     <h4>Current</h4>
     <ul>
+      <li>Crossfit</li>
       <li>Copperplate calligraphy</li>
       <li>Mountain biking</li>
+      <li>Geocaching</li>
       <li>PC gaming</li>
-      <li>Traditional weight lifting</li>
     </ul>
     <h4>Past</h4>
     <ul>
@@ -29,6 +30,7 @@ const AboutPage = () => (
       <li>Photoshop tennis</li>
       <li>Rock climbing</li>
       <li>Taekwondo</li>
+      <li>Traditional weight lifting</li>
       <li>Vintage pen collection and restoration</li>
       <li>Yo-yoing</li>
     </ul>
