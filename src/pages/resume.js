@@ -66,7 +66,7 @@ const ResumePage = () => (
         <li>Building an internal component ecosystem to accelerate and unify feature delivery across the product.</li>
         <li>Designing and implementing full mobile support app wide.</li>
         <li>Adding error logging and instrumenting user interaction for analytics.</li>
-        <li>Championing app wide user experience improvements such as redesigning page informatino hierarchy and autosave.</li>
+        <li>Championing app wide user experience improvements such as redesigning page information hierarchy and autosave.</li>
         <li>Designing and prototyping industry leading EDRS integrations.</li>
         <li>Prioritizing and scoping issues based upon customer feedback</li>
       </ul>
