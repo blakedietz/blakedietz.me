@@ -28,6 +28,11 @@ const ResumePage = () => (
         </a>
       </li>
     </ul>
+    <h2>Education</h2>
+    <h3>Bachelor of Science in Applied Mathematics, minor in Computer Science: Boise State University</h3>
+    <div className={`mx-2`}>
+      <h4>2009-2014</h4>
+    </div>
     <h2>Projects</h2>
     View a list of personal projects I've built{" "}
     <a href="/projects">here</a>.
