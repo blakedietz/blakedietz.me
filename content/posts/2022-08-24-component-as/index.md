@@ -9,6 +9,11 @@ tags:
 draft: false
 date: 2022-08-24T12:00:00.000-06:00
 ---
+
+# ⚠️ Warning
+
+Since the release of [Phoenix LiveView 0.18.0](https://hexdocs.pm/phoenix_live_view/changelog.html#0-18-0-2022-09-20) this post is no longer relevant. Instead use [dynamic_tag/1](https://hexdocs.pm/phoenix_live_view/Phoenix.Component.html#dynamic_tag/1).
+
 For a while I've been trying to figure out how to write a higher order component in LiveView that allows you to define the root element. While I wouldn't recommend doing this often, there are infrequent scenarios wherein it might be helpful.
 
 One example is when you're writing a higher order component that's acting as a container. You'd like to make the container remain semantic while also keeping the component reusable.
