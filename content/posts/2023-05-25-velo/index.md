@@ -2,7 +2,9 @@
 path: /blog/2023/05/25/velo
 title: Little man
 description: Life is fragile.
-tags: life, Velo
+tags:
+  - life
+  - Velo
 draft: false
 date: 2023-05-25T12:00:00.000-07:00
 ---
