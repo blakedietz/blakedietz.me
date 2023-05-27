@@ -2,21 +2,36 @@
 path: /blog/mar
 title: MASH steel all-road mullet build
 description: Documenting the build process for my MASH steel all-road build
-tags:
-  - cycling
-  - bike stable
-  - n + 1
+tags: cycling
 draft: false
 date: 2022-06-09T12:00:00.000-06:00
 ---
+## Photos
+
+Allyanna Wintermote took these photos while we were riding on the Hiawatha Trail in northern Idaho.
+
+![](./hiawatha-47.jpg)
+![](./hiawatha-48.jpg)
+![](./hiawatha-49.jpg)
+![](./hiawatha-50.jpg)
+![](./hiawatha-52.jpg)
+![](./hiawatha-51.jpg)
+![](./hiawatha-53.jpg)
+![](./hiawatha-54.jpg)
+![](./hiawatha-55.jpg)
+![](./hiawatha-56.jpg)
+![](./hiawatha-57.jpg)
+![](./hiawatha-58.jpg)
+![](./hiawatha-59.jpg)
+![](./hiawatha-60.jpg)
 
 ## Parts
 
 <dl>
   <dt>Frame</dt>
   <dd>
-    MASH steel all-road
     <dl>
+    MASH steel all-road
       <dt>Frame</dt><dd>MASH Butted steel</dd>
       <dt>Fork rake</dt><dd>43 mm</dd>
       <dt>Seatpost size</dt><dd>27.2 mm</dd>
