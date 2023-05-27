@@ -2,7 +2,6 @@
 path: /blog/mar
 title: MASH steel all-road mullet build
 description: Documenting the build process for my MASH steel all-road build
-tags: cycling
 draft: false
 date: 2022-06-09T12:00:00.000-06:00
 ---
