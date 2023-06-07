@@ -17,6 +17,7 @@ isPage : true
 - Mountain biking
 - Geocaching
 - PC gaming
+- Sci-fi book club
 
 ### Past
 
