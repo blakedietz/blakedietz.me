@@ -1,13 +1,12 @@
 /**
  * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
  *
- * See: https://www.gatsbyjs.org/docs/ssr-apis/
+ * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-ssr/
  */
 
-// You can delete this file if you're not using it
-import React from "react"
-export function onRenderBody({ setHeadComponents }) {
-  setHeadComponents(
-    []
-  )
+/**
+ * @type {import('gatsby').GatsbySSR['onRenderBody']}
+ */
+exports.onRenderBody = ({ setHtmlAttributes }) => {
+  setHtmlAttributes({ lang: `en` })
 }

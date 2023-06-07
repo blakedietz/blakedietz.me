@@ -1,0 +1,154 @@
+/** prism customizations */
+
+/*
+ * Synthwave '84 Theme originally by Robb Owen [@Robb0wen] for Visual Studio Code
+ * Demo: https://marc.dev/demo/prism-synthwave84
+ *
+ * Ported for PrismJS by Marc Backes [@themarcba]
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+  color: var(--color-hot-pink);
+  border-radius: 12px;
+  background: none;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1em;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  text-shadow: unset;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+  outline: 1px solid var(--color-roman-silver);
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: 0.1em;
+  border-radius: 0.3em;
+  white-space: normal;
+  color: var(--color-mustard);
+  background-color: var(--color-roman-silver);
+}
+
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: var(--color-old-lavendar);
+}
+
+.token.punctuation {
+  color: var(--color-powder-blue);
+}
+
+.token.tag,
+.token.attr-name,
+.token.namespace,
+.token.number,
+.token.unit,
+.token.hexcode,
+.token.deleted {
+  color: var(--color-maximum-blue);
+}
+
+.token.property,
+.token.selector {
+  color: var(--color-pearl-aqua);
+}
+
+.token.function-name {
+  color: var(--color-maximum-blue);
+}
+
+.token.boolean,
+.token.selector .token.id,
+.token.function {
+  color: #fdfdfd;
+}
+
+.token.class-name {
+  color: var(--color-powder-blue);
+}
+
+.token.constant,
+.token.symbol {
+  color: var(--color-hot-pink);
+
+}
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.selector .token.class,
+.token.builtin {
+  color: #f4eee4;
+}
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.regex,
+.token.variable {
+  color: var(--color-mustard);
+}
+
+.token.operator,
+.token.entity,
+.token.url {
+  color: var(--color-pearl-aqua);
+  background: unset;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.inserted {
+  color: var(--color-african-violet);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+pre::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+pre {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.gatsby-highlight {
+  & pre {
+    background: var(--color-raisin-black);
+    font-family: var(--fontFamily-serif);
+  }
+}

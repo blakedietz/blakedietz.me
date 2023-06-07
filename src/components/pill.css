@@ -1,9 +1,0 @@
-.pill {
-  @apply bg-hot-pink;
-  @apply text-raisin-black;
-  @apply rounded-lg;
-  @apply text-xs;
-  @apply p-1;
-  @apply mr-2;
-  display: inline-block;
-}

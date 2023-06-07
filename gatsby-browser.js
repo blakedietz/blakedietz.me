@@ -1,6 +1,12 @@
-import "./src/components/layout.css"
-import "./src/components/header.css"
-import "./src/components/prism.css"
-import "./src/pages/index.css"
-import "./src/custom-prism-theme.css"
-import "./src/custom-gatsby-remark-code-buttons.css"
+// custom typefaces
+import "@fontsource/ibm-plex-mono"
+import "@fontsource/ibm-plex-sans"
+// normalize CSS across browsers
+import "./src/normalize.css"
+// custom CSS styles
+import "./src/style.css"
+
+// Highlighting for code blocks
+import "prismjs/themes/prism.css"
+
+import "./src/prism-theme.css"

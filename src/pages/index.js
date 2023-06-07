@@ -1,65 +1,112 @@
-import React from "react"
-import { graphql } from "gatsby"
+import * as React from "react"
+import { Link, graphql } from "gatsby"
+
+import Bio from "../components/bio"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { Link } from "gatsby"
-import { getFormattedDate } from "../utils/utils"
+import Seo from "../components/seo"
 import { Pills } from "../components/pill"
 
-const PostLink = ({ post }) => (
-  <div className="post-and-description-container">
-    <Link className="post-title text-xl my-6" to={post.frontmatter.path}>
-      {post.frontmatter.title}
-    </Link>
-    <div className="post-description">{post.frontmatter.description}</div>
-    <div className="post-tags">
-      {post.frontmatter.tags && <Pills pills={post.frontmatter.tags} />}
-    </div>
-    <div className="post-date">
-      {getFormattedDate(new Date(post.frontmatter.date))}
-    </div>
-  </div>
-)
+const BlogIndex = ({ data, location }) => {
+  const siteTitle = data.site.siteMetadata?.title || `Title`
+  const posts = data.allMarkdownRemark.nodes
 
-const BlogPostsPage = ({
-  data: {
-    allMarkdownRemark: { edges },
-  },
-}) => {
-  const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date)
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
+  if (posts.length === 0) {
+    return (
+      <Layout location={location} title={siteTitle}>
+        <Bio />
+        <p>
+          No blog posts found. Add markdown posts to "content/blog" (or the
+          directory you specified for the "gatsby-source-filesystem" plugin in
+          gatsby-config.js).
+        </p>
+      </Layout>
+    )
+  }
 
   return (
-    <>
-      <SEO title={"All blog posts"} />
-      <Layout>
-        <h1>All posts</h1>
-        <div>{Posts}</div>
-      </Layout>
-    </>
+    <Layout location={location} title={siteTitle}>
+      <Bio />
+      <ol style={{ listStyle: `none` }}>
+        {posts
+          .filter(post => post.frontmatter?.isPage !== true)
+          .map(post => {
+            const title = post.frontmatter.title || post.fields.slug
+
+            return (
+              <li key={post.fields.slug}>
+                <article
+                  className="post-list-item"
+                  itemScope
+                  itemType="http://schema.org/Article"
+                >
+                  <header style={{ display: `flex`, justifyContent: `space-between`, alignItems: `center` }}>
+                    <h2>
+                      <Link to={post.frontmatter.slug} itemProp="url">
+                        <span itemProp="headline">{title}</span>
+                      </Link>
+                    </h2>
+                    <small style={{ color: `var(--color-roman-silver)`, flexShrink: 0, fontSize: `var(--fontSize-1)` }}>
+                      <time dateTime={post.frontmatter.date}>
+                        {post.frontmatter.date}
+                      </time>
+                    </small>
+                  </header>
+                  <section>
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: post.frontmatter.description || post.excerpt,
+                      }}
+                      itemProp="description"
+                    />
+                  </section>
+                  <div style={{ marginTop: `var(--spacing-3)` }}>
+                    {post.frontmatter.tags && <Pills pills={post.frontmatter.tags} />}
+                  </div>
+                </article>
+              </li>
+            )
+          })}
+      </ol>
+    </Layout>
   )
 }
 
-export default BlogPostsPage
+export default BlogIndex
+
+/**
+ * Head export to define metadata for the page
+ *
+ * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
+ */
+export const Head = () => <Seo title="All posts" />
 
 export const pageQuery = graphql`
-  query {
+  {
+    site {
+      siteMetadata {
+        title
+      }
+    }
     allMarkdownRemark(
-    sort: { order: DESC, fields: [frontmatter___date] }
-    filter: {frontmatter: {draft: {ne: true}}} 
+      sort: { frontmatter: { date: DESC } }
+      filter: { 
+        frontmatter: { 
+          draft: {ne: true} 
+        }
+      }
     ) {
-      edges {
-        node {
-          id
-          excerpt(pruneLength: 250)
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            description
-            tags
-            path
-            title
-          }
+      nodes {
+        excerpt
+        fields {
+          slug
+        }
+        frontmatter {
+          slug
+          date(formatString: "YYYY-MM-DD")
+          isPage
+          title
+          description
+          tags
         }
       }
     }
