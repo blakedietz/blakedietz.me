@@ -47,6 +47,16 @@ module.exports = {
         plugins: [
           `gatsby-remark-mermaid`,
           {
+            resolve: 'gatsby-remark-audio',
+            options: {
+              preload: 'auto',
+              loop: false,
+              controls: true,
+              muted: false,
+              autoplay: false
+            }
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 630,
