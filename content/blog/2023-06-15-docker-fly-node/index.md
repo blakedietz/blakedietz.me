@@ -40,7 +40,8 @@ RUN mix assets.deploy
 
 ## The patch
 
-```diff --git a/Dockerfile b/Dockerfile
+```diff
+diff --git a/Dockerfile b/Dockerfile
 index 795f853..6543192 100644
 --- a/Dockerfile
 +++ b/Dockerfile
