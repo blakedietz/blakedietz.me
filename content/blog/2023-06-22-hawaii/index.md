@@ -1,10 +1,12 @@
 ---
 slug: /blog/2023-06-22/hawaii
 title: Oahu trip
-description: A recap of my trip to Oahu
+description: A recap of our trip to Oahu
 draft: false
 date: 2023-06-22T12:00:00.000-07:00
 ---
+
+Allyanna and I were invited to Oahu to attend her friend's wedding from 2023-06-18 to 2023-06-25. As far as planning goes it was on the lower effort side as we ended up going with a Costco travel package, which was a surprisingly good deal in comparison to the competition. I say that it's low effort only in the sense that we didn't plan as much ahead of time. It was my first time and Ally's second time being on the island, so we didn't have intimate knowledge of locations less of a tourist trap. Allyanna still worked some magic when comparing our deals through some Google sheets.
 
 # 2023-06-18
 
@@ -36,12 +38,12 @@ On the way to the ramen shop, we took a moment to appreciate the beautiful sunse
 
 ![](./hawaii_3.jpeg)
 
-As we continued down the canal we heard the songs of many different birds across the river. Near the point where the path turned away from the canal, we spied a Kingfisher walking on the shore.
+As we continued down the canal we heard the songs of many different birds across the river. As the path turned away from the canal we spied a Kingfisher walking on the shore. It was cautiously stepping through the shallows when we made our snapshot.
 
 
 ![](./hawaii_8.jpeg)
 
-While the service wasn't the most Americanized version of service with a smile, the food was still delightful. On the way back from the ramen shop to the hotel we took the opposite side of the road and stumbled upon a kitty in a vacuous well light room. It turns out it was a cat cafe that was closed after hours.
+While the service wasn't the most Americanized version of service with a smile, the food was still delightful. On the way back from the ramen shop to the hotel we took the opposite side of the road and stumbled upon a kitty in a vacant, well lit room. It was a cat cafe that was closed after hours.
 
 ![](./hawaii_9.jpeg)
 
