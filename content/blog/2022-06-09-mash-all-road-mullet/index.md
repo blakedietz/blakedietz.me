@@ -58,29 +58,28 @@ Allyanna Wintermote took these photos while we were riding on the Hiawatha Trail
   </dd>
 
   <dt>Wrap</dt>
-  <dd></dd>
+  <dd>Lizard Skins Unisex's DSP Bar V2 Handlebar Grip Tape, Jet Black, One Size, DSPCY</dd>
 
   <dt>Stem</dt>
   <dd>
-    Thomson X2
+    Thomson X4
     <dl>
       <dt>Length</dt>
-      <dd>110 mm</dd>
+      <dd>70 mm</dd>
     </dl>
   </dd>
 
   <dt>Wheelset</dt>
-  <dd>SRAM 303S</dd>
+  <dd>SRAM 303S (700c)</dd>
 
   <dt>Hub</dt>
   <dd>SRAM XDR</dd>
 
   <dt>Casette</dt>
-  <dd>
-  </dd>
+  <dd>SRAM XG-1275 GX Eagle 12-Speed Cassette Black, B1, 10-52t</dd>
 
   <dt>Derailleur</dt>
-  <dd>SRAM Eagle X01</dd>
+  <dd>SRAM X01 Eagle 12-Speed Rear Derailleur Lunar, 52T</dd>
 
   <dt>Tires</dt>
   <dd>
@@ -91,17 +90,23 @@ Allyanna Wintermote took these photos while we were riding on the Hiawatha Trail
     </dl>
   </dd>
 
-  <dt>Shifters</dt>
-  <dd></dd>
+  <dt>Front Caliper</dt>
+  <dd>SRAM Force Hydraulic Disk Brake - Flat Mount Front, 1X, 950mm, No Rotor </dd>
 
-  <dt>Disc rotors</dt>
-  <dd></dd>
+  <dt>Rear Caliper</dt>
+  <dd>SRAM Force Hydraulic Disk Brake - Flat Mount Rear, 11 Speed, 1800mm, No Rotor</dd>
 
-  <dt>Disc calipers</dt>
-  <dd></dd>
+  <dt>Front Disc Rotor</dt>
+  <dd>SRAM Centerline XR Rotor 160mm, Centerlock</dd>
+
+  <dt>Rear Disc Rotor</dt>
+  <dd>SRAM Centerline XR Rotor 140mm, Centerlock</dd>
 
   <dt>Chain</dt>
   <dd>SRAM Chain Pcxx1 Eagle black 126L power lock</dd>
+
+  <dt>Chainring</dt>
+  <dd>Wolf Tooth Components: Direct Mount Chainrings for SRAM 8-Bolt × 1 (40T / Standard (45mm chainline) / Drop-Stop B)</dd>
 
   <dt>Headset</dt>
   <dd>Chris King NoThreadSet headset
@@ -112,17 +117,16 @@ Allyanna Wintermote took these photos while we were riding on the Hiawatha Trail
   </dd>
 
   <dt>Seat post</dt>
-  <dd>Whisky No.7 Carbon seatpost</dd>
+  <dd>Whisky No.7 Carbon</dd>
 
   <dt>Saddle</dt>
-  <dd></dd>
+  <dd>RICYRLK Bike Seat - Road Bike Saddle Comfortable MTB Saddle Lightweight Carbon Fiber Bicycle Saddle Cycling Leather Soft Seat Cushion</dd>
 
   <dt>Bottom bracket</dt>
-  <dd>DUB</dd>
+  <dd>SRAM Dub BSA Bottom Bracket Road Wide, 68mm</dd>
 
   <dt>Mullet interface</dt>
-  <dd>Ratio 1 x 12 wide rear facing kit</dd>
-
+  <dd>[Ratio 1 x 12 wide rear facing kit](https://ratiotechnology.com/product/1x12-wide-rear-cable/)</dd>
 </dl>
 
 ## Specifications
@@ -137,7 +141,19 @@ Allyanna Wintermote took these photos while we were riding on the Hiawatha Trail
 
 ### Facing
 
+If you're purchasing a frame by itself, make sure to have a shop face the bike for you. You'll need to get disc brakes, bottom bracket and head tube faced to ensure good component fit.
+
+### Bedding in brakes.
+
+Don't forget to bed your brakes in before going on any serious rides.
+
+### Protecting carbon levers
+
+Your bike will fall over. Use helicopter tape on your carbon levers to keep them shiny.
+
 ### XD is compatible with XDR
+
+As the title says. I found out that XD hubs are compatible with XDR casettes. You just have to add a small adapter that typically comes with the hub to make the XDR casette interface.
 
 ## References
 
